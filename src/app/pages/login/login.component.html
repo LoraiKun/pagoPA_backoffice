@@ -1,0 +1,39 @@
+
+<div class="container">
+  <img src="assets/logo/logo-pagopa.png" class="login-logo" />
+  <div class="card-container">
+    <p-card>
+      <ng-template pTemplate="header">
+        <div class="container-title">
+            <h1 class="login-title pagoPA-color">PagoPA Backoffice</h1>
+            <p class="login-subtitle">Esegui il login per accedere al backoffice</p>
+        </div>
+      </ng-template>
+      <form action="" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <label for="email" class="pagoPA-color">Email</label>
+        <input type="email" formControlName="email" class="login-input mb-2" />
+
+        <!-- 
+        <label for="password" class="mt-2">Password</label>
+        <input type="password" class="login-input" formControlName="password"> -->
+
+        <label for="password" class="pagoPA-color">Password</label>
+        <p-password formControlName="password" [toggleMask]="true" [feedback]="false" />
+        <div class="container-justify-between mb-2">
+            <div>
+                <p-checkbox [binary]="true" inputId="binary" />
+                <label for="rememberMe" class="rem-me">Remember me</label>
+            </div>
+
+          <a routerLink="/rec-psw">Password dimenticata?</a>
+        </div>
+        <p-button label="Submit" type="Submit"/>
+
+
+      </form>
+    </p-card>
+  </div>
+</div>
+
+
+<p-toast />
