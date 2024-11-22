@@ -1,0 +1,50 @@
+<div class="table-container">
+  @if (richiestePagamento) {
+  <p-table
+    [value]="richiestePagamento.risultati"
+    [tableStyle]="{ 'min-width': '50rem' }"
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Stato</th>
+        <th>Dettagli Stato</th>
+        <th>ID Richiesta</th>
+        <th>ID Pendenza</th>
+        <th>Tipo</th>
+        <th>Ente Creditore</th>
+        <th>Importo (€)</th>
+        <th>Numero Avviso</th>
+        <th>Scadenza</th>
+        <th>Anomalo</th>
+        <th>Nome</th>
+        <th>Causale</th>
+        <th>Pagatore</th>
+        <th>Data di scadenza</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-richiesta>
+      <tr>
+        <td>{{ richiesta.stato }}</td>
+        <td>{{ richiesta.dettaglioStato }}</td>
+        <td>{{ richiesta.pendenza.idA2A }}</td>
+        <td>{{ richiesta.pendenza.idPendenza }}</td>
+        <td>{{ richiesta.pendenza.tipoPendenza.descrizione }}</td>
+        <td>{{ richiesta.pendenza.dominio.ragioneSociale }}</td>
+        <td>{{ richiesta.pendenza.importo }}</td>
+        <td>{{ richiesta.pendenza.numeroAvviso }}</td>
+        <!-- da modificare in formato data -->
+        <td>{{ richiesta.pendenza.dataScadenza }}</td>
+        <!-- sistemare con icona -->
+        <td>{{ richiesta.pendenza.anomalo }}</td>
+        <td>{{ richiesta.pendenza.nome }}</td>
+        <td>{{ richiesta.pendenza.causale }}</td>
+        <td>{{ richiesta.pendenza.soggettoPagatore.anagrafica }}</td>
+        <!-- Mostrare in formato data -->
+        <td>{{ richiesta.pendenza.dataScadenza }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+  }@else {
+    <!-- messaggio di errore -->
+  }
+</div>

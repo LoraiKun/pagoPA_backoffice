@@ -1,0 +1,26 @@
+.container{
+height: 100dvh;
+padding: 0.5rem;
+/* width: 100%; */
+}
+.navbar-container{
+    height: 100%;
+    /* width: min-content; */
+}
+
+.page-container{
+    padding: 0 0.5rem;
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(100%); /* Partenza fuori dallo schermo (destra) */
+    animation: slideIn 0.3s ease-out forwards; 
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(100%); /* Inizio fuori dalla vista */
+    }
+    to {
+      transform: translateX(0); /* Fine all'interno della vista */
+    }
+  }

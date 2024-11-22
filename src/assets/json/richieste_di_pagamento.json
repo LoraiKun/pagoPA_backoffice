@@ -1,0 +1,1000 @@
+{
+  "numRisultati": 30,
+  "numPagine": 2,
+  "risultatiPerPagina": 15,
+  "pagina": 1,
+  "prossimiRisultati": "/risorsa?pagina=2",
+  "maxRisultati": 30,
+  "risultati": [
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 0",
+      "segnalazioni": [
+        {
+          "data": "2024-01-15",
+          "codice": 100,
+          "descrizione": "Descrizione segnalazione 0",
+          "dettaglio": "Dettaglio segnalazione 0"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-100",
+        "idPendenza": "PEND-100",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 0"
+        },
+        "dataUltimoAggiornamento": "2024-01-5",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 0",
+        "causale": "Causale Test 0",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 0"
+        },
+        "importo": 100.0,
+        "numeroAvviso": 100001234500,
+        "dataScadenza": "2024-02-5"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 1",
+      "segnalazioni": [
+        {
+          "data": "2024-01-16",
+          "codice": 101,
+          "descrizione": "Descrizione segnalazione 1",
+          "dettaglio": "Dettaglio segnalazione 1"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-101",
+        "idPendenza": "PEND-101",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 1"
+        },
+        "dataUltimoAggiornamento": "2024-01-6",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 1",
+        "causale": "Causale Test 1",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 1"
+        },
+        "importo": 110.5,
+        "numeroAvviso": 100001234501,
+        "dataScadenza": "2024-02-6"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 2",
+      "segnalazioni": [
+        {
+          "data": "2024-01-17",
+          "codice": 102,
+          "descrizione": "Descrizione segnalazione 2",
+          "dettaglio": "Dettaglio segnalazione 2"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-102",
+        "idPendenza": "PEND-102",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 2"
+        },
+        "dataUltimoAggiornamento": "2024-01-7",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 2",
+        "causale": "Causale Test 2",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 2"
+        },
+        "importo": 121.0,
+        "numeroAvviso": 100001234502,
+        "dataScadenza": "2024-02-7"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 3",
+      "segnalazioni": [
+        {
+          "data": "2024-01-18",
+          "codice": 103,
+          "descrizione": "Descrizione segnalazione 3",
+          "dettaglio": "Dettaglio segnalazione 3"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-103",
+        "idPendenza": "PEND-103",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 3"
+        },
+        "dataUltimoAggiornamento": "2024-01-8",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 3",
+        "causale": "Causale Test 3",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 3"
+        },
+        "importo": 131.5,
+        "numeroAvviso": 100001234503,
+        "dataScadenza": "2024-02-8"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 4",
+      "segnalazioni": [
+        {
+          "data": "2024-01-19",
+          "codice": 104,
+          "descrizione": "Descrizione segnalazione 4",
+          "dettaglio": "Dettaglio segnalazione 4"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-104",
+        "idPendenza": "PEND-104",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 4"
+        },
+        "dataUltimoAggiornamento": "2024-01-9",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 4",
+        "causale": "Causale Test 4",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 4"
+        },
+        "importo": 142.0,
+        "numeroAvviso": 100001234504,
+        "dataScadenza": "2024-02-9"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 5",
+      "segnalazioni": [
+        {
+          "data": "2024-01-20",
+          "codice": 105,
+          "descrizione": "Descrizione segnalazione 5",
+          "dettaglio": "Dettaglio segnalazione 5"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-105",
+        "idPendenza": "PEND-105",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 5"
+        },
+        "dataUltimoAggiornamento": "2024-01-10",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 5",
+        "causale": "Causale Test 5",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 5"
+        },
+        "importo": 152.5,
+        "numeroAvviso": 100001234505,
+        "dataScadenza": "2024-02-10"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 6",
+      "segnalazioni": [
+        {
+          "data": "2024-01-21",
+          "codice": 106,
+          "descrizione": "Descrizione segnalazione 6",
+          "dettaglio": "Dettaglio segnalazione 6"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-106",
+        "idPendenza": "PEND-106",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 6"
+        },
+        "dataUltimoAggiornamento": "2024-01-11",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 6",
+        "causale": "Causale Test 6",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 6"
+        },
+        "importo": 163.0,
+        "numeroAvviso": 100001234506,
+        "dataScadenza": "2024-02-11"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 7",
+      "segnalazioni": [
+        {
+          "data": "2024-01-22",
+          "codice": 107,
+          "descrizione": "Descrizione segnalazione 7",
+          "dettaglio": "Dettaglio segnalazione 7"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-107",
+        "idPendenza": "PEND-107",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 7"
+        },
+        "dataUltimoAggiornamento": "2024-01-12",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 7",
+        "causale": "Causale Test 7",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 7"
+        },
+        "importo": 173.5,
+        "numeroAvviso": 100001234507,
+        "dataScadenza": "2024-02-12"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 8",
+      "segnalazioni": [
+        {
+          "data": "2024-01-23",
+          "codice": 108,
+          "descrizione": "Descrizione segnalazione 8",
+          "dettaglio": "Dettaglio segnalazione 8"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-108",
+        "idPendenza": "PEND-108",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 8"
+        },
+        "dataUltimoAggiornamento": "2024-01-13",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 8",
+        "causale": "Causale Test 8",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 8"
+        },
+        "importo": 184.0,
+        "numeroAvviso": 100001234508,
+        "dataScadenza": "2024-02-13"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 9",
+      "segnalazioni": [
+        {
+          "data": "2024-01-24",
+          "codice": 109,
+          "descrizione": "Descrizione segnalazione 9",
+          "dettaglio": "Dettaglio segnalazione 9"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-109",
+        "idPendenza": "PEND-109",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 9"
+        },
+        "dataUltimoAggiornamento": "2024-01-14",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 9",
+        "causale": "Causale Test 9",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 9"
+        },
+        "importo": 194.5,
+        "numeroAvviso": 100001234509,
+        "dataScadenza": "2024-02-14"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 10",
+      "segnalazioni": [
+        {
+          "data": "2024-01-15",
+          "codice": 110,
+          "descrizione": "Descrizione segnalazione 10",
+          "dettaglio": "Dettaglio segnalazione 10"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-110",
+        "idPendenza": "PEND-110",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 10"
+        },
+        "dataUltimoAggiornamento": "2024-01-15",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 10",
+        "causale": "Causale Test 10",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 10"
+        },
+        "importo": 205.0,
+        "numeroAvviso": 100001234510,
+        "dataScadenza": "2024-02-15"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 11",
+      "segnalazioni": [
+        {
+          "data": "2024-01-16",
+          "codice": 111,
+          "descrizione": "Descrizione segnalazione 11",
+          "dettaglio": "Dettaglio segnalazione 11"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-111",
+        "idPendenza": "PEND-111",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 11"
+        },
+        "dataUltimoAggiornamento": "2024-01-16",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 11",
+        "causale": "Causale Test 11",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 11"
+        },
+        "importo": 215.5,
+        "numeroAvviso": 100001234511,
+        "dataScadenza": "2024-02-16"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 12",
+      "segnalazioni": [
+        {
+          "data": "2024-01-17",
+          "codice": 112,
+          "descrizione": "Descrizione segnalazione 12",
+          "dettaglio": "Dettaglio segnalazione 12"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-112",
+        "idPendenza": "PEND-112",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 12"
+        },
+        "dataUltimoAggiornamento": "2024-01-17",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 12",
+        "causale": "Causale Test 12",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 12"
+        },
+        "importo": 226.0,
+        "numeroAvviso": 100001234512,
+        "dataScadenza": "2024-02-17"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 13",
+      "segnalazioni": [
+        {
+          "data": "2024-01-18",
+          "codice": 113,
+          "descrizione": "Descrizione segnalazione 13",
+          "dettaglio": "Dettaglio segnalazione 13"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-113",
+        "idPendenza": "PEND-113",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 13"
+        },
+        "dataUltimoAggiornamento": "2024-01-18",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 13",
+        "causale": "Causale Test 13",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 13"
+        },
+        "importo": 236.5,
+        "numeroAvviso": 100001234513,
+        "dataScadenza": "2024-02-18"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 14",
+      "segnalazioni": [
+        {
+          "data": "2024-01-19",
+          "codice": 114,
+          "descrizione": "Descrizione segnalazione 14",
+          "dettaglio": "Dettaglio segnalazione 14"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-114",
+        "idPendenza": "PEND-114",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 14"
+        },
+        "dataUltimoAggiornamento": "2024-01-19",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 14",
+        "causale": "Causale Test 14",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 14"
+        },
+        "importo": 247.0,
+        "numeroAvviso": 100001234514,
+        "dataScadenza": "2024-02-19"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 15",
+      "segnalazioni": [
+        {
+          "data": "2024-01-20",
+          "codice": 115,
+          "descrizione": "Descrizione segnalazione 15",
+          "dettaglio": "Dettaglio segnalazione 15"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-115",
+        "idPendenza": "PEND-115",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 15"
+        },
+        "dataUltimoAggiornamento": "2024-01-20",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 15",
+        "causale": "Causale Test 15",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 15"
+        },
+        "importo": 257.5,
+        "numeroAvviso": 100001234515,
+        "dataScadenza": "2024-02-20"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 16",
+      "segnalazioni": [
+        {
+          "data": "2024-01-21",
+          "codice": 116,
+          "descrizione": "Descrizione segnalazione 16",
+          "dettaglio": "Dettaglio segnalazione 16"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-116",
+        "idPendenza": "PEND-116",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 16"
+        },
+        "dataUltimoAggiornamento": "2024-01-21",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 16",
+        "causale": "Causale Test 16",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 16"
+        },
+        "importo": 268.0,
+        "numeroAvviso": 100001234516,
+        "dataScadenza": "2024-02-21"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 17",
+      "segnalazioni": [
+        {
+          "data": "2024-01-22",
+          "codice": 117,
+          "descrizione": "Descrizione segnalazione 17",
+          "dettaglio": "Dettaglio segnalazione 17"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-117",
+        "idPendenza": "PEND-117",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 17"
+        },
+        "dataUltimoAggiornamento": "2024-01-22",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 17",
+        "causale": "Causale Test 17",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 17"
+        },
+        "importo": 278.5,
+        "numeroAvviso": 100001234517,
+        "dataScadenza": "2024-02-22"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 18",
+      "segnalazioni": [
+        {
+          "data": "2024-01-23",
+          "codice": 118,
+          "descrizione": "Descrizione segnalazione 18",
+          "dettaglio": "Dettaglio segnalazione 18"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-118",
+        "idPendenza": "PEND-118",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 18"
+        },
+        "dataUltimoAggiornamento": "2024-01-23",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 18",
+        "causale": "Causale Test 18",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 18"
+        },
+        "importo": 289.0,
+        "numeroAvviso": 100001234518,
+        "dataScadenza": "2024-02-23"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 19",
+      "segnalazioni": [
+        {
+          "data": "2024-01-24",
+          "codice": 119,
+          "descrizione": "Descrizione segnalazione 19",
+          "dettaglio": "Dettaglio segnalazione 19"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-119",
+        "idPendenza": "PEND-119",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 19"
+        },
+        "dataUltimoAggiornamento": "2024-01-24",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 19",
+        "causale": "Causale Test 19",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 19"
+        },
+        "importo": 299.5,
+        "numeroAvviso": 100001234519,
+        "dataScadenza": "2024-02-24"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 20",
+      "segnalazioni": [
+        {
+          "data": "2024-01-15",
+          "codice": 120,
+          "descrizione": "Descrizione segnalazione 20",
+          "dettaglio": "Dettaglio segnalazione 20"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-120",
+        "idPendenza": "PEND-120",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 20"
+        },
+        "dataUltimoAggiornamento": "2024-01-5",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 20",
+        "causale": "Causale Test 20",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 20"
+        },
+        "importo": 310.0,
+        "numeroAvviso": 100001234520,
+        "dataScadenza": "2024-02-5"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 21",
+      "segnalazioni": [
+        {
+          "data": "2024-01-16",
+          "codice": 121,
+          "descrizione": "Descrizione segnalazione 21",
+          "dettaglio": "Dettaglio segnalazione 21"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-121",
+        "idPendenza": "PEND-121",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 21"
+        },
+        "dataUltimoAggiornamento": "2024-01-6",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 21",
+        "causale": "Causale Test 21",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 21"
+        },
+        "importo": 320.5,
+        "numeroAvviso": 100001234521,
+        "dataScadenza": "2024-02-6"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 22",
+      "segnalazioni": [
+        {
+          "data": "2024-01-17",
+          "codice": 122,
+          "descrizione": "Descrizione segnalazione 22",
+          "dettaglio": "Dettaglio segnalazione 22"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-122",
+        "idPendenza": "PEND-122",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 22"
+        },
+        "dataUltimoAggiornamento": "2024-01-7",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 22",
+        "causale": "Causale Test 22",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 22"
+        },
+        "importo": 331.0,
+        "numeroAvviso": 100001234522,
+        "dataScadenza": "2024-02-7"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 23",
+      "segnalazioni": [
+        {
+          "data": "2024-01-18",
+          "codice": 123,
+          "descrizione": "Descrizione segnalazione 23",
+          "dettaglio": "Dettaglio segnalazione 23"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-123",
+        "idPendenza": "PEND-123",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 23"
+        },
+        "dataUltimoAggiornamento": "2024-01-8",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 23",
+        "causale": "Causale Test 23",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 23"
+        },
+        "importo": 341.5,
+        "numeroAvviso": 100001234523,
+        "dataScadenza": "2024-02-8"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 24",
+      "segnalazioni": [
+        {
+          "data": "2024-01-19",
+          "codice": 124,
+          "descrizione": "Descrizione segnalazione 24",
+          "dettaglio": "Dettaglio segnalazione 24"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-124",
+        "idPendenza": "PEND-124",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 24"
+        },
+        "dataUltimoAggiornamento": "2024-01-9",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 24",
+        "causale": "Causale Test 24",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 24"
+        },
+        "importo": 352.0,
+        "numeroAvviso": 100001234524,
+        "dataScadenza": "2024-02-9"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 25",
+      "segnalazioni": [
+        {
+          "data": "2024-01-20",
+          "codice": 125,
+          "descrizione": "Descrizione segnalazione 25",
+          "dettaglio": "Dettaglio segnalazione 25"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-125",
+        "idPendenza": "PEND-125",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 25"
+        },
+        "dataUltimoAggiornamento": "2024-01-10",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 25",
+        "causale": "Causale Test 25",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 25"
+        },
+        "importo": 362.5,
+        "numeroAvviso": 100001234525,
+        "dataScadenza": "2024-02-10"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 26",
+      "segnalazioni": [
+        {
+          "data": "2024-01-21",
+          "codice": 126,
+          "descrizione": "Descrizione segnalazione 26",
+          "dettaglio": "Dettaglio segnalazione 26"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-126",
+        "idPendenza": "PEND-126",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 26"
+        },
+        "dataUltimoAggiornamento": "2024-01-11",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 26",
+        "causale": "Causale Test 26",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 26"
+        },
+        "importo": 373.0,
+        "numeroAvviso": 100001234526,
+        "dataScadenza": "2024-02-11"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 27",
+      "segnalazioni": [
+        {
+          "data": "2024-01-22",
+          "codice": 127,
+          "descrizione": "Descrizione segnalazione 27",
+          "dettaglio": "Dettaglio segnalazione 27"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-127",
+        "idPendenza": "PEND-127",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 27"
+        },
+        "dataUltimoAggiornamento": "2024-01-12",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 27",
+        "causale": "Causale Test 27",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 27"
+        },
+        "importo": 383.5,
+        "numeroAvviso": 100001234527,
+        "dataScadenza": "2024-02-12"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 28",
+      "segnalazioni": [
+        {
+          "data": "2024-01-23",
+          "codice": 128,
+          "descrizione": "Descrizione segnalazione 28",
+          "dettaglio": "Dettaglio segnalazione 28"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-128",
+        "idPendenza": "PEND-128",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 28"
+        },
+        "dataUltimoAggiornamento": "2024-01-13",
+        "anomalo": true,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 28",
+        "causale": "Causale Test 28",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 28"
+        },
+        "importo": 394.0,
+        "numeroAvviso": 100001234528,
+        "dataScadenza": "2024-02-13"
+      }
+    },
+    {
+      "stato": "IN_ATTESA",
+      "dettaglioStato": "Pagamento in attesa di elaborazione 29",
+      "segnalazioni": [
+        {
+          "data": "2024-01-24",
+          "codice": 129,
+          "descrizione": "Descrizione segnalazione 29",
+          "dettaglio": "Dettaglio segnalazione 29"
+        }
+      ],
+      "pendenza": {
+        "idA2A": "A2A-129",
+        "idPendenza": "PEND-129",
+        "tipoPendenza": {
+          "descrizione": "Pagamento Generico"
+        },
+        "dominio": {
+          "ragioneSociale": "Ente Test 29"
+        },
+        "dataUltimoAggiornamento": "2024-01-14",
+        "anomalo": false,
+        "tipo": "ordinario",
+        "nome": "Pagamento Test 29",
+        "causale": "Causale Test 29",
+        "soggettoPagatore": {
+          "anagrafica": "Soggetto Pagatore 29"
+        },
+        "importo": 404.5,
+        "numeroAvviso": 100001234529,
+        "dataScadenza": "2024-02-14"
+      }
+    }
+  ]
+}

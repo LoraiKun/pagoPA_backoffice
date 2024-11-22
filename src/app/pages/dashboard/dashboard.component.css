@@ -1,0 +1,26 @@
+.dashboard-container {
+  height: 100% ;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap; /* Per consentire agli elementi di andare a capo */
+  gap: 10px; /* Spaziatura tra gli elementi */
+}
+
+.tabella-container {
+  flex: 1 1 calc(50% - 10px); /* 50% della larghezza meno il gap */
+  box-sizing: border-box;
+  background: white;
+  padding: 1rem;
+
+  
+}
+
+/* Quando c'è un unico elemento nella riga */
+.dashboard-container > .tabella-container:nth-child(1):nth-last-child(1) {
+  flex: 1 1 100%; /* Larghezza completa */
+}

@@ -1,0 +1,6 @@
+::ng-deep .p-sidebar{
+    width: 20rem;
+    height: 100%;
+    position: unset;
+    border-radius: 10px;
+}

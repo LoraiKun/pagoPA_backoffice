@@ -25,6 +25,9 @@ constructor(private loginService: LoginService, private messageService: MessageS
 ngOnInit(): void {
   //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
   //Add 'implements OnInit' to the class.
+  if(localStorage.getItem('token')){
+    this.router.navigateByUrl('home')
+  }
   this.loginForm = new FormGroup({
     email: new FormControl(null, [Validators.required]),
     password: new FormControl(null, [Validators.required]),
