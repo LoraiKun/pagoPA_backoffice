@@ -1,7 +1,62 @@
 <div class="dashboard-container">
-  <div class="tabella-container round-d box-shadow-d">
+  <div
+    #box1
+    class="box1 round-d box-shadow-d"
+    [ngClass]="{
+      fullscreen: state_fullscreen_b1,
+      'white-border': !state_fullscreen_b1
+    }"
+  >
+    <div
+      class="blur-ingrandisci"
+      (click)="hideSidebar(1)"
+      [ngClass]="{ hidden: state_fullscreen_b1 }"
+    >
+      <p style="font-weight: 700">[INGRANDISCI]</p>
+    </div>
+    <h4 class="title">Area richieste di pagamento</h4>
     <app-richieste-pagamento></app-richieste-pagamento>
   </div>
-  <div class="tabella-container round-d box-shadow-d"></div>
-  <div class="tabella-container round-d box-shadow-d"></div>
+
+  <div
+    #box2
+    class="box2 round-d box-shadow-d"
+    [ngClass]="{
+      fullscreen: state_fullscreen_b2,
+      'white-border': !state_fullscreen_b2
+    }"
+  >
+    <div
+      class="blur-ingrandisci"
+      (click)="hideSidebar(2)"
+      [ngClass]="{ hidden: state_fullscreen_b2 }"
+    >
+      <p style="font-weight: 700">[INGRANDISCI]</p>
+    </div>
+    <h4 class="title">Area richieste di pagamento</h4>
+  </div>
+
+  <div
+    #box3
+    class="box3 round-d box-shadow-d"
+    [ngClass]="{
+      fullscreen: state_fullscreen_b3,
+      'white-border': !state_fullscreen_b3
+    }"
+  >
+    <div
+      class="blur-ingrandisci"
+      (click)="hideSidebar(3)"
+      [ngClass]="{ hidden: state_fullscreen_b3 }"
+    >
+      <p style="font-weight: 700">[INGRANDISCI]</p>
+    </div>
+    <h4 class="title">Area richieste di pagamento</h4>
+  </div>
 </div>
+
+<div
+  class="blur-dark"
+  [ngClass]="{ hidden: !state_fullscreen_b1 && !state_fullscreen_b2 && !state_fullscreen_b3 }"
+  (click)="showSidebar()"
+></div>

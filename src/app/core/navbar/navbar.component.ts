@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SidebarModule } from 'primeng/sidebar';
+import { SidebarService } from '../../services/sidebar-service/sidebar.service';
 
 @Component({
   selector: 'app-navbar',
@@ -10,4 +11,13 @@ import { SidebarModule } from 'primeng/sidebar';
 })
 export class NavbarComponent {
   isVisible: boolean = true
+
+
+  constructor(private sidebarService: SidebarService) {}
+
+  ngOnInit() {
+    this.sidebarService.isVisible$.subscribe((isVisible) => {
+      this.isVisible = isVisible;
+    });
+  }
 }

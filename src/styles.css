@@ -40,3 +40,11 @@ p {
 .round-d {
   border-radius: 10px;
 }
+
+.hidden{
+  display: none;
+}
+
+h4{
+  margin: 0;
+}

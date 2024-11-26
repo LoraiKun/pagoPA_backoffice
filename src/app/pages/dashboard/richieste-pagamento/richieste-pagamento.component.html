@@ -1,10 +1,13 @@
-<div class="table-container">
+<div #resizeDiv class="table-container">
   @if (richiestePagamento) {
   <p-table
+    #prime_table
     [value]="richiestePagamento.risultati"
-    [tableStyle]="{ 'min-width': '50rem' }"
+    styleClass="p-datatable-striped"
+    [rows]="5"
   >
     <ng-template pTemplate="header">
+      <!-- Header Statico -->
       <tr>
         <th>Stato</th>
         <th>Dettagli Stato</th>
@@ -21,7 +24,20 @@
         <th>Pagatore</th>
         <th>Data di scadenza</th>
       </tr>
+      <!-- Riga dedicata al paginatore -->
+      <!-- <tr>
+        <td [attr.colspan]="14">
+          <p-paginator
+            [rows]="rows"
+            [totalRecords]="richiestePagamento.numRisultati || 0"
+            [rowsPerPageOptions]="[5, 10, 20]"
+            (onPageChange)="onPageChange($event)">
+          </p-paginator>
+        </td>
+      </tr> -->
     </ng-template>
+
+    <!-- Corpo della Tabella -->
     <ng-template pTemplate="body" let-richiesta>
       <tr>
         <td>{{ richiesta.stato }}</td>
@@ -32,15 +48,12 @@
         <td>{{ richiesta.pendenza.dominio.ragioneSociale }}</td>
         <td>{{ richiesta.pendenza.importo }}</td>
         <td>{{ richiesta.pendenza.numeroAvviso }}</td>
-        <!-- da modificare in formato data -->
-        <td>{{ richiesta.pendenza.dataScadenza }}</td>
-        <!-- sistemare con icona -->
-        <td>{{ richiesta.pendenza.anomalo }}</td>
+        <td>{{ richiesta.pendenza.dataScadenza | date: 'yyyy-MM-dd' }}</td>
+        <td>{{ richiesta.pendenza.anomalo ? 'Sì' : 'No' }}</td>
         <td>{{ richiesta.pendenza.nome }}</td>
         <td>{{ richiesta.pendenza.causale }}</td>
         <td>{{ richiesta.pendenza.soggettoPagatore.anagrafica }}</td>
-        <!-- Mostrare in formato data -->
-        <td>{{ richiesta.pendenza.dataScadenza }}</td>
+        <td>{{ richiesta.pendenza.dataScadenza | date: 'yyyy-MM-dd' }}</td>
       </tr>
     </ng-template>
   </p-table>

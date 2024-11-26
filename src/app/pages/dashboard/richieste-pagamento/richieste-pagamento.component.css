@@ -1,4 +1,15 @@
-.table-container{
-    overflow: hidden;
-    max-width: 100%;
+.table-container {
+  max-width: 100%;
+}
+::ng-deep .p-datatable-table {
+  transform: scale(0.75);
+  transform-origin: top left; /* Oppure 'center', '50% 50%', ecc. */
+}
+::ng-deep .p-datatable-wrapper{
+    overflow: unset !important
+}
+
+th{
+    background-color:#0066cc ;
+    color: white;
 }
