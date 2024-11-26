@@ -100,7 +100,7 @@
 }
 
 .fullscreen{
-  max-width: 76vw;
+  max-width: 95vw;
   max-height: 96dvh; /* Limita l'altezza massima al 90% della finestra */
 
   z-index: 10;

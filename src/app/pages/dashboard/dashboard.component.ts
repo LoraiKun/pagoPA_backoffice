@@ -2,16 +2,20 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { RichiestePagamentoComponent } from './richieste-pagamento/richieste-pagamento.component';
 import { SidebarService } from '../../services/sidebar-service/sidebar.service';
 import { CommonModule } from '@angular/common';
+import { FilesRendicontazioniComponent } from './files-rendicontazioni/files-rendicontazioni.component';
+import { DividerModule } from 'primeng/divider';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RichiestePagamentoComponent, CommonModule],
+  imports: [RichiestePagamentoComponent, CommonModule, FilesRendicontazioniComponent, DividerModule],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
 export class DashboardComponent {
   @ViewChild('box1') box1!:  ElementRef<HTMLDivElement>
+  @ViewChild('box2') box2!:  ElementRef<HTMLDivElement>
+  @ViewChild('box3') box3!:  ElementRef<HTMLDivElement>
   state_fullscreen_b1: boolean = false
   state_fullscreen_b2: boolean = false
   state_fullscreen_b3: boolean = false
@@ -37,5 +41,8 @@ export class DashboardComponent {
     this.state_fullscreen_b2 = false
     this.state_fullscreen_b3 = false
     this.box1.nativeElement.scrollTo({ top: 0, behavior: 'smooth' });
+    this.box2.nativeElement.scrollTo({ top: 0, behavior: 'smooth' });
+    this.box3.nativeElement.scrollTo({ top: 0, behavior: 'smooth' });
+
   }
 }

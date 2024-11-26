@@ -1,40 +1,33 @@
 <div #resizeDiv class="table-container">
   @if (richiestePagamento) {
   <p-table
-    #prime_table
     [value]="richiestePagamento.risultati"
     styleClass="p-datatable-striped"
-    [rows]="5"
+    [paginator]="true"
+    [rows]="10"
+    [rowsPerPageOptions]="[5, 10, 20]"
+    [paginatorPosition]="'top'"
+    paginatorStyleClass="width: 75%"
   >
     <ng-template pTemplate="header">
       <!-- Header Statico -->
       <tr>
         <th>Stato</th>
-        <th>Dettagli Stato</th>
-        <th>ID Richiesta</th>
-        <th>ID Pendenza</th>
-        <th>Tipo</th>
-        <th>Ente Creditore</th>
-        <th>Importo (€)</th>
-        <th>Numero Avviso</th>
-        <th>Scadenza</th>
-        <th>Anomalo</th>
-        <th>Nome</th>
-        <th>Causale</th>
-        <th>Pagatore</th>
-        <th>Data di scadenza</th>
+        <th>Dettagli Stato <br> <p-columnFilter type="text" field="dettaglioStato" display="menu" /></th>
+        <th>ID Richiesta <br><p-columnFilter type="text" field="pendenza.idA2A" display="menu" /></th>
+        <th>ID Pendenza <br><p-columnFilter type="text" field="pendenza.idPendenza" display="menu" /></th>
+        <th>Tipo <br><p-columnFilter type="text" field="pendenza.tipoPendenza.descrizione"display="menu"  /></th>
+        <th>Ente Creditore <br><p-columnFilter type="text" field="pendenza.dominio.ragioneSociale" display="menu" /></th>
+        <th>Importo (€) <br><p-columnFilter type="text" field="pendenza.importo"  display="menu"/></th>
+        <th>Numero Avviso <br><p-columnFilter type="text" field="pendenza.numeroAvviso" display="menu" /></th>
+        <th>Scadenza  <br><p-columnFilter type="date" field="pendenza.dataScadenza"  display="menu"/></th>
+        <th>Anomalo <br><p-columnFilter type="boolean" field="pendenza.anomalo" display="menu" /></th>
+        <th>Nome <br><p-columnFilter type="text" field="pendenza.nome"  display="menu"/></th>
+        <th>Causale <br><p-columnFilter type="text" field="pendenza.causale" display="menu" /></th>
+        <th>Pagatore<br> <p-columnFilter type="text" field="pendenza.soggettoPagatore.anagrafica" display="menu" /></th>
       </tr>
+      
       <!-- Riga dedicata al paginatore -->
-      <!-- <tr>
-        <td [attr.colspan]="14">
-          <p-paginator
-            [rows]="rows"
-            [totalRecords]="richiestePagamento.numRisultati || 0"
-            [rowsPerPageOptions]="[5, 10, 20]"
-            (onPageChange)="onPageChange($event)">
-          </p-paginator>
-        </td>
-      </tr> -->
     </ng-template>
 
     <!-- Corpo della Tabella -->
@@ -48,16 +41,15 @@
         <td>{{ richiesta.pendenza.dominio.ragioneSociale }}</td>
         <td>{{ richiesta.pendenza.importo }}</td>
         <td>{{ richiesta.pendenza.numeroAvviso }}</td>
-        <td>{{ richiesta.pendenza.dataScadenza | date: 'yyyy-MM-dd' }}</td>
-        <td>{{ richiesta.pendenza.anomalo ? 'Sì' : 'No' }}</td>
+        <td>{{ richiesta.pendenza.dataScadenza | date : "yyyy-MM-dd" }}</td>
+        <td>{{ richiesta.pendenza.anomalo ? "Sì" : "No" }}</td>
         <td>{{ richiesta.pendenza.nome }}</td>
         <td>{{ richiesta.pendenza.causale }}</td>
         <td>{{ richiesta.pendenza.soggettoPagatore.anagrafica }}</td>
-        <td>{{ richiesta.pendenza.dataScadenza | date: 'yyyy-MM-dd' }}</td>
       </tr>
     </ng-template>
   </p-table>
   }@else {
-    <!-- messaggio di errore -->
+  <!-- messaggio di errore -->
   }
 </div>

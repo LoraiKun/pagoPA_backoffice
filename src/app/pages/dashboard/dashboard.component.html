@@ -14,7 +14,9 @@
     >
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div>
-    <h4 class="title">Area richieste di pagamento</h4>
+    <p-divider align="left" type="solid">
+      <b>Area richieste di pagamento</b>
+    </p-divider>
     <app-richieste-pagamento></app-richieste-pagamento>
   </div>
 
@@ -33,7 +35,10 @@
     >
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div>
-    <h4 class="title">Area richieste di pagamento</h4>
+    <p-divider align="left" type="solid">
+      <b>Area richieste di pagamento</b>
+    </p-divider>
+    <!-- <h4 class="title">Area richieste di pagamento</h4> -->
   </div>
 
   <div
@@ -51,12 +56,21 @@
     >
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div>
-    <h4 class="title">Area richieste di pagamento</h4>
+    <p-divider align="left" type="solid">
+      <b
+        >Scarica qui le ultime rendicontazioni - Per informazioni dettagliate,
+        controlla la tabella delle rendicontazioni</b
+      >
+    </p-divider>
+    <!-- <h4 class="title"></h4> -->
+    <app-files-rendicontazioni></app-files-rendicontazioni>
   </div>
 </div>
 
 <div
   class="blur-dark"
-  [ngClass]="{ hidden: !state_fullscreen_b1 && !state_fullscreen_b2 && !state_fullscreen_b3 }"
+  [ngClass]="{
+    hidden: !state_fullscreen_b1 && !state_fullscreen_b2 && !state_fullscreen_b3
+  }"
   (click)="showSidebar()"
 ></div>

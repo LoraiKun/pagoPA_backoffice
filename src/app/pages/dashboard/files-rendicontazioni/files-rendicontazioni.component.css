@@ -1,0 +1,73 @@
+.file-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colonne */
+    gap: 20px; /* Spaziatura tra file */
+    padding: 20px; /* Spaziatura interna */
+    background-color: #ffff; /* Sfondo */
+  }
+  
+  .file-item {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: #fff; /* Sfondo del box */
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.06); /* Ombra elegante */
+  }
+  
+  .file-item:hover {
+    background-color: #E6F7FF; /* Hover */
+    border-color: #0073E6;
+  }
+  
+  .icon-background {
+    width: 80px;
+    height: 80px;
+    background-color: #E6F7FF; /* Sfondo circolare */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file-icon {
+    font-size: 48px; /* Icona grande */
+    color: #0073E6; /* Colore icona */
+  }
+  
+  .file-title {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #212529; /* Colore titolo */
+    text-align: center;
+  }
+
+
+
+
+  .login-input {
+    transition: color 0.3s, 0.3s;
+    padding-left: 0.5rem;
+    width: 300px;
+    border-color: #d9d9d9;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 35px;
+    margin-top: 0.5rem;
+  }
+  .login-input:hover {
+    border-color: #0073e6;
+  }
+  .login-input:focus-visible {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  
+    outline: none;
+  }

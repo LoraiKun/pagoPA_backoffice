@@ -16,9 +16,7 @@ export class RichiestePagamentoComponent {
  
   @ViewChild('resizeDiv') resizeDiv!: ElementRef;
   @ViewChild('prime_table') prime_table:any;
-  paginator_pages: number = 10
   private resizeObserver!: ResizeObserver;
-  paginator_controller: boolean =true
   richiestePagamento!: RichiesteDiPagamento;
   table!: HTMLTableElement;
   parent!: HTMLElement;
@@ -51,13 +49,14 @@ export class RichiestePagamentoComponent {
     try {
       this.table = this.renderer.selectRootElement('table', true);
       console.log(this.table);
+      
+      this.parent = this.table.parentElement!;
       totalWidth = this.table.offsetWidth * 0.75
       totalHeight = this.table.offsetHeight * 0.75
-      this.parent = this.table.parentElement!;
       this.parent.style.width = totalWidth + 'px'
-      this.table.style.width = totalWidth+'px'
+      // this.table.style.width = totalWidth+'px'
       this.parent.style.height = totalHeight + 'px'
-      this.table.style.height = totalHeight+'px'
+      // this.table.style.height = totalHeight+'px'
       this.prime_table.reset();
 
       // Reimposta il paginatore alla prima pagina con 10 righe per pagina
@@ -70,8 +69,5 @@ export class RichiestePagamentoComponent {
     } catch (error) {}
   }
 
-  onPageChange(event: any) {
-
-  }
 
 }
