@@ -1,0 +1,22 @@
+<div class="pagamenti-container round-d">
+    <form [formGroup]="filterForm" class="filter-container">
+
+      <input
+        type="text"
+        formControlName="filter"
+        class="login-input mb-0 ml-1"
+        placeholder="Inserisci IUV, Ente creditore oppure Email  "
+      />
+      <p-button label="Ricerca per IUV" (onClick)="submit('IUV')"/>
+      <p-button label="Ricerca per ente creditore" (onClick)="submit('ente')"/>
+      <p-button label="Ricerca per email" (onClick)="submit('email')"/>
+
+    </form>
+    <div class="t-container">
+        @if (filtro) {
+            <app-tabella-richieste ></app-tabella-richieste>
+
+        }
+
+    </div>
+</div>

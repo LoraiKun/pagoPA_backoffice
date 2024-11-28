@@ -5,10 +5,10 @@ export interface RichiesteDiPagamento {
   pagina: number;
   prossimiRisultati: string;
   maxRisultati: number;
-  risultati: Risultati[];
+  risultati: RisultatiRichieste[];
 }
 
-interface Risultati {
+export interface RisultatiRichieste {
   stato: string; 
   dettaglioStato: string;
 //   bloccante: boolean;
@@ -53,4 +53,10 @@ interface Dominio {
 
 interface SoggettoPagatore {
   anagrafica: string;
+}
+
+
+export interface Filtro {
+  tipo: 'IUV' | 'email' | 'ente';
+  filtro: string
 }

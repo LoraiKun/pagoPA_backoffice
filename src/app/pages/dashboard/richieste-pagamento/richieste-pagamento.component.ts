@@ -4,6 +4,7 @@ import { TableModule } from 'primeng/table';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { PaginatorModule } from 'primeng/paginator';
+import { RendicontazioneService } from '../../../services/rendicontazione/rendicontazione.service';
 
 @Component({
   selector: 'app-richieste-pagamento',
@@ -17,15 +18,18 @@ export class RichiestePagamentoComponent {
   @Output() fileFR: EventEmitter<string> = new EventEmitter<string>()
   @ViewChild('resizeDiv') resizeDiv!: ElementRef;
   @ViewChild('prime_table') prime_table:any;
-  private resizeObserver!: ResizeObserver;
+  private resizeObserver!: ResizeObserver; 
   richiestePagamento!: RichiesteDiPagamento;
   table!: HTMLTableElement;
   parent!: HTMLElement;
-  constructor(private http: HttpClient, private renderer: Renderer2) {
+  constructor(private http: HttpClient, private renderer: Renderer2, private rendService: RendicontazioneService) {
     http
       .get<RichiesteDiPagamento>('assets/json/richieste_di_pagamento.json')
       .subscribe({
         next: (res) => {
+          res.risultati.forEach(richiesta=>{
+            console.log(richiesta.pendenza.numeroAvviso)
+          })
           this.richiestePagamento = res;
         },
       });
@@ -74,6 +78,7 @@ export class RichiestePagamentoComponent {
   }
   emettiFile(IUV:string){
     this.fileFR.emit(IUV)
+    this.rendService.updateVariable(IUV)
   }
 
 }

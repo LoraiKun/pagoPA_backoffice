@@ -1,0 +1,24 @@
+.pagamenti-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-left: 0.5rem;
+    padding: 1rem;
+    overflow: auto;
+}
+::ng-deep .p-button{
+    height: 35px;
+    margin: .5rem;
+  }
+  .filter-container{
+    display: flex;
+    align-items: center;
+    margin-bottom:1.5rem ;
+  }
+  .login-input{
+    margin-right: .5rem !important;
+    margin-left: 0;
+  }
+  .t-container{
+    height: 100%;
+  }

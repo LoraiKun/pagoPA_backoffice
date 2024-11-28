@@ -13,7 +13,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
-
+.ml-1 {
+  margin-left: 1rem;
+}
 .mb-1 {
   margin-bottom: 1rem;
 }
@@ -96,3 +98,28 @@ padding-bottom: 1rem;
 .bg-blue {
   background-color: #4384c5; /* Azzurro */
 }
+
+
+
+.login-input {
+  margin-right: 1rem;
+  transition: color 0.3s, 0.3s;
+  padding-left: 0.5rem;
+  width: 300px;
+  border-color: #d9d9d9;
+  border-style: double;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+  margin-top: 0.5rem;
+}
+.login-input:hover {
+  border-color: #0073e6;
+}
+.login-input:focus-visible {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+  outline: none;
+}
+

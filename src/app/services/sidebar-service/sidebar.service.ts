@@ -9,7 +9,6 @@ export class SidebarService {
   isVisible$ = this.isVisibleSubject.asObservable();
   constructor() {}
   setVisibility(isVisible: boolean) {
-    console.log('there')
     this.isVisibleSubject.next(isVisible);
   }
 }

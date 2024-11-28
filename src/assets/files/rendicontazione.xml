@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendicontazione>
+    <header>
+        <versione>1.0</versione>
+        <dataCreazione>2024-11-28T12:00:00</dataCreazione>
+        <mittente>12345678901</mittente>
+        <destinatario>98765432109</destinatario>
+    </header>
+    <body>
+        <pagamenti>
+            <pagamento>
+                <idTransazione>TRX12345</idTransazione>
+                <iuv>123456789012345</iuv>
+                <dataPagamento>2024-11-27T14:30:00</dataPagamento>
+                <importo>150.50</importo>
+                <valuta>EUR</valuta>
+                <esito>OK</esito>
+                <causale>Pagamento tassa universitaria</causale>
+            </pagamento>
+            <pagamento>
+                <idTransazione>TRX67890</idTransazione>
+                <iuv>987654321098765</iuv>
+                <dataPagamento>2024-11-27T16:00:00</dataPagamento>
+                <importo>250.00</importo>
+                <valuta>EUR</valuta>
+                <esito>OK</esito>
+                <causale>Pagamento bollo auto</causale>
+            </pagamento>
+            <pagamento>
+                <idTransazione>TRX11223</idTransazione>
+                <iuv>543210987654321</iuv>
+                <dataPagamento>2024-11-28T10:15:00</dataPagamento>
+                <importo>75.00</importo>
+                <valuta>EUR</valuta>
+                <esito>FALLITO</esito>
+                <causale>Pagamento servizi comunali</causale>
+            </pagamento>
+        </pagamenti>
+    </body>
+    <footer>
+        <totaleOperazioni>3</totaleOperazioni>
+        <totaleImporto>475.50</totaleImporto>
+        <totaleEsitiOk>2</totaleEsitiOk>
+        <totaleEsitiFalliti>1</totaleEsitiFalliti>
+    </footer>
+</rendicontazione>

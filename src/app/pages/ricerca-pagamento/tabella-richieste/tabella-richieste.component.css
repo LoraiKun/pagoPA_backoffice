@@ -1,0 +1,96 @@
+.table-container {
+  max-width: 100%;
+  display: flex;
+}
+::ng-deep .p-datatable-table {
+  /* transform: scale(0.75); */
+  transform-origin: top left; /* Oppure 'center', '50% 50%', ecc. */
+}
+::ng-deep .p-datatable-wrapper {
+  overflow: unset !important;
+}
+
+th {
+  background-color: #0066cc;
+  color: white;
+}
+
+::ng-deep .p-paginator * {
+  min-width: 2rem;
+  font-size: 12px;
+}
+/* 
+::ng-deep .p-paginator {
+} */
+::ng-deep .p-paginator button {
+  height: 2rem;
+}
+
+::ng-deep .p-paginator .p-dropdown {
+  height: 2.5rem;
+}
+
+::ng-deep .p-paginator p-overlay {
+  min-width: 0 !important;
+}
+
+::ng-deep .p-paginator .p-dropdown-trigger {
+  min-width: 1.5rem;
+  width: 1.5rem;
+}
+
+::ng-deep .p-paginator .p-dropdown-label {
+  text-align: center;
+  padding-left: 0;
+}
+/* ::ng-deep .p-column-filter-overlay {
+} */
+::ng-deep .p-column-filter button {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+::ng-deep table {
+  width: max-content;
+}
+
+.action-button {
+  margin: 0.5rem;
+  width: 40px; /* Dimensioni del bottone */
+  height: 40px;
+  border-radius: 50%; /* Forma tonda */
+  border: none; /* Nessun bordo */
+  color: white; /* Colore del testo */
+  font-size: 14px; /* Dimensione del testo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Indicatore di cliccabilità */
+  position: relative; /* Necessario per il tooltip */
+}
+
+.action-button .tooltip {
+  visibility: hidden; /* Nasconde il tooltip di default */
+  width: max-content; /* Larghezza automatica in base al testo */
+  background-color: rgba(0, 0, 0, 0.75); /* Sfondo scuro semitrasparente */
+  color: white; /* Testo bianco */
+  text-align: center; /* Testo centrato */
+  padding: 5px 10px; /* Spaziatura interna */
+  border-radius: 5px; /* Angoli arrotondati */
+  position: absolute; /* Posizione relativa al bottone */
+  bottom: 50px; /* Sposta il tooltip sopra il bottone */
+  left: 50%;
+  transform: translateX(-50%); /* Centra il tooltip */
+  z-index: 10; /* Porta il tooltip in primo piano */
+  font-size: 12px; /* Dimensione del font */
+  opacity: 0; /* Invisibile di default */
+  transition: opacity 0.2s; /* Animazione di comparsa */
+}
+
+/* Mostra il tooltip al passaggio del mouse */
+.action-button:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
