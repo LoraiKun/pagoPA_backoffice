@@ -45,4 +45,13 @@ export class DashboardComponent {
     this.box3.nativeElement.scrollTo({ top: 0, behavior: 'smooth' });
 
   }
+  apriNotifica(IUV: string){
+
+  }
+  apriFileFR(IUV: string){
+    this.showSidebar()
+    this.hideSidebar(1)
+    
+  }
+
 }

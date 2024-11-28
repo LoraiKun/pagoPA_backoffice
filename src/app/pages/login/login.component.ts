@@ -37,11 +37,9 @@ ngOnInit(): void {
 
 onSubmit(){
 // Controllo accesso e accesso garantito se coincide
-console.log('submit')
 const body: LoginBody = {email: this.loginForm.get('email')?.value, password: this.loginForm.get('password')?.value}
 this.loginService.logIn(body).subscribe({
   next: (res)=>{
-    console.log(res)
     localStorage.setItem('token', res.token)
     this.messageService.add({ severity: 'success', summary: 'Success', detail: 'Sei riuscito ad eseguire il Log In' });
     this.router.navigateByUrl('/home')

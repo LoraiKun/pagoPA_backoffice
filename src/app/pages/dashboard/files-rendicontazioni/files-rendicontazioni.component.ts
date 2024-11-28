@@ -17,7 +17,6 @@ export class FilesRendicontazioniComponent {
   constructor(private rendService: RendicontazioneService){
     rendService.getRendicontazione().subscribe({
       next: (res)=>{
-        console.log(res)
         this.files = res.risultati
         this.filtredFiles = this.files
       }
@@ -42,8 +41,16 @@ export class FilesRendicontazioniComponent {
     this.filtredFiles = this.files.filter(file => 
       file.idFlusso.toLowerCase().includes(this.filterForm.get('filter')?.value.toLowerCase())
     );
-    console.log(this.filtredFiles)
   }
 
+  dlFile(file:RisultatoRendicontazione){
+    const pdfUrl = 'assets/files/Editabile_Modulo di Rendicontazione_Bando_Voucher_Digitali_I4.0_2021.pdf'; // Percorso relativo del PDF
+    const pdfName = file.dataFlusso+ '.pdf'; // Nome del file scaricato
+
+    const link = document.createElement('a'); // Crea un elemento <a>
+    link.href = pdfUrl; // Imposta l'URL del file
+    link.download = pdfName; // Imposta il nome del file scaricato
+    link.click(); // Simula un click sul link
+  }
 
 }

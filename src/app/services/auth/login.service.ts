@@ -19,10 +19,14 @@ export class LoginService {
       }
     });
     if (authorized) {
+      localStorage.setItem('email', loginBody.email)
       return of(TOKEN);
     } else {
       return throwError(() => new Error('Simulated API failure'));
     }
+  }
+  logOut(){
+    localStorage.clear()
   }
 
   getPassword(email: string): Observable<string> {
@@ -40,6 +44,9 @@ export class LoginService {
     } else {
       return throwError(() => new Error('Simulated API failure'));
     }
+  }
+  getEmail(){
+    return localStorage.getItem('email')
   }
 }
 

@@ -1,8 +1,56 @@
-
 <!-- showCloseIcon mostra o meno l'icona di chiusura della sidebar-->
 <p-sidebar [(visible)]="isVisible" [modal]="false" [showCloseIcon]="false">
-    <h3>Sidebar</h3>
-    <p>
-        Lorem ipsum dolor sit amet...
-    </p>
+  <ng-template pTemplate="headless">
+    <div class="sidebar-menu-container">
+      <div class="sidebar-title-container">
+        <img src="assets/logo/logo-pagopa.png" alt="" style="width: 135px" />
+        <!-- <h3 class="sidebar-title">PagoPA (Sidebar)</h3> -->
+        <!-- icona -->
+      </div>
+      <p-divider></p-divider>
+      <div class="user-container">
+        <!-- <p class="user-info">{{ email }}</p> -->
+        <div class="dropdown" (click)="toggleDropdown()" #dropdownElement>
+          <span class="dropdown-label">{{ email }}</span>
+          <span class="dropdown-icon">&#9662;</span>
+          <!-- Icona a forma di freccia giù -->
+          <ul class="dropdown-menu" [class.show]="dropdownOpen">
+            <li (click)="logout()">Logout</li>
+          </ul>
+        </div>
+      </div>
+      <p-divider></p-divider>
+
+      <div class="sidebar-button-container">
+        <!-- vari bottoni di navigazione -->
+        <ul class="navbar-list">
+          <li class="navbar-item" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><span>Dashboard</span> <i class="pi pi-objects-column"></i>
+          </li>
+          <li class="navbar-item" routerLink="rendicontazione" routerLinkActive="active"><span>Sezione resoconti</span> <i class="pi pi-file-check"></i></li>
+          <li class="navbar-item" routerLinkActive="active"><span>Opzioni</span> <i class="pi pi-cog"></i> </li>
+          <!-- <li class="navbar-item" routerLinkActive="active"><span>Contatti</span> <i class="pi pi-address-book"></i></li> -->
+        </ul>
+      </div>
+      <p-divider></p-divider>
+
+      <div class="sidebar-footer-container">
+        <p class="normal">Per assistenza:</p>
+        <p class="bold">assistenza&#64;assistenza.it</p>
+        <br>
+        <p class="normal">Telefono:</p>
+        <p class="bold">070 123456789</p>
+        <br>
+        <p>Orario: lun-ven</p>
+        <p>9:00 - 13:00 | 14:00 - 18:00</p>
+      </div>
+      <p-divider></p-divider>
+      <div class="sidebar-icon-container">
+        <div class="powered-by">
+            <p>Powered</p>
+            <p>By</p>
+        </div>
+        <img src="assets/icons/novi-icon.png" alt="" style="height: 50px;">
+      </div>
+    </div>
+  </ng-template>
 </p-sidebar>

@@ -48,7 +48,6 @@ export class RecoverPasswordComponent {
 
   onSubmit() {
     // Controllo accesso e accesso garantito se coincide
-    console.log('submit');
     this.loginService.getPassword(this.loginForm.get('email')!.value).subscribe({
       next: (res)=>{
         this.messageService.add({ severity: 'success', summary: 'Success', detail: 'La tua password è: ' + res });

@@ -1,4 +1,6 @@
 <div class="dashboard-container">
+
+  <!-- Box1 -->
   <div
     #box1
     class="box1 round-d box-shadow-d"
@@ -7,6 +9,8 @@
       'white-border': !state_fullscreen_b1
     }"
   >
+    <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b1"><i class="pi pi-times"></i>
+</button>
     <div
       class="blur-ingrandisci"
       (click)="hideSidebar(1)"
@@ -15,10 +19,13 @@
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div>
     <p-divider align="left" type="solid">
-      <b>Area richieste di pagamento</b>
+      <b>Cerca file fr</b>
     </p-divider>
-    <app-richieste-pagamento></app-richieste-pagamento>
+    <app-files-rendicontazioni></app-files-rendicontazioni>
+
   </div>
+
+  <!-- Fine box 1 -->
 
   <div
     #box2
@@ -28,6 +35,9 @@
       'white-border': !state_fullscreen_b2
     }"
   >
+  <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b2"><i class="pi pi-times"></i>
+</button>
+
     <div
       class="blur-ingrandisci"
       (click)="hideSidebar(2)"
@@ -36,11 +46,13 @@
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div>
     <p-divider align="left" type="solid">
-      <b>Area richieste di pagamento</b>
+      <b>Notifiche di pagamento</b>
     </p-divider>
     <!-- <h4 class="title">Area richieste di pagamento</h4> -->
   </div>
 
+
+  <!--box3 -->
   <div
     #box3
     class="box3 round-d box-shadow-d"
@@ -49,6 +61,9 @@
       'white-border': !state_fullscreen_b3
     }"
   >
+  <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b3"><i class="pi pi-times"></i>
+</button>
+
     <div
       class="blur-ingrandisci"
       (click)="hideSidebar(3)"
@@ -58,13 +73,15 @@
     </div>
     <p-divider align="left" type="solid">
       <b
-        >Scarica qui le ultime rendicontazioni - Per informazioni dettagliate,
-        controlla la tabella delle rendicontazioni</b
+        >Richieste di pagamento</b
       >
     </p-divider>
     <!-- <h4 class="title"></h4> -->
-    <app-files-rendicontazioni></app-files-rendicontazioni>
+    <app-richieste-pagamento (fileFR)="apriFileFR($event)" (notifica)="apriNotifica($event)"></app-richieste-pagamento>
+
   </div>
+
+  <!-- fine box3 -->
 </div>
 
 <div

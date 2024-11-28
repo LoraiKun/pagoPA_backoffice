@@ -1,6 +1,150 @@
-::ng-deep .p-sidebar{
-    width: 20rem;
-    height: 100%;
-    position: unset;
-    border-radius: 10px;
+::ng-deep .p-sidebar {
+  width: 20rem;
+  height: 100%;
+  position: unset;
+  border-radius: 10px;
+  background-color: white;
 }
+::ng-deep .p-divider.p-divider-horizontal:before{
+    border-top: solid 1px #4384c5;
+}
+.sidebar-menu-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.sidebar-title-container {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.sidebar-title {
+  margin: 0;
+}
+.user-container {
+  display: flex;
+  justify-content: center;
+  margin: .3rem;
+}
+/* .user-info {
+} */
+
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #adadad;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Label e icona */
+  .dropdown-label {
+    margin-right: 5px;
+    color: #adadad;
+    font-size: 14px;
+  }
+  
+  .dropdown-icon {
+    font-size: 14px;
+    color: #adadad;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Ruota l'icona quando il dropdown è aperto */
+  .dropdown-menu.show + .dropdown-icon {
+    transform: rotate(180deg);
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Posizionato esattamente sotto l'icona */
+    left: auto; /* Allinea con il contenitore principale */
+    right: 0; /* Fa partire il menu dall'icona */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  
+  /* Mostra il menu quando il dropdown è aperto */
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  /* Elementi del menu */
+  .dropdown-menu li {
+    padding: 8px;
+    color: #adadad;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background: #f0f0f0;
+  }
+
+  .sidebar-button-container{
+    padding: 1rem;
+  }
+
+
+  /* Lista della navbar */
+.navbar-list {
+    list-style: none; /* Rimuove i puntini della lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Gli elementi sono disposti in linea */
+    flex-direction: column;
+  }
+  
+  /* Elementi della navbar */
+  .navbar-item {
+    display: flex;
+    justify-content: space-between;
+    color: #a1a1a1; /* Colore grigio di base */
+    font-size: 16px; /* Dimensione del testo */
+    font-weight: 500; /* Peso del font */
+    text-decoration: none; /* Nessuna sottolineatura */
+    cursor: pointer; /* Cambia il cursore */
+    padding: 1rem; /* Spaziatura interna */
+    transition: all 0.3s ease; /* Transizione per hover/active */
+  }
+  
+  /* Stile per hover */
+  .navbar-item:hover {
+    color: #4384c5; /* Grigio più scuro */
+    background-color: #f0f8ff; /* Sfondo chiaro */
+  }
+  
+  /* Stile per l'elemento attivo */
+  .navbar-item.active {
+    color: #0066cc; /* Colore del testo per l'elemento attivo */
+    background-color: #e6f2ff; /* Sfondo grigio */
+    border-left: 3px solid #0066cc;
+  }
+
+  .sidebar-footer-container p{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .sidebar-icon-container{
+    margin-top: auto;
+    padding: 1.5rem;
+    display: flex;
+  }
+
+  .powered-by{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #b6b6b6;
+  }

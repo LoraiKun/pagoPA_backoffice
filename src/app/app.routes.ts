@@ -18,6 +18,7 @@ export const routes: Routes = [
       return getChildren();
     },
   },
+  { path: '**', redirectTo: 'login', pathMatch: 'full'},
 ];
 
 async function getChildren() {

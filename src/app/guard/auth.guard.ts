@@ -22,7 +22,6 @@ export const authGuard: CanActivateFn = (route, state) => {
     // const jwtHelper = new JwtHelperService();
     let token!: string | null;
     token = localStorage.getItem('token');
-    token = 'true'
     if (token) {
       // return !jwtHelper.isTokenExpired(token);
       return true

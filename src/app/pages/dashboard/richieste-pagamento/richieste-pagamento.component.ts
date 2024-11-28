@@ -1,4 +1,4 @@
-import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Output, Renderer2, ViewChild } from '@angular/core';
 import { RichiesteDiPagamento } from '../../../models/pagamenti';
 import { TableModule } from 'primeng/table';
 import { HttpClient } from '@angular/common/http';
@@ -13,7 +13,8 @@ import { PaginatorModule } from 'primeng/paginator';
   styleUrl: './richieste-pagamento.component.css',
 })
 export class RichiestePagamentoComponent {
- 
+  @Output() notifica: EventEmitter<string> = new EventEmitter<string>()
+  @Output() fileFR: EventEmitter<string> = new EventEmitter<string>()
   @ViewChild('resizeDiv') resizeDiv!: ElementRef;
   @ViewChild('prime_table') prime_table:any;
   private resizeObserver!: ResizeObserver;
@@ -48,7 +49,6 @@ export class RichiestePagamentoComponent {
     // const table = document.getElementById('pn_id_1-table');
     try {
       this.table = this.renderer.selectRootElement('table', true);
-      console.log(this.table);
       
       this.parent = this.table.parentElement!;
       totalWidth = this.table.offsetWidth * 0.75
@@ -69,5 +69,11 @@ export class RichiestePagamentoComponent {
     } catch (error) {}
   }
 
+  emettiNotifica(IUV: string){
+    this.notifica.emit(IUV)
+  }
+  emettiFile(IUV:string){
+    this.fileFR.emit(IUV)
+  }
 
 }

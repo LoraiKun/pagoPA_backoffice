@@ -100,9 +100,10 @@
 }
 
 .fullscreen{
+  min-width: 668.412px;
   max-width: 95vw;
   max-height: 96dvh; /* Limita l'altezza massima al 90% della finestra */
-
+  height: 100%;  
   z-index: 10;
   width: min-content;
   position: absolute !important;
@@ -139,4 +140,39 @@
 .title{
   margin-bottom: 1rem;
   color: #212529;
+}
+
+.button-absolute{
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+}
+
+
+/* Stile generale per il pulsante di chiusura */
+.button-absolute {
+  background-color: #0066cc; /* Colore principale */
+  color: white; /* Colore del testo/icona */
+  border: none;
+  border-radius: 50%; /* Forma circolare */
+  width: 25px; /* Dimensioni del pulsante */
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px; /* Dimensione dell'icona */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Effetto hover */
+}
+
+/* Effetto hover */
+.button-absolute:hover {
+  background-color: #005bb5; /* Colore più scuro per l'hover */
+  transform: scale(1.1); /* Leggero zoom */
+}
+
+/* Effetto attivo/click */
+.button-absolute:active {
+  transform: scale(1); /* Torna alle dimensioni originali */
+  background-color: #004c99; /* Ancora più scuro */
 }

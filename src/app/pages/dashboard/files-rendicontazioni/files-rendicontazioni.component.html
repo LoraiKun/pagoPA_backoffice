@@ -1,13 +1,13 @@
 <div class="file-rend-container">
     <form [formGroup]="filterForm" style="padding-left: 20px;">
         <!-- <label for="integer" class="font-bold block mb-2">  </label> -->
-        <input type="email" formControlName="filter" class="login-input mb-2" placeholder="Filtra file" (input)="filterFiles()"/>
+        <input type="email" formControlName="filter" class="login-input mb-0" placeholder="Filtra file" (input)="filterFiles()"/>
     </form>
     <div class="file-grid">
         @for (file of filtredFiles; track $index) {
-            <div class="file-item">
+            <div class="file-item" (click)="dlFile(file)">
                 <div class="icon-background">
-                  <img src="assets/logo/pdf-file-document-icon-png-7017516949639656mck9pqusp-removebg-preview.png" alt="" style="height: 80px; width: 80px;">
+                  <img src="assets/icons/pdf-file-document-icon-png-7017516949639656mck9pqusp-removebg-preview.png" alt="" style="height: 80px; width: 80px;">
                 </div>
                 <p class="file-title">{{ file.dataFlusso }}</p>
               </div>
