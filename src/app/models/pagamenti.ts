@@ -38,7 +38,7 @@ interface Dominio{
   provincia: string;
   nazione: string;
   email: string;
-  pec: string;
+  cf_iban: string;
   tel: number;
   fax: number;
   web: string;
@@ -70,7 +70,7 @@ interface UnitaOperativa {
   provincia: string;
   nazione: string;
   email: string;
-  pec: string;
+  cf_iban: string;
   tel: number;
   fax: number;
   web: string;

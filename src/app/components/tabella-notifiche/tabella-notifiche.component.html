@@ -1,0 +1,40 @@
+<div  class="table-container">
+
+@if (notifiche) {
+      <div style="margin: auto;">
+    <p-table
+      [value]="notifiche"
+      [paginator]="true"
+      [rows]="5"
+      [rowsPerPageOptions]="[5, 10, 20]"
+      paginatorStyleClass="width: 75%"
+    >
+      <ng-template pTemplate="header">
+        <!-- Header Statico -->
+        <tr>
+          <th>Codice <p-columnFilter type="date" field="codice"  display="menu"/></th>
+          <th>Data  <p-columnFilter type="date" field="data"  display="menu"/></th>
+          <th>Descrizione <p-columnFilter type="text" field="descrizione" display="menu" /></th>
+          <th>Dettaglio</th>
+        </tr>
+        
+        <!-- Riga dedicata al paginatore -->
+      </ng-template>
+  
+      <!-- Corpo della Tabella -->
+      <ng-template pTemplate="body" let-notifica>
+        <tr>
+          <td>{{ notifica.codice }}</td>
+          <td>{{ notifica.data | date : "yyyy-MM-dd" }}</td>
+          <td>{{ notifica.descrizione }}</td>
+          <td>{{ notifica.dettaglio }}</td>
+
+
+
+
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+    }
+</div>

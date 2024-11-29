@@ -1,73 +1,54 @@
-<div class="table-container">
-  @if (filteredRichiestePagamento) {
-  <div style="margin: auto">
-    <p-table
-      [value]="filteredRichiestePagamento"
-      styleClass="p-datatable-striped"
-      [paginator]="true"
-      [rows]="5"
-      [rowsPerPageOptions]="[5, 10, 20]"
-    >
-      <ng-template pTemplate="header">
-        <!-- Header Statico -->
-        <tr>
-          <th>Ente Creditore</th>
-          <th>
-            Data
-            <p-columnFilter
-              type="date"
-              field="pendenza.dataCaricamento"
-              display="menu"
-            />
-          </th>
-          <th>
-            Tipo
-            <p-columnFilter
-              type="text"
-              field="pendenza.tipoPendenza.tipo"
-              display="menu"
-            />
-          </th>
-          <th>causale</th>
-          <th>IUV</th>
-          <th>Stato</th>
-          <th>Azioni</th>
-        </tr>
 
-        <!-- Riga dedicata al paginatore -->
-      </ng-template>
+        <div  class="table-container" *ngIf="hideDettails">
+            @if (filteredRichiestePagamento) {
+              <div style="margin: auto;">
+            <p-table
+              [value]="filteredRichiestePagamento"
+              [paginator]="true"
+              [rows]="5"
+              [rowsPerPageOptions]="[5, 10, 20]"
+              paginatorStyleClass="width: 75%"
+            >
+              <ng-template pTemplate="header">
+                <!-- Header Statico -->
+                <tr>
+                  <th>Ente Creditore </th>
+                  <th>Data  <p-columnFilter type="date" field="pendenza.dataCaricamento"  display="menu"/></th>
+                  <th>Tipo <p-columnFilter type="text" field="pendenza.tipoPendenza.tipo" display="menu" /></th>
+                  <th>causale</th>
+                  <th>IUV </th>
+                  <th>Stato</th>
+                  <th>Azioni</th>
+                </tr>
+                
+                <!-- Riga dedicata al paginatore -->
+              </ng-template>
+          
+              <!-- Corpo della Tabella -->
+              <ng-template pTemplate="body" let-richiesta>
+                <tr>
+                  <td>{{ richiesta.pendenza.dominio.ragioneSociale }}</td>
+                  <td>{{ richiesta.pendenza.dataCaricamento | date : "yyyy-MM-dd" }}</td>
+                  <td>{{ richiesta.pendenza.tipoPendenza.tipo }}</td>
+                  <td>{{ richiesta.pendenza.causale }}</td>
+                  <td>{{ richiesta.pendenza.numeroAvviso }}</td>
+                  <td>{{ richiesta.pendenza.stato }}</td>
 
-      <!-- Corpo della Tabella -->
-      <ng-template pTemplate="body" let-richiesta>
-        <tr>
-          <td>{{ richiesta.pendenza.dominio.ragioneSociale }}</td>
-          <td>
-            {{ richiesta.pendenza.dataCaricamento | date : "yyyy-MM-dd" }}
-          </td>
-          <td>{{ richiesta.pendenza.tipoPendenza.tipo }}</td>
-          <td>{{ richiesta.pendenza.causale }}</td>
-          <td>{{ richiesta.pendenza.numeroAvviso }}</td>
-          <td>{{ richiesta.pendenza.stato }}</td>
 
-          <td style="display: flex">
-            <button class="action-button bg-blue">
-              <i class="pi pi-bell" style="font-size: 1rem"></i>
-              <span class="tooltip">Notifica di pagamento</span>
-            </button>
-            <button class="action-button bg-green">
-              <i
-                class="pi pi-file-excel"
-                style="font-size: 1rem"
-                (click)="dlFile(richiesta.pendenza.numeroAvviso)"
-              ></i>
-              <span class="tooltip">File FR</span>
-            </button>
-          </td>
-        </tr>
-      </ng-template>
-    </p-table>
-  </div>
-  }@else {
-  <!-- messaggio di errore -->
-  }
-</div>
+
+
+                  <td style="display: flex;"> <button class="action-button bg-blue" (click)="mostraDettagli(richiesta)">    <i class="pi pi-bell" style="font-size: 1rem"></i>    <span class="tooltip">Dettagli e notifiche</span>  </button> <button class="action-button bg-green" >    <i class="pi pi-file-excel" style="font-size: 1rem" (click)="dlFile(richiesta.pendenza.numeroAvviso)"></i>    <span class="tooltip">File FR</span>  </button></td>
+                </tr>
+              </ng-template>
+            </p-table>
+          </div>
+            }@else {
+            <!-- messaggio di errore -->
+            }
+          </div>
+          @if (!hideDettails) {
+            <i class="pi pi-arrow-left" (click)="nascondiDettagli()"></i>
+            <div class="dettagli-app-container">
+              <app-dettagli [dati]="datiDettagli"></app-dettagli>
+            </div>
+          }

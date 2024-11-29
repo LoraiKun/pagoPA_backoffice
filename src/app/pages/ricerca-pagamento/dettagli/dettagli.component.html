@@ -1,0 +1,155 @@
+@if(dati){
+<div class="dettagli-container" >
+  <div class="dettagli-creditore-container box">
+    <h2>Creditore</h2>
+    <div class="internal-container">
+      <div class="column">
+        <div>
+          <p class="bold">P.Iva C.F. dell'ente</p>
+          <p class="normal">{{dati.pendenza.dominio.cf_iban}}</p>
+        </div>
+        <div>
+          <p class="bold">Codice Servizio</p>
+          <p class="normal">{{dati.pendenza.dominio.idDominio}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dettagli-avviso-container box">
+    <h2>Avviso</h2>
+    <div class="internal-container">
+      <div class="column">
+        <div>
+          <p class="bold">IUV</p>
+          <p class="normal">{{dati.pendenza.numeroAvviso}}</p>
+        </div>
+        <div>
+          <p class="bold">Id pagamento</p>
+          <p class="normal">{{dati.pendenza.idPendenza}}</p>
+        </div>
+        <div>
+          <p class="bold">Causale</p>
+          <p class="normal">{{dati.pendenza.causale}}</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div>
+          <p class="bold">Importo</p>
+          <p class="normal">{{dati.pendenza.importo}}</p>
+        </div>
+        <div>
+          <p class="bold">Data scadenza</p>
+          <p class="normal">{{dati.pendenza.dataScadenza}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dettagli-debitore-container box">
+    <h2>Debitore</h2>
+    <div class="internal-container">
+      <div class="column">
+        <div>
+          <p class="bold">Tipo</p>
+          <p class="normal">{{dati.pendenza.soggettoPagatore.tipo}}</p>
+        </div>
+        <div>
+          <p class="bold">Codice Fiscale / Partita IVA</p>
+          <p class="normal">{{dati.pendenza.unitaOperativa.cf_iban}}</p>
+        </div>
+        <div>
+          <p class="bold">Denominazione</p>
+          <p class="normal">{{dati.pendenza.soggettoPagatore.anagrafica}}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          <p class="bold">Indirizzo</p>
+          <p class="normal">{{dati.pendenza.soggettoPagatore.indirizzo}}</p>
+
+          <p class="bold">Civico</p>
+
+          <p class="normal">{{dati.pendenza.soggettoPagatore.civico}}</p>
+        </div>
+        <div>
+            <p class="bold">CAP</p>
+            <p class="normal"> {{dati.pendenza.soggettoPagatore.cap}}</p>
+            <p class="bold">Località</p>
+            <p class="normal">{{dati.pendenza.soggettoPagatore.localita}}</p>
+            <p class="bold">Prov.</p>
+            <p class="normal">{{dati.pendenza.soggettoPagatore.provincia}}</p>
+  
+            
+            
+            
+        </div>
+        <div>
+          <p class="bold">Nazione</p>
+          <p class="normal">{{dati.pendenza.soggettoPagatore.nazione}}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          <p class="bold">Email debitore</p>
+          <p class="normal">{{dati.pendenza.soggettoPagatore.email}}</p>
+        </div>
+        <div>
+          <p class="bold">Telefono debitore</p>
+          <p class="normal">{{dati.pendenza.soggettoPagatore.cellulare}}</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- 
+  <div class="dettagli riferimenti-container box">
+    <h2>Riferimenti credito</h2>
+    <div class="internal-container">
+      <div class="column">
+        <div>
+          <p class="bold">Tipologia</p>
+          <p class="normal">-</p>
+        </div>
+        <div>
+          <p class="bold">Codice di riferimento</p>
+          <p class="normal">-</p>
+        </div>
+        <div>
+          <p class="bold">Utenza</p>
+          <p class="normal">-</p>
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          <p class="bold">Tipo contabilità</p>
+          <p class="normal">-</p>
+        </div>
+        <div>
+            <p class="bold">Codice contabilità/p>
+              <p class="normal">-</p>
+        </div>
+        <div>
+          <p class="bold">Rata</p>
+          <p class="normal">-</p>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+  <div class="dettagli-notifiche box">
+    <h2>Notifiche</h2>
+
+    <app-tabella-notifiche [notifiche]="dati.segnalazioni"></app-tabella-notifiche>
+  </div>
+</div>
+
+}

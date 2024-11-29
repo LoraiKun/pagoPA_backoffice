@@ -3,21 +3,21 @@
   <!-- Box1 -->
   <div
     #box1
-    class="box1 round-d box-shadow-d"
+    class="box1 round-d box-shadow-d scrollable"
     [ngClass]="{
       fullscreen: state_fullscreen_b1,
       'white-border': !state_fullscreen_b1
     }"
   >
-    <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b1"><i class="pi pi-times"></i>
-</button>
-    <div
+    <!-- <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b1"><i class="pi pi-times"></i>
+</button> -->
+    <!-- <div
       class="blur-ingrandisci"
       (click)="hideSidebar(1)"
       [ngClass]="{ hidden: state_fullscreen_b1 }"
     >
       <p style="font-weight: 700">[INGRANDISCI]</p>
-    </div>
+    </div> -->
     <p-divider align="left" type="solid">
       <b>Cerca file fr</b>
     </p-divider>
@@ -29,7 +29,7 @@
 
   <div
     #box2
-    class="box2 round-d box-shadow-d"
+    class="box2 round-d box-shadow-d scrollable"
     [ngClass]="{
       fullscreen: state_fullscreen_b2,
       'white-border': !state_fullscreen_b2
@@ -38,13 +38,13 @@
   <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b2"><i class="pi pi-times"></i>
 </button>
 
-    <div
+    <!-- <div
       class="blur-ingrandisci"
       (click)="hideSidebar(2)"
       [ngClass]="{ hidden: state_fullscreen_b2 }"
     >
       <p style="font-weight: 700">[INGRANDISCI]</p>
-    </div>
+    </div> -->
     <p-divider align="left" type="solid">
       <b>Notifiche di pagamento</b>
     </p-divider>
@@ -55,7 +55,7 @@
   <!--box3 -->
   <div
     #box3
-    class="box3 round-d box-shadow-d"
+    class="box3 round-d box-shadow-d scrollable"
     [ngClass]="{
       fullscreen: state_fullscreen_b3,
       'white-border': !state_fullscreen_b3
@@ -64,30 +64,30 @@
   <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b3"><i class="pi pi-times"></i>
 </button>
 
-    <div
+    <!-- <div
       class="blur-ingrandisci"
       (click)="hideSidebar(3)"
       [ngClass]="{ hidden: state_fullscreen_b3 }"
     >
       <p style="font-weight: 700">[INGRANDISCI]</p>
-    </div>
+    </div> -->
     <p-divider align="left" type="solid">
       <b
         >Richieste di pagamento</b
       >
     </p-divider>
     <!-- <h4 class="title"></h4> -->
-    <app-richieste-pagamento (fileFR)="apriFileFR($event)" (notifica)="apriNotifica($event)"></app-richieste-pagamento>
+    <app-richieste-pagamento  (notifica)="apriNotifica($event)"></app-richieste-pagamento>
 
   </div>
 
   <!-- fine box3 -->
 </div>
 
-<div
+<!-- <div
   class="blur-dark"
   [ngClass]="{
     hidden: !state_fullscreen_b1 && !state_fullscreen_b2 && !state_fullscreen_b3
   }"
   (click)="showSidebar()"
-></div>
+></div> -->

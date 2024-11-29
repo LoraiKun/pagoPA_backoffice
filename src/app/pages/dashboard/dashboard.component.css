@@ -99,42 +99,42 @@
   opacity: 1;
 }
 
-.fullscreen{
-  min-width: 668.412px;
-  max-width: 95vw;
-  max-height: 96dvh; /* Limita l'altezza massima al 90% della finestra */
-  height: 100%;  
-  z-index: 10;
-  width: min-content;
-  position: absolute !important;
+.scrollable{
+  /* min-width: 668.412px; */
+  /* max-width: 95vw; */
+  /* max-height: 96dvh;  */
+  /* height: 100%;   */
+  /* z-index: 10; */
+  /* width: min-content; */
+  /* position: absolute !important; */
   overflow: auto; /* Permette lo scroll verticale */
 
-  top: 5px !important;
-  left: 50% !important;
-  transform: translate(-50%) !important;
+  /* top: 5px !important; */
+  /* left: 50% !important; */
+  /* transform: translate(-50%) !important; */
 }
 
 /* Scrollbar generale */
-.fullscreen::-webkit-scrollbar {
+.scrollable::-webkit-scrollbar {
   width: 8px; /* Larghezza sottile */
   height: 8px; /* Altezza sottile */
 }
 
 /* Binario della scrollbar (track) */
-.fullscreen::-webkit-scrollbar-track {
+.scrollable::-webkit-scrollbar-track {
   background: #e0e0e0; /* Colore chiaro e neutro */
   border-radius: 10px; /* Arrotondamento elegante */
 }
 
 /* Barra di scorrimento (thumb) */
-.fullscreen::-webkit-scrollbar-thumb {
+.scrollable::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #9e9e9e, #757575); /* Gradient elegante */
   border-radius: 10px; /* Arrotondamento per un look morbido */
   border: 2px solid #e0e0e0; /* Spazio tra barra e track */
 }
 
 /* Hover sulla barra di scorrimento */
-.fullscreen::-webkit-scrollbar-thumb:hover {
+.scrollable::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #757575, #424242); /* Colore scuro durante hover */
 }
 .title{

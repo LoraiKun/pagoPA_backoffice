@@ -2,13 +2,14 @@ import { Injectable } from '@angular/core';
 import { FILE_FR, ResponseRendicontazione } from '../../models/rendicontazione';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
-import { Filtro } from '../../models/pagamenti';
+import { Filtro, RisultatiRichiestaPagamento } from '../../models/pagamenti';
 
 @Injectable({
   providedIn: 'root',
 })
 export class RendicontazioneService {
   rendicontazione!: ResponseRendicontazione;
+  files: string[] = []
   private IUV = new BehaviorSubject<string>('');
   variable$ = this.IUV.asObservable();
   private filtro = new BehaviorSubject<Filtro> ({  filtroMail: '',
@@ -22,10 +23,14 @@ export class RendicontazioneService {
       'assets/json/rendicontazione.json'
     );
   }
-
+  saveFiles(files: RisultatiRichiestaPagamento[]){
+    this.files = []
+    files.forEach(file=>{
+      this.files.push(file.pendenza.numeroAvviso.toString())
+    })
+  }
   getFiles() {
-    let files = FILE_FR;
-    return files;
+    return this.files;
   }
 
   updateVariable(newValue: string): void {

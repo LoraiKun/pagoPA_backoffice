@@ -26,6 +26,12 @@ th {
 
 
 
+::ng-deep .p-column-filter button{
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
 
 .action-button {
   margin: 0.5rem;

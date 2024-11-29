@@ -9,16 +9,18 @@ import {
 } from '../../../models/pagamenti';
 import { HttpClient } from '@angular/common/http';
 import { RendicontazioneService } from '../../../services/rendicontazione/rendicontazione.service';
+import { DettagliComponent } from '../dettagli/dettagli.component';
 
 @Component({
   selector: 'app-tabella-richieste',
   standalone: true,
-  imports: [TableModule, CommonModule, PaginatorModule],
+  imports: [TableModule, CommonModule, PaginatorModule, DettagliComponent],
   templateUrl: './tabella-richieste.component.html',
   styleUrl: './tabella-richieste.component.css',
 })
 export class TabellaRichiesteComponent {
-
+  datiDettagli!: RisultatiRichiestaPagamento|null
+  hideDettails: boolean = true
   richiestePagamento: RisultatiRichiestaPagamento[] = [];
   filteredRichiestePagamento: RisultatiRichiestaPagamento[] = [];
   filtro!: Filtro;
@@ -73,5 +75,12 @@ export class TabellaRichiesteComponent {
     link.click(); // Simula un click sul link
   }
 
- 
+  mostraDettagli(dettagli: RisultatiRichiestaPagamento){
+    this.datiDettagli = dettagli
+    this.hideDettails= false
+  }
+  nascondiDettagli(){
+    this.datiDettagli = null
+    this.hideDettails= true
+  }
 }

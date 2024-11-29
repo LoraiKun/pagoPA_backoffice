@@ -21,20 +21,20 @@ export class DashboardComponent {
   state_fullscreen_b3: boolean = false
   constructor(private sidebarService: SidebarService) {}
 
-  hideSidebar(scelta: 1|2|3) {
-    if(scelta == 1){
-      this.state_fullscreen_b1 = true
+  // hideSidebar(scelta: 1|2|3) {
+  //   if(scelta == 1){
+  //     this.state_fullscreen_b1 = true
 
-    }
-    if(scelta == 2){
-      this.state_fullscreen_b2 = true
-    }
-    if(scelta == 3){
-      this.state_fullscreen_b3 = true
-    }
+  //   }
+  //   if(scelta == 2){
+  //     this.state_fullscreen_b2 = true
+  //   }
+  //   if(scelta == 3){
+  //     this.state_fullscreen_b3 = true
+  //   }
 
-    this.sidebarService.setVisibility(false); // Aggiorna lo stato globale
-  }
+  //   this.sidebarService.setVisibility(false); // Aggiorna lo stato globale
+  // }
   showSidebar(){
     this.sidebarService.setVisibility(true); // Aggiorna lo stato globale
     this.state_fullscreen_b1 = false
@@ -48,10 +48,10 @@ export class DashboardComponent {
   apriNotifica(IUV: string){
 
   }
-  apriFileFR(IUV: string){
-    this.showSidebar()
-    this.hideSidebar(1)
+  // apriFileFR(IUV: string){
+  //   // this.showSidebar()
+  //   // this.hideSidebar(1)
     
-  }
+  // }
 
 }
