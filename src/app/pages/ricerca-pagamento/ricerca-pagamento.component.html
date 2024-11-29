@@ -1,22 +1,57 @@
 <div class="pagamenti-container round-d">
-    <form [formGroup]="filterForm" class="filter-container">
-
+  <form [formGroup]="filterForm" class="filter-container">
+    <div class="label-container ml-auto">
+      <label for="">Creditore</label>
       <input
         type="text"
-        formControlName="filter"
+        formControlName="filterEnte"
         class="login-input mb-0 ml-1"
-        placeholder="Inserisci IUV, Ente creditore oppure Email  "
+        placeholder="Inserisci creditore "
       />
-      <p-button label="Ricerca per IUV" (onClick)="submit('IUV')"/>
-      <p-button label="Ricerca per ente creditore" (onClick)="submit('ente')"/>
-      <p-button label="Ricerca per email" (onClick)="submit('email')"/>
-
-    </form>
-    <div class="t-container">
-        @if (filtro) {
-            <app-tabella-richieste ></app-tabella-richieste>
-
-        }
-
     </div>
+
+    <p-button label="Invia" (onClick)="submit('ente')" class="submit-button" />
+
+    <div class="label-container ">
+      <label for="">IUV</label>
+      <input
+        type="text"
+        formControlName="filterIUV"
+        class="login-input mb-0 ml-1"
+        placeholder="Inserisci creditore "
+      />
+    </div>
+
+    <p-button label="Invia" (onClick)="submit('IUV')"  class="submit-button"/>
+
+    <div class="label-container">
+      <label for="">CF/PI</label>
+      <input
+        type="text"
+        formControlName="filterCF"
+        class="login-input mb-0 ml-1"
+        placeholder="Inserisci creditore "
+      />
+    </div>
+
+    <p-button label="Invia" (onClick)="submit('cf/pi')"  class="submit-button"/>
+
+    <div class="label-container ">
+      <label for="">Email</label>
+      <input
+        type="text"
+        formControlName="filterEmail"
+        class="login-input mb-0 ml-1"
+        placeholder="Inserisci creditore "
+      />
+    </div>
+
+    <p-button label="Invia" (onClick)="submit('email')"  class="submit-button"/>
+  </form>
+  <div class="t-container">
+    @if (filtro) {
+    <app-tabella-richieste></app-tabella-richieste>
+
+    }
+  </div>
 </div>

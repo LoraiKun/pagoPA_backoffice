@@ -1,24 +1,39 @@
-.pagamenti-container{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    margin-left: 0.5rem;
-    padding: 1rem;
-    overflow: auto;
+.pagamenti-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  overflow: auto;
 }
-::ng-deep .p-button{
-    height: 35px;
-    margin: .5rem;
-  }
-  .filter-container{
-    display: flex;
-    align-items: center;
-    margin-bottom:1.5rem ;
-  }
-  .login-input{
-    margin-right: .5rem !important;
-    margin-left: 0;
-  }
-  .t-container{
-    height: 100%;
-  }
+::ng-deep .p-button {
+  height: 35px;
+  margin: 0.5rem;
+  margin-right: auto;
+}
+::ng-deep p-button {
+
+  margin-right: auto !important;
+}
+.filter-container {
+  /* justify-content: center; */
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+.login-input {
+
+  margin: 0;
+  width: 163px;
+}
+.t-container {
+  height: 100%;
+}
+.label-container {
+  padding: 0.5rem;
+  width: min-content;
+}
+
+.submit-button {
+  margin-right: 1.7rem;
+}

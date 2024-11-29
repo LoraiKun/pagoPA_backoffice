@@ -13,18 +13,48 @@ import { RendicontazioneService } from '../../services/rendicontazione/rendicont
   styleUrl: './ricerca-pagamento.component.css',
 })
 export class RicercaPagamentoComponent {
-  filtro!: Filtro|null;
+  filtro: Filtro = {
+    filtroMail: '',
+    filtroIUV: '',
+    filtroEnte: '',
+    filtroCF_PI: '',
+  };
   filterForm!: FormGroup;
-  constructor (private rendService: RendicontazioneService){}
+  constructor(private rendService: RendicontazioneService) {}
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
     this.filterForm = new FormGroup({
-      filter: new FormControl(''),
+      filterIUV: new FormControl(''),
+      filterEnte: new FormControl(''),
+      filterCF: new FormControl(''),
+      filterEmail: new FormControl(''),
     });
   }
-  submit(tipo: 'email' | 'IUV' | 'ente') {
-    this.filtro = {tipo: tipo, filtro: this.filterForm.get('filter')?.value}
-    this.rendService.updateFiltro(this.filtro)
+  submit(tipo: 'cf/pi' | 'IUV' | 'ente' | 'email') {
+    switch (tipo) {
+      case 'IUV': {
+        if (this.filterForm.get('filterIUV')?.value)
+          this.filtro.filtroIUV = this.filterForm.get('filterIUV')?.value;
+        break;
+      }
+      case 'cf/pi': {
+        if (this.filterForm.get('filterCF')?.value)
+          this.filtro.filtroCF_PI = this.filterForm.get('filterCF')?.value;
+        break;
+      }
+      case 'ente': {
+        if (this.filterForm.get('filterEnte')?.value)
+          this.filtro.filtroEnte = this.filterForm.get('filterEnte')?.value;
+        break;
+      }
+      case 'email':
+        {
+          if (this.filterForm.get('filterEmail')?.value)
+            this.filtro.filtroMail = this.filterForm.get('filterEmail')?.value;
+          break;
+        }
+    }
+    this.rendService.updateFiltro(this.filtro);
   }
 }

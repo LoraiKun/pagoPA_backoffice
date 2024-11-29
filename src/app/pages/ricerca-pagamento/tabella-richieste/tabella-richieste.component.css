@@ -2,59 +2,30 @@
   max-width: 100%;
   display: flex;
 }
-::ng-deep .p-datatable-table {
-  /* transform: scale(0.75); */
-  transform-origin: top left; /* Oppure 'center', '50% 50%', ecc. */
-}
-::ng-deep .p-datatable-wrapper {
-  overflow: unset !important;
-}
+
+
 
 th {
   background-color: #0066cc;
   color: white;
 }
 
-::ng-deep .p-paginator * {
-  min-width: 2rem;
-  font-size: 12px;
-}
 /* 
 ::ng-deep .p-paginator {
 } */
-::ng-deep .p-paginator button {
-  height: 2rem;
-}
 
-::ng-deep .p-paginator .p-dropdown {
-  height: 2.5rem;
-}
 
-::ng-deep .p-paginator p-overlay {
-  min-width: 0 !important;
-}
 
-::ng-deep .p-paginator .p-dropdown-trigger {
-  min-width: 1.5rem;
-  width: 1.5rem;
-}
 
-::ng-deep .p-paginator .p-dropdown-label {
-  text-align: center;
-  padding-left: 0;
-}
+
+
+
+
 /* ::ng-deep .p-column-filter-overlay {
 } */
-::ng-deep .p-column-filter button {
-  background-color: white;
-  width: 25px;
-  height: 25px;
-  margin: 5px;
-}
 
-::ng-deep table {
-  width: max-content;
-}
+
+
 
 .action-button {
   margin: 0.5rem;

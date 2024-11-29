@@ -4,8 +4,8 @@ import { PaginatorModule } from 'primeng/paginator';
 import { TableModule } from 'primeng/table';
 import {
   Filtro,
-  RichiesteDiPagamento,
-  RisultatiRichieste,
+  RispostaRichiestaPagamento,
+  RisultatiRichiestaPagamento,
 } from '../../../models/pagamenti';
 import { HttpClient } from '@angular/common/http';
 import { RendicontazioneService } from '../../../services/rendicontazione/rendicontazione.service';
@@ -19,16 +19,14 @@ import { RendicontazioneService } from '../../../services/rendicontazione/rendic
 })
 export class TabellaRichiesteComponent {
 
-  richiestePagamento: RisultatiRichieste[] = [];
-  filteredRichiestePagamento: RisultatiRichieste[] = [];
+  richiestePagamento: RisultatiRichiestaPagamento[] = [];
+  filteredRichiestePagamento: RisultatiRichiestaPagamento[] = [];
   filtro!: Filtro;
   constructor(private http: HttpClient,private rendService: RendicontazioneService) {
     http
-      .get<RichiesteDiPagamento>('assets/json/richieste_di_pagamento.json')
+      .get<RispostaRichiestaPagamento>('assets/json/richieste_di_pagamento.json')
       .subscribe({
         next: (res) => {
-          res.risultati.forEach((richiesta) => {
-          });
           this.richiestePagamento = res.risultati;
           this.filtraRichieste()
         },
@@ -44,31 +42,25 @@ export class TabellaRichiesteComponent {
   }
 
   filtraRichieste(): void {
-    const { tipo, filtro } = this.filtro;
-    if (!filtro.trim()) {
-      console.log('dentro chiusura', this.filtro)
-      // Se il filtro è vuoto, mostra tutte le richieste
-      this.filteredRichiestePagamento = this.richiestePagamento;
-      return;
-    }
-
+    const { filtroMail, filtroIUV, filtroEnte, filtroCF_PI } = this.filtro;
+  
     this.filteredRichiestePagamento = this.richiestePagamento.filter((richiesta) => {
-      switch (tipo) {
-        case 'IUV':
-          return richiesta.pendenza.numeroAvviso.toString().includes(filtro);
-        case 'ente':
-          return richiesta.pendenza.dominio.ragioneSociale
-            .toLowerCase()
-            .includes(filtro.toLowerCase());
-        case 'email':
-          return richiesta.pendenza.soggettoPagatore.anagrafica
-            .toLowerCase()
-            .includes(filtro.toLowerCase());
-        default:
-          return true;
-      }
+      const matchesIUV = !filtroIUV.trim() || richiesta.pendenza.numeroAvviso.toString().includes(filtroIUV);
+      const matchesEnte = !filtroEnte.trim() || richiesta.pendenza.dominio.ragioneSociale
+        .toLowerCase()
+        .includes(filtroEnte.toLowerCase());
+      const matchesMail = !filtroMail.trim() || richiesta.pendenza.soggettoPagatore.anagrafica
+        .toLowerCase()
+        .includes(filtroMail.toLowerCase());
+      const matchesCR_PI = !filtroCF_PI.trim() || richiesta.pendenza.causale
+        .toLowerCase()
+        .includes(filtroCF_PI.toLowerCase());
+      
+      // La richiesta deve soddisfare tutti i filtri non vuoti
+      return matchesIUV && matchesEnte && matchesMail && matchesCR_PI;
     });
-    console.log(this.filteredRichiestePagamento)
+  
+    console.log(this.filteredRichiestePagamento);
   }
 
   dlFile(file:string){

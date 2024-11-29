@@ -123,3 +123,9 @@ padding-bottom: 1rem;
   outline: none;
 }
 
+.ml-auto{
+  margin-left: auto;
+}
+.mr-auto{
+  margin-right: auto;
+}
