@@ -16,7 +16,7 @@ export interface RisultatiRichieste {
   pendenza: Pendenza;
 }
 
-interface Segnalazioni {
+export interface Segnalazioni {
   // da mostrare in tabella separata
   data: Date;
   codice: number;
