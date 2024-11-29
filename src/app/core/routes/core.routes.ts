@@ -8,8 +8,8 @@ export const routes: Routes = [
     //home carica la sidebar che cotiene un router outlet per caricare tutto il resto.
     component: MainComponent,
     children: [
-      { path: '', component: DashboardComponent },
-      { path: 'pagamenti', component: RicercaPagamentoComponent },
+      { path: '', component: RicercaPagamentoComponent },
+      { path: 'multi-table', component: DashboardComponent },
     ],
   },
 ];

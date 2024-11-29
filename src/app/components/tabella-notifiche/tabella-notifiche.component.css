@@ -4,9 +4,11 @@
   
   th {
     color: #4384c5;
+    background-color: white;
   }
   td{
-    color: #a1a1a1;
+    color: #5c5c5c;
+    font-weight: 500;
   }
   /* 
   ::ng-deep .p-paginator {

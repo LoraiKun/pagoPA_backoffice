@@ -1,6 +1,7 @@
 .table-container {
   max-width: 100%;
   display: flex;
+  padding: 3rem;
 }
 
 
