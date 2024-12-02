@@ -1,7 +1,5 @@
-
 <div class="pagamenti-container round-d">
-  <h1>Tabella richieste di pagamento</h1>
-
+  <h1>Tabella rendicontazioni</h1>
   <form [formGroup]="filterForm" class="filter-container">
     <div class="label-container ml-auto" style="padding-left: 0;">
       <label for="">Creditore</label>
@@ -28,33 +26,22 @@
     <p-button label="Invia" (onClick)="submit('IUV')"  class="submit-button"/>
 
     <div class="label-container">
-      <label for="">CF/PI</label>
+      <label for="">Identificativo flusso</label>
       <input
         type="text"
-        formControlName="filterCF"
+        formControlName="filterID"
         class="login-input mb-0 ml-1"
         placeholder="Inserisci creditore "
       />
     </div>
 
-    <p-button label="Invia" (onClick)="submit('cf/pi')"  class="submit-button"/>
+    <p-button label="Invia" (onClick)="submit('ID')"  class="submit-button"/>
 
-    <div class="label-container ">
-      <label for="">Email</label>
-      <input
-        type="text"
-        formControlName="filterEmail"
-        class="login-input mb-0 ml-1"
-        placeholder="Inserisci creditore "
-      />
-    </div>
 
-    <p-button label="Invia" (onClick)="submit('email')"  class="submit-button"/>
   </form>
   <div class="t-container">
     @if (filtro) {
-    <app-tabella-richieste></app-tabella-richieste>
-
+      <app-tabella-rendicontazioni></app-tabella-rendicontazioni>
     }
   </div>
 </div>

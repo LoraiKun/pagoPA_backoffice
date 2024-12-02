@@ -10,11 +10,12 @@ import {
 import { HttpClient } from '@angular/common/http';
 import { RendicontazioneService } from '../../../services/rendicontazione/rendicontazione.service';
 import { DettagliComponent } from '../dettagli/dettagli.component';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-tabella-richieste',
   standalone: true,
-  imports: [TableModule, CommonModule, PaginatorModule, DettagliComponent],
+  imports: [TableModule, CommonModule, PaginatorModule, DettagliComponent, ],
   templateUrl: './tabella-richieste.component.html',
   styleUrl: './tabella-richieste.component.css',
 })
@@ -24,7 +25,7 @@ export class TabellaRichiesteComponent {
   richiestePagamento: RisultatiRichiestaPagamento[] = [];
   filteredRichiestePagamento: RisultatiRichiestaPagamento[] = [];
   filtro!: Filtro;
-  constructor(private http: HttpClient,private rendService: RendicontazioneService) {
+  constructor(private http: HttpClient,private rendService: RendicontazioneService, private router: Router) {
     http
       .get<RispostaRichiestaPagamento>('assets/json/richieste_di_pagamento.json')
       .subscribe({
@@ -82,5 +83,11 @@ export class TabellaRichiesteComponent {
   nascondiDettagli(){
     this.datiDettagli = null
     this.hideDettails= true
+  }
+
+  toRendicontazione(IUV: string){
+    let tempo = {filtroIUV : IUV}
+    this.rendService.updateFiltroFiles(tempo)
+    this.router.navigateByUrl('/home/rendicontazione')
   }
 }

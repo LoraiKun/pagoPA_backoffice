@@ -2,13 +2,12 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { RichiestePagamentoComponent } from './richieste-pagamento/richieste-pagamento.component';
 import { SidebarService } from '../../services/sidebar-service/sidebar.service';
 import { CommonModule } from '@angular/common';
-import { FilesRendicontazioniComponent } from './files-rendicontazioni/files-rendicontazioni.component';
 import { DividerModule } from 'primeng/divider';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RichiestePagamentoComponent, CommonModule, FilesRendicontazioniComponent, DividerModule],
+  imports: [RichiestePagamentoComponent, CommonModule, DividerModule],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })

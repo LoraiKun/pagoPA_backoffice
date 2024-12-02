@@ -19,7 +19,6 @@ background-color: #4384c5;
     padding: 0 0.5rem;
     width: 100%;
     overflow: hidden;
-    transform: translateX(100%); /* Partenza fuori dallo schermo (destra) */
     animation: slideIn 0.3s ease-out forwards; 
 }
 

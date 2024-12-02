@@ -34,23 +34,19 @@ export class RicercaPagamentoComponent {
   submit(tipo: 'cf/pi' | 'IUV' | 'ente' | 'email') {
     switch (tipo) {
       case 'IUV': {
-        if (this.filterForm.get('filterIUV')?.value)
           this.filtro.filtroIUV = this.filterForm.get('filterIUV')?.value;
         break;
       }
       case 'cf/pi': {
-        if (this.filterForm.get('filterCF')?.value)
           this.filtro.filtroCF_PI = this.filterForm.get('filterCF')?.value;
         break;
       }
       case 'ente': {
-        if (this.filterForm.get('filterEnte')?.value)
           this.filtro.filtroEnte = this.filterForm.get('filterEnte')?.value;
         break;
       }
       case 'email':
         {
-          if (this.filterForm.get('filterEmail')?.value)
             this.filtro.filtroMail = this.filterForm.get('filterEmail')?.value;
           break;
         }

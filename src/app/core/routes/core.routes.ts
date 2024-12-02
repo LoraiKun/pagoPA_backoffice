@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { MainComponent } from '../main/main.component';
 import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
 import { RicercaPagamentoComponent } from '../../pages/ricerca-pagamento/ricerca-pagamento.component';
+import { FilesRendicontazioniComponent } from '../../pages/files-rendicontazioni/files-rendicontazioni.component';
 export const routes: Routes = [
   {
     path: 'home',
@@ -9,7 +10,7 @@ export const routes: Routes = [
     component: MainComponent,
     children: [
       { path: '', component: RicercaPagamentoComponent },
-      { path: 'multi-table', component: DashboardComponent },
+      { path: 'rendicontazione', component: FilesRendicontazioniComponent}
     ],
   },
 ];

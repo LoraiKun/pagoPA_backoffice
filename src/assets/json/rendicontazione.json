@@ -1,430 +1,2190 @@
 {
-  "numRisultati": "100",
-  "numPagine": "4",
-  "risultatiPerPagina": "25",
-  "pagina": "1",
-  "prossimiRisultati": "/risorsa?pagina=2",
-  "maxRisultati": "100",
-  "risultati": [
-    {
-      "idFlusso": "2020-01-01GovPAYPsp1-10:27:00.001",
-      "dataFlusso": "2020-01-01 10:27:00.001",
-      "trn": "idriversamento123445-1",
-      "dataRegolamento": "2020-01-01 10:27:00.001",
-      "idPsp": "ABI-12301",
-      "ragioneSocialePsp": "Banca A",
-      "bicRiversamento": "BIC-10000",
-      "idDominio": "BIC-20000",
-      "ragioneSocialeDominio": "Ente Creditore 1",
-      "numeroPagamenti": 5,
-      "importoTotale": 100.25,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-02GovPAYPsp1-10:27:00.002",
-      "dataFlusso": "2020-01-02 10:27:00.002",
-      "trn": "idriversamento123445-2",
-      "dataRegolamento": "2020-01-02 10:27:00.002",
-      "idPsp": "ABI-12302",
-      "ragioneSocialePsp": "Banca B",
-      "bicRiversamento": "BIC-10001",
-      "idDominio": "BIC-20001",
-      "ragioneSocialeDominio": "Ente Creditore 2",
-      "numeroPagamenti": 10,
-      "importoTotale": 200.5,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-03GovPAYPsp1-10:27:00.003",
-      "dataFlusso": "2020-01-03 10:27:00.003",
-      "trn": "idriversamento123445-3",
-      "dataRegolamento": "2020-01-03 10:27:00.003",
-      "idPsp": "ABI-12303",
-      "ragioneSocialePsp": "Banca C",
-      "bicRiversamento": "BIC-10002",
-      "idDominio": "BIC-20002",
-      "ragioneSocialeDominio": "Ente Creditore 3",
-      "numeroPagamenti": 15,
-      "importoTotale": 300.75,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-04GovPAYPsp1-10:27:00.004",
-      "dataFlusso": "2020-01-04 10:27:00.004",
-      "trn": "idriversamento123445-4",
-      "dataRegolamento": "2020-01-04 10:27:00.004",
-      "idPsp": "ABI-12304",
-      "ragioneSocialePsp": "Banca D",
-      "bicRiversamento": "BIC-10003",
-      "idDominio": "BIC-20003",
-      "ragioneSocialeDominio": "Ente Creditore 4",
-      "numeroPagamenti": 20,
-      "importoTotale": 401.0,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-05GovPAYPsp1-10:27:00.005",
-      "dataFlusso": "2020-01-05 10:27:00.005",
-      "trn": "idriversamento123445-5",
-      "dataRegolamento": "2020-01-05 10:27:00.005",
-      "idPsp": "ABI-12305",
-      "ragioneSocialePsp": "Banca E",
-      "bicRiversamento": "BIC-10004",
-      "idDominio": "BIC-20004",
-      "ragioneSocialeDominio": "Ente Creditore 5",
-      "numeroPagamenti": 25,
-      "importoTotale": 501.25,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-06GovPAYPsp1-10:27:00.006",
-      "dataFlusso": "2020-01-06 10:27:00.006",
-      "trn": "idriversamento123445-6",
-      "dataRegolamento": "2020-01-06 10:27:00.006",
-      "idPsp": "ABI-12306",
-      "ragioneSocialePsp": "Banca F",
-      "bicRiversamento": "BIC-10005",
-      "idDominio": "BIC-20005",
-      "ragioneSocialeDominio": "Ente Creditore 6",
-      "numeroPagamenti": 30,
-      "importoTotale": 601.5,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-07GovPAYPsp1-10:27:00.007",
-      "dataFlusso": "2020-01-07 10:27:00.007",
-      "trn": "idriversamento123445-7",
-      "dataRegolamento": "2020-01-07 10:27:00.007",
-      "idPsp": "ABI-12307",
-      "ragioneSocialePsp": "Banca G",
-      "bicRiversamento": "BIC-10006",
-      "idDominio": "BIC-20006",
-      "ragioneSocialeDominio": "Ente Creditore 7",
-      "numeroPagamenti": 35,
-      "importoTotale": 701.75,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-08GovPAYPsp1-10:27:00.008",
-      "dataFlusso": "2020-01-08 10:27:00.008",
-      "trn": "idriversamento123445-8",
-      "dataRegolamento": "2020-01-08 10:27:00.008",
-      "idPsp": "ABI-12308",
-      "ragioneSocialePsp": "Banca H",
-      "bicRiversamento": "BIC-10007",
-      "idDominio": "BIC-20007",
-      "ragioneSocialeDominio": "Ente Creditore 8",
-      "numeroPagamenti": 40,
-      "importoTotale": 802.0,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-09GovPAYPsp1-10:27:00.009",
-      "dataFlusso": "2020-01-09 10:27:00.009",
-      "trn": "idriversamento123445-9",
-      "dataRegolamento": "2020-01-09 10:27:00.009",
-      "idPsp": "ABI-12309",
-      "ragioneSocialePsp": "Banca I",
-      "bicRiversamento": "BIC-10008",
-      "idDominio": "BIC-20008",
-      "ragioneSocialeDominio": "Ente Creditore 9",
-      "numeroPagamenti": 45,
-      "importoTotale": 902.25,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-10GovPAYPsp1-10:27:00.010",
-      "dataFlusso": "2020-01-10 10:27:00.010",
-      "trn": "idriversamento123445-10",
-      "dataRegolamento": "2020-01-10 10:27:00.010",
-      "idPsp": "ABI-12310",
-      "ragioneSocialePsp": "Banca J",
-      "bicRiversamento": "BIC-10009",
-      "idDominio": "BIC-20009",
-      "ragioneSocialeDominio": "Ente Creditore 10",
-      "numeroPagamenti": 50,
-      "importoTotale": 1002.5,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-11GovPAYPsp1-10:27:00.011",
-      "dataFlusso": "2020-01-11 10:27:00.011",
-      "trn": "idriversamento123445-11",
-      "dataRegolamento": "2020-01-11 10:27:00.011",
-      "idPsp": "ABI-12311",
-      "ragioneSocialePsp": "Banca K",
-      "bicRiversamento": "BIC-10010",
-      "idDominio": "BIC-20010",
-      "ragioneSocialeDominio": "Ente Creditore 11",
-      "numeroPagamenti": 55,
-      "importoTotale": 1102.75,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-12GovPAYPsp1-10:27:00.012",
-      "dataFlusso": "2020-01-12 10:27:00.012",
-      "trn": "idriversamento123445-12",
-      "dataRegolamento": "2020-01-12 10:27:00.012",
-      "idPsp": "ABI-12312",
-      "ragioneSocialePsp": "Banca L",
-      "bicRiversamento": "BIC-10011",
-      "idDominio": "BIC-20011",
-      "ragioneSocialeDominio": "Ente Creditore 12",
-      "numeroPagamenti": 60,
-      "importoTotale": 1203.0,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-13GovPAYPsp1-10:27:00.013",
-      "dataFlusso": "2020-01-13 10:27:00.013",
-      "trn": "idriversamento123445-13",
-      "dataRegolamento": "2020-01-13 10:27:00.013",
-      "idPsp": "ABI-12313",
-      "ragioneSocialePsp": "Banca M",
-      "bicRiversamento": "BIC-10012",
-      "idDominio": "BIC-20012",
-      "ragioneSocialeDominio": "Ente Creditore 13",
-      "numeroPagamenti": 65,
-      "importoTotale": 1303.25,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-14GovPAYPsp1-10:27:00.014",
-      "dataFlusso": "2020-01-14 10:27:00.014",
-      "trn": "idriversamento123445-14",
-      "dataRegolamento": "2020-01-14 10:27:00.014",
-      "idPsp": "ABI-12314",
-      "ragioneSocialePsp": "Banca N",
-      "bicRiversamento": "BIC-10013",
-      "idDominio": "BIC-20013",
-      "ragioneSocialeDominio": "Ente Creditore 14",
-      "numeroPagamenti": 70,
-      "importoTotale": 1403.5,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-15GovPAYPsp1-10:27:00.015",
-      "dataFlusso": "2020-01-15 10:27:00.015",
-      "trn": "idriversamento123445-15",
-      "dataRegolamento": "2020-01-15 10:27:00.015",
-      "idPsp": "ABI-12315",
-      "ragioneSocialePsp": "Banca O",
-      "bicRiversamento": "BIC-10014",
-      "idDominio": "BIC-20014",
-      "ragioneSocialeDominio": "Ente Creditore 15",
-      "numeroPagamenti": 75,
-      "importoTotale": 1503.75,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-16GovPAYPsp1-10:27:00.016",
-      "dataFlusso": "2020-01-16 10:27:00.016",
-      "trn": "idriversamento123445-16",
-      "dataRegolamento": "2020-01-16 10:27:00.016",
-      "idPsp": "ABI-12316",
-      "ragioneSocialePsp": "Banca P",
-      "bicRiversamento": "BIC-10015",
-      "idDominio": "BIC-20015",
-      "ragioneSocialeDominio": "Ente Creditore 16",
-      "numeroPagamenti": 80,
-      "importoTotale": 1604.0,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-17GovPAYPsp1-10:27:00.017",
-      "dataFlusso": "2020-01-17 10:27:00.017",
-      "trn": "idriversamento123445-17",
-      "dataRegolamento": "2020-01-17 10:27:00.017",
-      "idPsp": "ABI-12317",
-      "ragioneSocialePsp": "Banca Q",
-      "bicRiversamento": "BIC-10016",
-      "idDominio": "BIC-20016",
-      "ragioneSocialeDominio": "Ente Creditore 17",
-      "numeroPagamenti": 85,
-      "importoTotale": 1704.25,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-18GovPAYPsp1-10:27:00.018",
-      "dataFlusso": "2020-01-18 10:27:00.018",
-      "trn": "idriversamento123445-18",
-      "dataRegolamento": "2020-01-18 10:27:00.018",
-      "idPsp": "ABI-12318",
-      "ragioneSocialePsp": "Banca R",
-      "bicRiversamento": "BIC-10017",
-      "idDominio": "BIC-20017",
-      "ragioneSocialeDominio": "Ente Creditore 18",
-      "numeroPagamenti": 90,
-      "importoTotale": 1804.5,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-19GovPAYPsp1-10:27:00.019",
-      "dataFlusso": "2020-01-19 10:27:00.019",
-      "trn": "idriversamento123445-19",
-      "dataRegolamento": "2020-01-19 10:27:00.019",
-      "idPsp": "ABI-12319",
-      "ragioneSocialePsp": "Banca S",
-      "bicRiversamento": "BIC-10018",
-      "idDominio": "BIC-20018",
-      "ragioneSocialeDominio": "Ente Creditore 19",
-      "numeroPagamenti": 95,
-      "importoTotale": 1904.75,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-20GovPAYPsp1-10:27:00.020",
-      "dataFlusso": "2020-01-20 10:27:00.020",
-      "trn": "idriversamento123445-20",
-      "dataRegolamento": "2020-01-20 10:27:00.020",
-      "idPsp": "ABI-12320",
-      "ragioneSocialePsp": "Banca T",
-      "bicRiversamento": "BIC-10019",
-      "idDominio": "BIC-20019",
-      "ragioneSocialeDominio": "Ente Creditore 20",
-      "numeroPagamenti": 100,
-      "importoTotale": 2005.0,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-21GovPAYPsp1-10:27:00.021",
-      "dataFlusso": "2020-01-21 10:27:00.021",
-      "trn": "idriversamento123445-21",
-      "dataRegolamento": "2020-01-21 10:27:00.021",
-      "idPsp": "ABI-12321",
-      "ragioneSocialePsp": "Banca U",
-      "bicRiversamento": "BIC-10020",
-      "idDominio": "BIC-20020",
-      "ragioneSocialeDominio": "Ente Creditore 21",
-      "numeroPagamenti": 105,
-      "importoTotale": 2105.25,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-22GovPAYPsp1-10:27:00.022",
-      "dataFlusso": "2020-01-22 10:27:00.022",
-      "trn": "idriversamento123445-22",
-      "dataRegolamento": "2020-01-22 10:27:00.022",
-      "idPsp": "ABI-12322",
-      "ragioneSocialePsp": "Banca V",
-      "bicRiversamento": "BIC-10021",
-      "idDominio": "BIC-20021",
-      "ragioneSocialeDominio": "Ente Creditore 22",
-      "numeroPagamenti": 110,
-      "importoTotale": 2205.5,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-23GovPAYPsp1-10:27:00.023",
-      "dataFlusso": "2020-01-23 10:27:00.023",
-      "trn": "idriversamento123445-23",
-      "dataRegolamento": "2020-01-23 10:27:00.023",
-      "idPsp": "ABI-12323",
-      "ragioneSocialePsp": "Banca W",
-      "bicRiversamento": "BIC-10022",
-      "idDominio": "BIC-20022",
-      "ragioneSocialeDominio": "Ente Creditore 23",
-      "numeroPagamenti": 115,
-      "importoTotale": 2305.75,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-24GovPAYPsp1-10:27:00.024",
-      "dataFlusso": "2020-01-24 10:27:00.024",
-      "trn": "idriversamento123445-24",
-      "dataRegolamento": "2020-01-24 10:27:00.024",
-      "idPsp": "ABI-12324",
-      "ragioneSocialePsp": "Banca X",
-      "bicRiversamento": "BIC-10023",
-      "idDominio": "BIC-20023",
-      "ragioneSocialeDominio": "Ente Creditore 24",
-      "numeroPagamenti": 120,
-      "importoTotale": 2406.0,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-25GovPAYPsp1-10:27:00.025",
-      "dataFlusso": "2020-01-25 10:27:00.025",
-      "trn": "idriversamento123445-25",
-      "dataRegolamento": "2020-01-25 10:27:00.025",
-      "idPsp": "ABI-12325",
-      "ragioneSocialePsp": "Banca Y",
-      "bicRiversamento": "BIC-10024",
-      "idDominio": "BIC-20024",
-      "ragioneSocialeDominio": "Ente Creditore 25",
-      "numeroPagamenti": 125,
-      "importoTotale": 2506.25,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-26GovPAYPsp1-10:27:00.026",
-      "dataFlusso": "2020-01-26 10:27:00.026",
-      "trn": "idriversamento123445-26",
-      "dataRegolamento": "2020-01-26 10:27:00.026",
-      "idPsp": "ABI-12326",
-      "ragioneSocialePsp": "Banca Z",
-      "bicRiversamento": "BIC-10025",
-      "idDominio": "BIC-20025",
-      "ragioneSocialeDominio": "Ente Creditore 26",
-      "numeroPagamenti": 130,
-      "importoTotale": 2606.5,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-27GovPAYPsp1-10:27:00.027",
-      "dataFlusso": "2020-01-27 10:27:00.027",
-      "trn": "idriversamento123445-27",
-      "dataRegolamento": "2020-01-27 10:27:00.027",
-      "idPsp": "ABI-12327",
-      "ragioneSocialePsp": "Banca A",
-      "bicRiversamento": "BIC-10026",
-      "idDominio": "BIC-20026",
-      "ragioneSocialeDominio": "Ente Creditore 27",
-      "numeroPagamenti": 135,
-      "importoTotale": 2706.75,
-      "stato": "Respinto"
-    },
-    {
-      "idFlusso": "2020-01-28GovPAYPsp1-10:27:00.028",
-      "dataFlusso": "2020-01-28 10:27:00.028",
-      "trn": "idriversamento123445-28",
-      "dataRegolamento": "2020-01-28 10:27:00.028",
-      "idPsp": "ABI-12328",
-      "ragioneSocialePsp": "Banca B",
-      "bicRiversamento": "BIC-10027",
-      "idDominio": "BIC-20027",
-      "ragioneSocialeDominio": "Ente Creditore 28",
-      "numeroPagamenti": 140,
-      "importoTotale": 2807.0,
-      "stato": "Acquisito"
-    },
-    {
-      "idFlusso": "2020-01-29GovPAYPsp1-10:27:00.029",
-      "dataFlusso": "2020-01-29 10:27:00.029",
-      "trn": "idriversamento123445-29",
-      "dataRegolamento": "2020-01-29 10:27:00.029",
-      "idPsp": "ABI-12329",
-      "ragioneSocialePsp": "Banca C",
-      "bicRiversamento": "BIC-10028",
-      "idDominio": "BIC-20028",
-      "ragioneSocialeDominio": "Ente Creditore 29",
-      "numeroPagamenti": 145,
-      "importoTotale": 2907.25,
-      "stato": "In Elaborazione"
-    },
-    {
-      "idFlusso": "2020-01-30GovPAYPsp1-10:27:00.030",
-      "dataFlusso": "2020-01-30 10:27:00.030",
-      "trn": "idriversamento123445-30",
-      "dataRegolamento": "2020-01-30 10:27:00.030",
-      "idPsp": "ABI-12330",
-      "ragioneSocialePsp": "Banca D",
-      "bicRiversamento": "BIC-10029",
-      "idDominio": "BIC-20029",
-      "ragioneSocialeDominio": "Ente Creditore 30",
-      "numeroPagamenti": 150,
-      "importoTotale": 3007.5,
-      "stato": "Respinto"
-    }
-  ]
+    "numRisultati": 20,
+    "numPagine": 1,
+    "risultatiPerPagina": 20,
+    "pagina": 1,
+    "prossimiRisultati": null,
+    "maxRisultati": 20,
+    "risultati": [
+        {
+            "iuv": "123456789000001",
+            "iur": "A123456781",
+            "indice": 1,
+            "importo": 1000.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG001",
+                    "descrizione": "Descrizione segnalazione 1",
+                    "dettaglio": "Dettaglio segnalazione 1"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00001",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN001",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP001",
+                "ragioneSocialePsp": "PSP S.p.A. 1",
+                "bicRiversamento": "BIC00001",
+                "idDominio": "DOM001",
+                "ragioneSocialeDominio": "Dominio S.p.A. 1",
+                "numeroPagamenti": 1,
+                "importoTotale": 1000.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG001",
+                        "descrizione": "Segnalazione Flusso 1",
+                        "dettaglio": "Dettaglio segnalazione flusso 1"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 1,
+                "idVocePendenza": "VP001",
+                "importo": 500.25,
+                "descrizione": "Descrizione voce pendenza 1",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 1",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP001",
+                            "annoEsercizio": 2024,
+                            "importo": 500.25,
+                            "accertamento": "ACC001",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 1",
+                            "tipologia": "Tipo 1",
+                            "categoria": "Categoria 1",
+                            "articolo": "Articolo 1"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 1,
+                    "ragioneSociale": "Dominio S.p.A. 1",
+                    "indirizzo": "Via Roma 1",
+                    "civico": "1",
+                    "cap": 10001,
+                    "localita": "Localita 1",
+                    "provincia": "PR1",
+                    "nazione": "IT",
+                    "email": "dominio1@example.com",
+                    "pec": "dominio1@pec.example.com",
+                    "tel": 123456790,
+                    "fax": 987654322,
+                    "web": "https://www.dominio1.it",
+                    "gln": 1234567890124,
+                    "cbill": 10001,
+                    "iuvPrefix": "PREF001",
+                    "stazione": 101,
+                    "auxDigit": 1,
+                    "segregationCode": 1,
+                    "logo": "logo1.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 1",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS001",
+                    "unitaOperative": "Unit\u00e0 Operativa 1",
+                    "contiAccredito": "Conto Accredito 1",
+                    "entrate": "Entrata 1",
+                    "tipiPendenza": "Tipo Pendenza 1"
+                },
+                "pendenza": {
+                    "idA2A": "A2A001",
+                    "idPendenza": "PEND001",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP001",
+                        "descrizione": "Descrizione tipo pendenza 1",
+                        "tipo": "Tipo 1"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000001,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 1000.5,
+                    "numeroAvviso": 100001,
+                    "tassonomia": "TASS001"
+                }
+            },
+            "codEntrata": "ENT001"
+        },
+        {
+            "iuv": "123456789000002",
+            "iur": "A123456782",
+            "indice": 2,
+            "importo": 2001.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG002",
+                    "descrizione": "Descrizione segnalazione 2",
+                    "dettaglio": "Dettaglio segnalazione 2"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00002",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN002",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP002",
+                "ragioneSocialePsp": "PSP S.p.A. 2",
+                "bicRiversamento": "BIC00002",
+                "idDominio": "DOM002",
+                "ragioneSocialeDominio": "Dominio S.p.A. 2",
+                "numeroPagamenti": 2,
+                "importoTotale": 2001.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG002",
+                        "descrizione": "Segnalazione Flusso 2",
+                        "dettaglio": "Dettaglio segnalazione flusso 2"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 2,
+                "idVocePendenza": "VP002",
+                "importo": 1000.5,
+                "descrizione": "Descrizione voce pendenza 2",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 2",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP002",
+                            "annoEsercizio": 2024,
+                            "importo": 1000.5,
+                            "accertamento": "ACC002",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 2",
+                            "tipologia": "Tipo 2",
+                            "categoria": "Categoria 2",
+                            "articolo": "Articolo 2"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 2,
+                    "ragioneSociale": "Dominio S.p.A. 2",
+                    "indirizzo": "Via Roma 2",
+                    "civico": "2",
+                    "cap": 10002,
+                    "localita": "Localita 2",
+                    "provincia": "PR2",
+                    "nazione": "IT",
+                    "email": "dominio2@example.com",
+                    "pec": "dominio2@pec.example.com",
+                    "tel": 123456791,
+                    "fax": 987654323,
+                    "web": "https://www.dominio2.it",
+                    "gln": 1234567890125,
+                    "cbill": 10002,
+                    "iuvPrefix": "PREF002",
+                    "stazione": 102,
+                    "auxDigit": 2,
+                    "segregationCode": 2,
+                    "logo": "logo2.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 2",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS002",
+                    "unitaOperative": "Unit\u00e0 Operativa 2",
+                    "contiAccredito": "Conto Accredito 2",
+                    "entrate": "Entrata 2",
+                    "tipiPendenza": "Tipo Pendenza 2"
+                },
+                "pendenza": {
+                    "idA2A": "A2A002",
+                    "idPendenza": "PEND002",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP002",
+                        "descrizione": "Descrizione tipo pendenza 2",
+                        "tipo": "Tipo 2"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000002,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 2001.0,
+                    "numeroAvviso": 100002,
+                    "tassonomia": "TASS002"
+                }
+            },
+            "codEntrata": "ENT002"
+        },
+        {
+            "iuv": "123456789000003",
+            "iur": "A123456783",
+            "indice": 3,
+            "importo": 3001.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG003",
+                    "descrizione": "Descrizione segnalazione 3",
+                    "dettaglio": "Dettaglio segnalazione 3"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00003",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN003",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP003",
+                "ragioneSocialePsp": "PSP S.p.A. 3",
+                "bicRiversamento": "BIC00003",
+                "idDominio": "DOM003",
+                "ragioneSocialeDominio": "Dominio S.p.A. 3",
+                "numeroPagamenti": 3,
+                "importoTotale": 3001.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG003",
+                        "descrizione": "Segnalazione Flusso 3",
+                        "dettaglio": "Dettaglio segnalazione flusso 3"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 3,
+                "idVocePendenza": "VP003",
+                "importo": 1500.75,
+                "descrizione": "Descrizione voce pendenza 3",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 3",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP003",
+                            "annoEsercizio": 2024,
+                            "importo": 1500.75,
+                            "accertamento": "ACC003",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 3",
+                            "tipologia": "Tipo 3",
+                            "categoria": "Categoria 3",
+                            "articolo": "Articolo 3"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 3,
+                    "ragioneSociale": "Dominio S.p.A. 3",
+                    "indirizzo": "Via Roma 3",
+                    "civico": "3",
+                    "cap": 10003,
+                    "localita": "Localita 3",
+                    "provincia": "PR3",
+                    "nazione": "IT",
+                    "email": "dominio3@example.com",
+                    "pec": "dominio3@pec.example.com",
+                    "tel": 123456792,
+                    "fax": 987654324,
+                    "web": "https://www.dominio3.it",
+                    "gln": 1234567890126,
+                    "cbill": 10003,
+                    "iuvPrefix": "PREF003",
+                    "stazione": 103,
+                    "auxDigit": 3,
+                    "segregationCode": 3,
+                    "logo": "logo3.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 3",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS003",
+                    "unitaOperative": "Unit\u00e0 Operativa 3",
+                    "contiAccredito": "Conto Accredito 3",
+                    "entrate": "Entrata 3",
+                    "tipiPendenza": "Tipo Pendenza 3"
+                },
+                "pendenza": {
+                    "idA2A": "A2A003",
+                    "idPendenza": "PEND003",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP003",
+                        "descrizione": "Descrizione tipo pendenza 3",
+                        "tipo": "Tipo 3"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000003,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 3001.5,
+                    "numeroAvviso": 100003,
+                    "tassonomia": "TASS003"
+                }
+            },
+            "codEntrata": "ENT003"
+        },
+        {
+            "iuv": "123456789000004",
+            "iur": "A123456784",
+            "indice": 4,
+            "importo": 4002.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG004",
+                    "descrizione": "Descrizione segnalazione 4",
+                    "dettaglio": "Dettaglio segnalazione 4"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00004",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN004",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP004",
+                "ragioneSocialePsp": "PSP S.p.A. 4",
+                "bicRiversamento": "BIC00004",
+                "idDominio": "DOM004",
+                "ragioneSocialeDominio": "Dominio S.p.A. 4",
+                "numeroPagamenti": 4,
+                "importoTotale": 4002.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG004",
+                        "descrizione": "Segnalazione Flusso 4",
+                        "dettaglio": "Dettaglio segnalazione flusso 4"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 4,
+                "idVocePendenza": "VP004",
+                "importo": 2001.0,
+                "descrizione": "Descrizione voce pendenza 4",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 4",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP004",
+                            "annoEsercizio": 2024,
+                            "importo": 2001.0,
+                            "accertamento": "ACC004",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 4",
+                            "tipologia": "Tipo 4",
+                            "categoria": "Categoria 4",
+                            "articolo": "Articolo 4"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 4,
+                    "ragioneSociale": "Dominio S.p.A. 4",
+                    "indirizzo": "Via Roma 4",
+                    "civico": "4",
+                    "cap": 10004,
+                    "localita": "Localita 4",
+                    "provincia": "PR4",
+                    "nazione": "IT",
+                    "email": "dominio4@example.com",
+                    "pec": "dominio4@pec.example.com",
+                    "tel": 123456793,
+                    "fax": 987654325,
+                    "web": "https://www.dominio4.it",
+                    "gln": 1234567890127,
+                    "cbill": 10004,
+                    "iuvPrefix": "PREF004",
+                    "stazione": 104,
+                    "auxDigit": 4,
+                    "segregationCode": 4,
+                    "logo": "logo4.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 4",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS004",
+                    "unitaOperative": "Unit\u00e0 Operativa 4",
+                    "contiAccredito": "Conto Accredito 4",
+                    "entrate": "Entrata 4",
+                    "tipiPendenza": "Tipo Pendenza 4"
+                },
+                "pendenza": {
+                    "idA2A": "A2A004",
+                    "idPendenza": "PEND004",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP004",
+                        "descrizione": "Descrizione tipo pendenza 4",
+                        "tipo": "Tipo 4"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000004,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 4002.0,
+                    "numeroAvviso": 100004,
+                    "tassonomia": "TASS004"
+                }
+            },
+            "codEntrata": "ENT004"
+        },
+        {
+            "iuv": "123456789000005",
+            "iur": "A123456785",
+            "indice": 5,
+            "importo": 5002.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG005",
+                    "descrizione": "Descrizione segnalazione 5",
+                    "dettaglio": "Dettaglio segnalazione 5"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00005",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN005",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP005",
+                "ragioneSocialePsp": "PSP S.p.A. 5",
+                "bicRiversamento": "BIC00005",
+                "idDominio": "DOM005",
+                "ragioneSocialeDominio": "Dominio S.p.A. 5",
+                "numeroPagamenti": 5,
+                "importoTotale": 5002.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG005",
+                        "descrizione": "Segnalazione Flusso 5",
+                        "dettaglio": "Dettaglio segnalazione flusso 5"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 5,
+                "idVocePendenza": "VP005",
+                "importo": 2501.25,
+                "descrizione": "Descrizione voce pendenza 5",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 5",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP005",
+                            "annoEsercizio": 2024,
+                            "importo": 2501.25,
+                            "accertamento": "ACC005",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 5",
+                            "tipologia": "Tipo 5",
+                            "categoria": "Categoria 5",
+                            "articolo": "Articolo 5"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 5,
+                    "ragioneSociale": "Dominio S.p.A. 5",
+                    "indirizzo": "Via Roma 5",
+                    "civico": "5",
+                    "cap": 10005,
+                    "localita": "Localita 5",
+                    "provincia": "PR5",
+                    "nazione": "IT",
+                    "email": "dominio5@example.com",
+                    "pec": "dominio5@pec.example.com",
+                    "tel": 123456794,
+                    "fax": 987654326,
+                    "web": "https://www.dominio5.it",
+                    "gln": 1234567890128,
+                    "cbill": 10005,
+                    "iuvPrefix": "PREF005",
+                    "stazione": 105,
+                    "auxDigit": 5,
+                    "segregationCode": 0,
+                    "logo": "logo5.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 5",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS005",
+                    "unitaOperative": "Unit\u00e0 Operativa 5",
+                    "contiAccredito": "Conto Accredito 5",
+                    "entrate": "Entrata 5",
+                    "tipiPendenza": "Tipo Pendenza 5"
+                },
+                "pendenza": {
+                    "idA2A": "A2A005",
+                    "idPendenza": "PEND005",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP005",
+                        "descrizione": "Descrizione tipo pendenza 5",
+                        "tipo": "Tipo 5"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000005,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 5002.5,
+                    "numeroAvviso": 100005,
+                    "tassonomia": "TASS005"
+                }
+            },
+            "codEntrata": "ENT005"
+        },
+        {
+            "iuv": "123456789000006",
+            "iur": "A123456786",
+            "indice": 6,
+            "importo": 6003.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG006",
+                    "descrizione": "Descrizione segnalazione 6",
+                    "dettaglio": "Dettaglio segnalazione 6"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00006",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN006",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP006",
+                "ragioneSocialePsp": "PSP S.p.A. 6",
+                "bicRiversamento": "BIC00006",
+                "idDominio": "DOM006",
+                "ragioneSocialeDominio": "Dominio S.p.A. 6",
+                "numeroPagamenti": 6,
+                "importoTotale": 6003.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG006",
+                        "descrizione": "Segnalazione Flusso 6",
+                        "dettaglio": "Dettaglio segnalazione flusso 6"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 6,
+                "idVocePendenza": "VP006",
+                "importo": 3001.5,
+                "descrizione": "Descrizione voce pendenza 6",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 6",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP006",
+                            "annoEsercizio": 2024,
+                            "importo": 3001.5,
+                            "accertamento": "ACC006",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 6",
+                            "tipologia": "Tipo 6",
+                            "categoria": "Categoria 6",
+                            "articolo": "Articolo 6"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 6,
+                    "ragioneSociale": "Dominio S.p.A. 6",
+                    "indirizzo": "Via Roma 6",
+                    "civico": "6",
+                    "cap": 10006,
+                    "localita": "Localita 6",
+                    "provincia": "PR6",
+                    "nazione": "IT",
+                    "email": "dominio6@example.com",
+                    "pec": "dominio6@pec.example.com",
+                    "tel": 123456795,
+                    "fax": 987654327,
+                    "web": "https://www.dominio6.it",
+                    "gln": 1234567890129,
+                    "cbill": 10006,
+                    "iuvPrefix": "PREF006",
+                    "stazione": 106,
+                    "auxDigit": 6,
+                    "segregationCode": 1,
+                    "logo": "logo6.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 6",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS006",
+                    "unitaOperative": "Unit\u00e0 Operativa 6",
+                    "contiAccredito": "Conto Accredito 6",
+                    "entrate": "Entrata 6",
+                    "tipiPendenza": "Tipo Pendenza 6"
+                },
+                "pendenza": {
+                    "idA2A": "A2A006",
+                    "idPendenza": "PEND006",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP006",
+                        "descrizione": "Descrizione tipo pendenza 6",
+                        "tipo": "Tipo 6"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000006,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 6003.0,
+                    "numeroAvviso": 100006,
+                    "tassonomia": "TASS006"
+                }
+            },
+            "codEntrata": "ENT006"
+        },
+        {
+            "iuv": "123456789000007",
+            "iur": "A123456787",
+            "indice": 7,
+            "importo": 7003.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG007",
+                    "descrizione": "Descrizione segnalazione 7",
+                    "dettaglio": "Dettaglio segnalazione 7"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00007",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN007",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP007",
+                "ragioneSocialePsp": "PSP S.p.A. 7",
+                "bicRiversamento": "BIC00007",
+                "idDominio": "DOM007",
+                "ragioneSocialeDominio": "Dominio S.p.A. 7",
+                "numeroPagamenti": 7,
+                "importoTotale": 7003.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG007",
+                        "descrizione": "Segnalazione Flusso 7",
+                        "dettaglio": "Dettaglio segnalazione flusso 7"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 7,
+                "idVocePendenza": "VP007",
+                "importo": 3501.75,
+                "descrizione": "Descrizione voce pendenza 7",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 7",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP007",
+                            "annoEsercizio": 2024,
+                            "importo": 3501.75,
+                            "accertamento": "ACC007",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 7",
+                            "tipologia": "Tipo 7",
+                            "categoria": "Categoria 7",
+                            "articolo": "Articolo 7"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 7,
+                    "ragioneSociale": "Dominio S.p.A. 7",
+                    "indirizzo": "Via Roma 7",
+                    "civico": "7",
+                    "cap": 10007,
+                    "localita": "Localita 7",
+                    "provincia": "PR7",
+                    "nazione": "IT",
+                    "email": "dominio7@example.com",
+                    "pec": "dominio7@pec.example.com",
+                    "tel": 123456796,
+                    "fax": 987654328,
+                    "web": "https://www.dominio7.it",
+                    "gln": 1234567890130,
+                    "cbill": 10007,
+                    "iuvPrefix": "PREF007",
+                    "stazione": 107,
+                    "auxDigit": 7,
+                    "segregationCode": 2,
+                    "logo": "logo7.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 7",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS007",
+                    "unitaOperative": "Unit\u00e0 Operativa 7",
+                    "contiAccredito": "Conto Accredito 7",
+                    "entrate": "Entrata 7",
+                    "tipiPendenza": "Tipo Pendenza 7"
+                },
+                "pendenza": {
+                    "idA2A": "A2A007",
+                    "idPendenza": "PEND007",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP007",
+                        "descrizione": "Descrizione tipo pendenza 7",
+                        "tipo": "Tipo 7"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000007,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 7003.5,
+                    "numeroAvviso": 100007,
+                    "tassonomia": "TASS007"
+                }
+            },
+            "codEntrata": "ENT007"
+        },
+        {
+            "iuv": "123456789000008",
+            "iur": "A123456788",
+            "indice": 8,
+            "importo": 8004.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG008",
+                    "descrizione": "Descrizione segnalazione 8",
+                    "dettaglio": "Dettaglio segnalazione 8"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00008",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN008",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP008",
+                "ragioneSocialePsp": "PSP S.p.A. 8",
+                "bicRiversamento": "BIC00008",
+                "idDominio": "DOM008",
+                "ragioneSocialeDominio": "Dominio S.p.A. 8",
+                "numeroPagamenti": 8,
+                "importoTotale": 8004.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG008",
+                        "descrizione": "Segnalazione Flusso 8",
+                        "dettaglio": "Dettaglio segnalazione flusso 8"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 8,
+                "idVocePendenza": "VP008",
+                "importo": 4002.0,
+                "descrizione": "Descrizione voce pendenza 8",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 8",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP008",
+                            "annoEsercizio": 2024,
+                            "importo": 4002.0,
+                            "accertamento": "ACC008",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 8",
+                            "tipologia": "Tipo 8",
+                            "categoria": "Categoria 8",
+                            "articolo": "Articolo 8"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 8,
+                    "ragioneSociale": "Dominio S.p.A. 8",
+                    "indirizzo": "Via Roma 8",
+                    "civico": "8",
+                    "cap": 10008,
+                    "localita": "Localita 8",
+                    "provincia": "PR8",
+                    "nazione": "IT",
+                    "email": "dominio8@example.com",
+                    "pec": "dominio8@pec.example.com",
+                    "tel": 123456797,
+                    "fax": 987654329,
+                    "web": "https://www.dominio8.it",
+                    "gln": 1234567890131,
+                    "cbill": 10008,
+                    "iuvPrefix": "PREF008",
+                    "stazione": 108,
+                    "auxDigit": 8,
+                    "segregationCode": 3,
+                    "logo": "logo8.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 8",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS008",
+                    "unitaOperative": "Unit\u00e0 Operativa 8",
+                    "contiAccredito": "Conto Accredito 8",
+                    "entrate": "Entrata 8",
+                    "tipiPendenza": "Tipo Pendenza 8"
+                },
+                "pendenza": {
+                    "idA2A": "A2A008",
+                    "idPendenza": "PEND008",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP008",
+                        "descrizione": "Descrizione tipo pendenza 8",
+                        "tipo": "Tipo 8"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000008,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 8004.0,
+                    "numeroAvviso": 100008,
+                    "tassonomia": "TASS008"
+                }
+            },
+            "codEntrata": "ENT008"
+        },
+        {
+            "iuv": "123456789000009",
+            "iur": "A123456789",
+            "indice": 9,
+            "importo": 9004.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG009",
+                    "descrizione": "Descrizione segnalazione 9",
+                    "dettaglio": "Dettaglio segnalazione 9"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00009",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN009",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP009",
+                "ragioneSocialePsp": "PSP S.p.A. 9",
+                "bicRiversamento": "BIC00009",
+                "idDominio": "DOM009",
+                "ragioneSocialeDominio": "Dominio S.p.A. 9",
+                "numeroPagamenti": 9,
+                "importoTotale": 9004.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG009",
+                        "descrizione": "Segnalazione Flusso 9",
+                        "dettaglio": "Dettaglio segnalazione flusso 9"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 9,
+                "idVocePendenza": "VP009",
+                "importo": 4502.25,
+                "descrizione": "Descrizione voce pendenza 9",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 9",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP009",
+                            "annoEsercizio": 2024,
+                            "importo": 4502.25,
+                            "accertamento": "ACC009",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 9",
+                            "tipologia": "Tipo 9",
+                            "categoria": "Categoria 9",
+                            "articolo": "Articolo 9"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 9,
+                    "ragioneSociale": "Dominio S.p.A. 9",
+                    "indirizzo": "Via Roma 9",
+                    "civico": "9",
+                    "cap": 10009,
+                    "localita": "Localita 9",
+                    "provincia": "PR9",
+                    "nazione": "IT",
+                    "email": "dominio9@example.com",
+                    "pec": "dominio9@pec.example.com",
+                    "tel": 123456798,
+                    "fax": 987654330,
+                    "web": "https://www.dominio9.it",
+                    "gln": 1234567890132,
+                    "cbill": 10009,
+                    "iuvPrefix": "PREF009",
+                    "stazione": 109,
+                    "auxDigit": 9,
+                    "segregationCode": 4,
+                    "logo": "logo9.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 9",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS009",
+                    "unitaOperative": "Unit\u00e0 Operativa 9",
+                    "contiAccredito": "Conto Accredito 9",
+                    "entrate": "Entrata 9",
+                    "tipiPendenza": "Tipo Pendenza 9"
+                },
+                "pendenza": {
+                    "idA2A": "A2A009",
+                    "idPendenza": "PEND009",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP009",
+                        "descrizione": "Descrizione tipo pendenza 9",
+                        "tipo": "Tipo 9"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000009,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 9004.5,
+                    "numeroAvviso": 100009,
+                    "tassonomia": "TASS009"
+                }
+            },
+            "codEntrata": "ENT009"
+        },
+        {
+            "iuv": "123456789000010",
+            "iur": "A1234567810",
+            "indice": 10,
+            "importo": 10005.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG010",
+                    "descrizione": "Descrizione segnalazione 10",
+                    "dettaglio": "Dettaglio segnalazione 10"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00010",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN010",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP010",
+                "ragioneSocialePsp": "PSP S.p.A. 10",
+                "bicRiversamento": "BIC00010",
+                "idDominio": "DOM010",
+                "ragioneSocialeDominio": "Dominio S.p.A. 10",
+                "numeroPagamenti": 10,
+                "importoTotale": 10005.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG010",
+                        "descrizione": "Segnalazione Flusso 10",
+                        "dettaglio": "Dettaglio segnalazione flusso 10"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 10,
+                "idVocePendenza": "VP010",
+                "importo": 5002.5,
+                "descrizione": "Descrizione voce pendenza 10",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 10",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP010",
+                            "annoEsercizio": 2024,
+                            "importo": 5002.5,
+                            "accertamento": "ACC010",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 10",
+                            "tipologia": "Tipo 10",
+                            "categoria": "Categoria 10",
+                            "articolo": "Articolo 10"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 10,
+                    "ragioneSociale": "Dominio S.p.A. 10",
+                    "indirizzo": "Via Roma 10",
+                    "civico": "10",
+                    "cap": 10010,
+                    "localita": "Localita 10",
+                    "provincia": "PR10",
+                    "nazione": "IT",
+                    "email": "dominio10@example.com",
+                    "pec": "dominio10@pec.example.com",
+                    "tel": 123456799,
+                    "fax": 987654331,
+                    "web": "https://www.dominio10.it",
+                    "gln": 1234567890133,
+                    "cbill": 10010,
+                    "iuvPrefix": "PREF010",
+                    "stazione": 110,
+                    "auxDigit": 0,
+                    "segregationCode": 0,
+                    "logo": "logo10.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 10",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS010",
+                    "unitaOperative": "Unit\u00e0 Operativa 10",
+                    "contiAccredito": "Conto Accredito 10",
+                    "entrate": "Entrata 10",
+                    "tipiPendenza": "Tipo Pendenza 10"
+                },
+                "pendenza": {
+                    "idA2A": "A2A010",
+                    "idPendenza": "PEND010",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP010",
+                        "descrizione": "Descrizione tipo pendenza 10",
+                        "tipo": "Tipo 10"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000010,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 10005.0,
+                    "numeroAvviso": 100010,
+                    "tassonomia": "TASS010"
+                }
+            },
+            "codEntrata": "ENT010"
+        },
+        {
+            "iuv": "123456789000011",
+            "iur": "A1234567811",
+            "indice": 11,
+            "importo": 11005.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG011",
+                    "descrizione": "Descrizione segnalazione 11",
+                    "dettaglio": "Dettaglio segnalazione 11"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00011",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN011",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP011",
+                "ragioneSocialePsp": "PSP S.p.A. 11",
+                "bicRiversamento": "BIC00011",
+                "idDominio": "DOM011",
+                "ragioneSocialeDominio": "Dominio S.p.A. 11",
+                "numeroPagamenti": 11,
+                "importoTotale": 11005.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG011",
+                        "descrizione": "Segnalazione Flusso 11",
+                        "dettaglio": "Dettaglio segnalazione flusso 11"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 11,
+                "idVocePendenza": "VP011",
+                "importo": 5502.75,
+                "descrizione": "Descrizione voce pendenza 11",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 11",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP011",
+                            "annoEsercizio": 2024,
+                            "importo": 5502.75,
+                            "accertamento": "ACC011",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 11",
+                            "tipologia": "Tipo 11",
+                            "categoria": "Categoria 11",
+                            "articolo": "Articolo 11"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 11,
+                    "ragioneSociale": "Dominio S.p.A. 11",
+                    "indirizzo": "Via Roma 11",
+                    "civico": "11",
+                    "cap": 10011,
+                    "localita": "Localita 11",
+                    "provincia": "PR11",
+                    "nazione": "IT",
+                    "email": "dominio11@example.com",
+                    "pec": "dominio11@pec.example.com",
+                    "tel": 123456800,
+                    "fax": 987654332,
+                    "web": "https://www.dominio11.it",
+                    "gln": 1234567890134,
+                    "cbill": 10011,
+                    "iuvPrefix": "PREF011",
+                    "stazione": 111,
+                    "auxDigit": 1,
+                    "segregationCode": 1,
+                    "logo": "logo11.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 11",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS011",
+                    "unitaOperative": "Unit\u00e0 Operativa 11",
+                    "contiAccredito": "Conto Accredito 11",
+                    "entrate": "Entrata 11",
+                    "tipiPendenza": "Tipo Pendenza 11"
+                },
+                "pendenza": {
+                    "idA2A": "A2A011",
+                    "idPendenza": "PEND011",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP011",
+                        "descrizione": "Descrizione tipo pendenza 11",
+                        "tipo": "Tipo 11"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000011,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 11005.5,
+                    "numeroAvviso": 100011,
+                    "tassonomia": "TASS011"
+                }
+            },
+            "codEntrata": "ENT011"
+        },
+        {
+            "iuv": "123456789000012",
+            "iur": "A1234567812",
+            "indice": 12,
+            "importo": 12006.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG012",
+                    "descrizione": "Descrizione segnalazione 12",
+                    "dettaglio": "Dettaglio segnalazione 12"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00012",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN012",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP012",
+                "ragioneSocialePsp": "PSP S.p.A. 12",
+                "bicRiversamento": "BIC00012",
+                "idDominio": "DOM012",
+                "ragioneSocialeDominio": "Dominio S.p.A. 12",
+                "numeroPagamenti": 12,
+                "importoTotale": 12006.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG012",
+                        "descrizione": "Segnalazione Flusso 12",
+                        "dettaglio": "Dettaglio segnalazione flusso 12"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 12,
+                "idVocePendenza": "VP012",
+                "importo": 6003.0,
+                "descrizione": "Descrizione voce pendenza 12",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 12",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP012",
+                            "annoEsercizio": 2024,
+                            "importo": 6003.0,
+                            "accertamento": "ACC012",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 12",
+                            "tipologia": "Tipo 12",
+                            "categoria": "Categoria 12",
+                            "articolo": "Articolo 12"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 12,
+                    "ragioneSociale": "Dominio S.p.A. 12",
+                    "indirizzo": "Via Roma 12",
+                    "civico": "12",
+                    "cap": 10012,
+                    "localita": "Localita 12",
+                    "provincia": "PR12",
+                    "nazione": "IT",
+                    "email": "dominio12@example.com",
+                    "pec": "dominio12@pec.example.com",
+                    "tel": 123456801,
+                    "fax": 987654333,
+                    "web": "https://www.dominio12.it",
+                    "gln": 1234567890135,
+                    "cbill": 10012,
+                    "iuvPrefix": "PREF012",
+                    "stazione": 112,
+                    "auxDigit": 2,
+                    "segregationCode": 2,
+                    "logo": "logo12.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 12",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS012",
+                    "unitaOperative": "Unit\u00e0 Operativa 12",
+                    "contiAccredito": "Conto Accredito 12",
+                    "entrate": "Entrata 12",
+                    "tipiPendenza": "Tipo Pendenza 12"
+                },
+                "pendenza": {
+                    "idA2A": "A2A012",
+                    "idPendenza": "PEND012",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP012",
+                        "descrizione": "Descrizione tipo pendenza 12",
+                        "tipo": "Tipo 12"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000012,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 12006.0,
+                    "numeroAvviso": 100012,
+                    "tassonomia": "TASS012"
+                }
+            },
+            "codEntrata": "ENT012"
+        },
+        {
+            "iuv": "123456789000013",
+            "iur": "A1234567813",
+            "indice": 13,
+            "importo": 13006.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG013",
+                    "descrizione": "Descrizione segnalazione 13",
+                    "dettaglio": "Dettaglio segnalazione 13"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00013",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN013",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP013",
+                "ragioneSocialePsp": "PSP S.p.A. 13",
+                "bicRiversamento": "BIC00013",
+                "idDominio": "DOM013",
+                "ragioneSocialeDominio": "Dominio S.p.A. 13",
+                "numeroPagamenti": 13,
+                "importoTotale": 13006.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG013",
+                        "descrizione": "Segnalazione Flusso 13",
+                        "dettaglio": "Dettaglio segnalazione flusso 13"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 13,
+                "idVocePendenza": "VP013",
+                "importo": 6503.25,
+                "descrizione": "Descrizione voce pendenza 13",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 13",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP013",
+                            "annoEsercizio": 2024,
+                            "importo": 6503.25,
+                            "accertamento": "ACC013",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 13",
+                            "tipologia": "Tipo 13",
+                            "categoria": "Categoria 13",
+                            "articolo": "Articolo 13"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 13,
+                    "ragioneSociale": "Dominio S.p.A. 13",
+                    "indirizzo": "Via Roma 13",
+                    "civico": "13",
+                    "cap": 10013,
+                    "localita": "Localita 13",
+                    "provincia": "PR13",
+                    "nazione": "IT",
+                    "email": "dominio13@example.com",
+                    "pec": "dominio13@pec.example.com",
+                    "tel": 123456802,
+                    "fax": 987654334,
+                    "web": "https://www.dominio13.it",
+                    "gln": 1234567890136,
+                    "cbill": 10013,
+                    "iuvPrefix": "PREF013",
+                    "stazione": 113,
+                    "auxDigit": 3,
+                    "segregationCode": 3,
+                    "logo": "logo13.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 13",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS013",
+                    "unitaOperative": "Unit\u00e0 Operativa 13",
+                    "contiAccredito": "Conto Accredito 13",
+                    "entrate": "Entrata 13",
+                    "tipiPendenza": "Tipo Pendenza 13"
+                },
+                "pendenza": {
+                    "idA2A": "A2A013",
+                    "idPendenza": "PEND013",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP013",
+                        "descrizione": "Descrizione tipo pendenza 13",
+                        "tipo": "Tipo 13"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000013,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 13006.5,
+                    "numeroAvviso": 100013,
+                    "tassonomia": "TASS013"
+                }
+            },
+            "codEntrata": "ENT013"
+        },
+        {
+            "iuv": "123456789000014",
+            "iur": "A1234567814",
+            "indice": 14,
+            "importo": 14007.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG014",
+                    "descrizione": "Descrizione segnalazione 14",
+                    "dettaglio": "Dettaglio segnalazione 14"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00014",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN014",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP014",
+                "ragioneSocialePsp": "PSP S.p.A. 14",
+                "bicRiversamento": "BIC00014",
+                "idDominio": "DOM014",
+                "ragioneSocialeDominio": "Dominio S.p.A. 14",
+                "numeroPagamenti": 14,
+                "importoTotale": 14007.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG014",
+                        "descrizione": "Segnalazione Flusso 14",
+                        "dettaglio": "Dettaglio segnalazione flusso 14"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 14,
+                "idVocePendenza": "VP014",
+                "importo": 7003.5,
+                "descrizione": "Descrizione voce pendenza 14",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 14",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP014",
+                            "annoEsercizio": 2024,
+                            "importo": 7003.5,
+                            "accertamento": "ACC014",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 14",
+                            "tipologia": "Tipo 14",
+                            "categoria": "Categoria 14",
+                            "articolo": "Articolo 14"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 14,
+                    "ragioneSociale": "Dominio S.p.A. 14",
+                    "indirizzo": "Via Roma 14",
+                    "civico": "14",
+                    "cap": 10014,
+                    "localita": "Localita 14",
+                    "provincia": "PR14",
+                    "nazione": "IT",
+                    "email": "dominio14@example.com",
+                    "pec": "dominio14@pec.example.com",
+                    "tel": 123456803,
+                    "fax": 987654335,
+                    "web": "https://www.dominio14.it",
+                    "gln": 1234567890137,
+                    "cbill": 10014,
+                    "iuvPrefix": "PREF014",
+                    "stazione": 114,
+                    "auxDigit": 4,
+                    "segregationCode": 4,
+                    "logo": "logo14.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 14",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS014",
+                    "unitaOperative": "Unit\u00e0 Operativa 14",
+                    "contiAccredito": "Conto Accredito 14",
+                    "entrate": "Entrata 14",
+                    "tipiPendenza": "Tipo Pendenza 14"
+                },
+                "pendenza": {
+                    "idA2A": "A2A014",
+                    "idPendenza": "PEND014",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP014",
+                        "descrizione": "Descrizione tipo pendenza 14",
+                        "tipo": "Tipo 14"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000014,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 14007.0,
+                    "numeroAvviso": 100014,
+                    "tassonomia": "TASS014"
+                }
+            },
+            "codEntrata": "ENT014"
+        },
+        {
+            "iuv": "123456789000015",
+            "iur": "A1234567815",
+            "indice": 15,
+            "importo": 15007.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG015",
+                    "descrizione": "Descrizione segnalazione 15",
+                    "dettaglio": "Dettaglio segnalazione 15"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00015",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN015",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP015",
+                "ragioneSocialePsp": "PSP S.p.A. 15",
+                "bicRiversamento": "BIC00015",
+                "idDominio": "DOM015",
+                "ragioneSocialeDominio": "Dominio S.p.A. 15",
+                "numeroPagamenti": 15,
+                "importoTotale": 15007.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG015",
+                        "descrizione": "Segnalazione Flusso 15",
+                        "dettaglio": "Dettaglio segnalazione flusso 15"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 15,
+                "idVocePendenza": "VP015",
+                "importo": 7503.75,
+                "descrizione": "Descrizione voce pendenza 15",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 15",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP015",
+                            "annoEsercizio": 2024,
+                            "importo": 7503.75,
+                            "accertamento": "ACC015",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 15",
+                            "tipologia": "Tipo 15",
+                            "categoria": "Categoria 15",
+                            "articolo": "Articolo 15"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 15,
+                    "ragioneSociale": "Dominio S.p.A. 15",
+                    "indirizzo": "Via Roma 15",
+                    "civico": "15",
+                    "cap": 10015,
+                    "localita": "Localita 15",
+                    "provincia": "PR15",
+                    "nazione": "IT",
+                    "email": "dominio15@example.com",
+                    "pec": "dominio15@pec.example.com",
+                    "tel": 123456804,
+                    "fax": 987654336,
+                    "web": "https://www.dominio15.it",
+                    "gln": 1234567890138,
+                    "cbill": 10015,
+                    "iuvPrefix": "PREF015",
+                    "stazione": 115,
+                    "auxDigit": 5,
+                    "segregationCode": 0,
+                    "logo": "logo15.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 15",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS015",
+                    "unitaOperative": "Unit\u00e0 Operativa 15",
+                    "contiAccredito": "Conto Accredito 15",
+                    "entrate": "Entrata 15",
+                    "tipiPendenza": "Tipo Pendenza 15"
+                },
+                "pendenza": {
+                    "idA2A": "A2A015",
+                    "idPendenza": "PEND015",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP015",
+                        "descrizione": "Descrizione tipo pendenza 15",
+                        "tipo": "Tipo 15"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000015,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 15007.5,
+                    "numeroAvviso": 100015,
+                    "tassonomia": "TASS015"
+                }
+            },
+            "codEntrata": "ENT015"
+        },
+        {
+            "iuv": "123456789000016",
+            "iur": "A1234567816",
+            "indice": 16,
+            "importo": 16008.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG016",
+                    "descrizione": "Descrizione segnalazione 16",
+                    "dettaglio": "Dettaglio segnalazione 16"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00016",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN016",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP016",
+                "ragioneSocialePsp": "PSP S.p.A. 16",
+                "bicRiversamento": "BIC00016",
+                "idDominio": "DOM016",
+                "ragioneSocialeDominio": "Dominio S.p.A. 16",
+                "numeroPagamenti": 16,
+                "importoTotale": 16008.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG016",
+                        "descrizione": "Segnalazione Flusso 16",
+                        "dettaglio": "Dettaglio segnalazione flusso 16"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 16,
+                "idVocePendenza": "VP016",
+                "importo": 8004.0,
+                "descrizione": "Descrizione voce pendenza 16",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 16",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP016",
+                            "annoEsercizio": 2024,
+                            "importo": 8004.0,
+                            "accertamento": "ACC016",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 16",
+                            "tipologia": "Tipo 16",
+                            "categoria": "Categoria 16",
+                            "articolo": "Articolo 16"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 16,
+                    "ragioneSociale": "Dominio S.p.A. 16",
+                    "indirizzo": "Via Roma 16",
+                    "civico": "16",
+                    "cap": 10016,
+                    "localita": "Localita 16",
+                    "provincia": "PR16",
+                    "nazione": "IT",
+                    "email": "dominio16@example.com",
+                    "pec": "dominio16@pec.example.com",
+                    "tel": 123456805,
+                    "fax": 987654337,
+                    "web": "https://www.dominio16.it",
+                    "gln": 1234567890139,
+                    "cbill": 10016,
+                    "iuvPrefix": "PREF016",
+                    "stazione": 116,
+                    "auxDigit": 6,
+                    "segregationCode": 1,
+                    "logo": "logo16.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 16",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS016",
+                    "unitaOperative": "Unit\u00e0 Operativa 16",
+                    "contiAccredito": "Conto Accredito 16",
+                    "entrate": "Entrata 16",
+                    "tipiPendenza": "Tipo Pendenza 16"
+                },
+                "pendenza": {
+                    "idA2A": "A2A016",
+                    "idPendenza": "PEND016",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP016",
+                        "descrizione": "Descrizione tipo pendenza 16",
+                        "tipo": "Tipo 16"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000016,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 16008.0,
+                    "numeroAvviso": 100016,
+                    "tassonomia": "TASS016"
+                }
+            },
+            "codEntrata": "ENT016"
+        },
+        {
+            "iuv": "123456789000017",
+            "iur": "A1234567817",
+            "indice": 17,
+            "importo": 17008.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG017",
+                    "descrizione": "Descrizione segnalazione 17",
+                    "dettaglio": "Dettaglio segnalazione 17"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00017",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN017",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP017",
+                "ragioneSocialePsp": "PSP S.p.A. 17",
+                "bicRiversamento": "BIC00017",
+                "idDominio": "DOM017",
+                "ragioneSocialeDominio": "Dominio S.p.A. 17",
+                "numeroPagamenti": 17,
+                "importoTotale": 17008.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG017",
+                        "descrizione": "Segnalazione Flusso 17",
+                        "dettaglio": "Dettaglio segnalazione flusso 17"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 17,
+                "idVocePendenza": "VP017",
+                "importo": 8504.25,
+                "descrizione": "Descrizione voce pendenza 17",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 17",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP017",
+                            "annoEsercizio": 2024,
+                            "importo": 8504.25,
+                            "accertamento": "ACC017",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 17",
+                            "tipologia": "Tipo 17",
+                            "categoria": "Categoria 17",
+                            "articolo": "Articolo 17"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 17,
+                    "ragioneSociale": "Dominio S.p.A. 17",
+                    "indirizzo": "Via Roma 17",
+                    "civico": "17",
+                    "cap": 10017,
+                    "localita": "Localita 17",
+                    "provincia": "PR17",
+                    "nazione": "IT",
+                    "email": "dominio17@example.com",
+                    "pec": "dominio17@pec.example.com",
+                    "tel": 123456806,
+                    "fax": 987654338,
+                    "web": "https://www.dominio17.it",
+                    "gln": 1234567890140,
+                    "cbill": 10017,
+                    "iuvPrefix": "PREF017",
+                    "stazione": 117,
+                    "auxDigit": 7,
+                    "segregationCode": 2,
+                    "logo": "logo17.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 17",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS017",
+                    "unitaOperative": "Unit\u00e0 Operativa 17",
+                    "contiAccredito": "Conto Accredito 17",
+                    "entrate": "Entrata 17",
+                    "tipiPendenza": "Tipo Pendenza 17"
+                },
+                "pendenza": {
+                    "idA2A": "A2A017",
+                    "idPendenza": "PEND017",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP017",
+                        "descrizione": "Descrizione tipo pendenza 17",
+                        "tipo": "Tipo 17"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000017,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 17008.5,
+                    "numeroAvviso": 100017,
+                    "tassonomia": "TASS017"
+                }
+            },
+            "codEntrata": "ENT017"
+        },
+        {
+            "iuv": "123456789000018",
+            "iur": "A1234567818",
+            "indice": 18,
+            "importo": 18009.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG018",
+                    "descrizione": "Descrizione segnalazione 18",
+                    "dettaglio": "Dettaglio segnalazione 18"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00018",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN018",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP018",
+                "ragioneSocialePsp": "PSP S.p.A. 18",
+                "bicRiversamento": "BIC00018",
+                "idDominio": "DOM018",
+                "ragioneSocialeDominio": "Dominio S.p.A. 18",
+                "numeroPagamenti": 18,
+                "importoTotale": 18009.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG018",
+                        "descrizione": "Segnalazione Flusso 18",
+                        "dettaglio": "Dettaglio segnalazione flusso 18"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 18,
+                "idVocePendenza": "VP018",
+                "importo": 9004.5,
+                "descrizione": "Descrizione voce pendenza 18",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 18",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP018",
+                            "annoEsercizio": 2024,
+                            "importo": 9004.5,
+                            "accertamento": "ACC018",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 18",
+                            "tipologia": "Tipo 18",
+                            "categoria": "Categoria 18",
+                            "articolo": "Articolo 18"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 18,
+                    "ragioneSociale": "Dominio S.p.A. 18",
+                    "indirizzo": "Via Roma 18",
+                    "civico": "18",
+                    "cap": 10018,
+                    "localita": "Localita 18",
+                    "provincia": "PR18",
+                    "nazione": "IT",
+                    "email": "dominio18@example.com",
+                    "pec": "dominio18@pec.example.com",
+                    "tel": 123456807,
+                    "fax": 987654339,
+                    "web": "https://www.dominio18.it",
+                    "gln": 1234567890141,
+                    "cbill": 10018,
+                    "iuvPrefix": "PREF018",
+                    "stazione": 118,
+                    "auxDigit": 8,
+                    "segregationCode": 3,
+                    "logo": "logo18.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 18",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS018",
+                    "unitaOperative": "Unit\u00e0 Operativa 18",
+                    "contiAccredito": "Conto Accredito 18",
+                    "entrate": "Entrata 18",
+                    "tipiPendenza": "Tipo Pendenza 18"
+                },
+                "pendenza": {
+                    "idA2A": "A2A018",
+                    "idPendenza": "PEND018",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP018",
+                        "descrizione": "Descrizione tipo pendenza 18",
+                        "tipo": "Tipo 18"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000018,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 18009.0,
+                    "numeroAvviso": 100018,
+                    "tassonomia": "TASS018"
+                }
+            },
+            "codEntrata": "ENT018"
+        },
+        {
+            "iuv": "123456789000019",
+            "iur": "A1234567819",
+            "indice": 19,
+            "importo": 19009.5,
+            "esito": 1,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG019",
+                    "descrizione": "Descrizione segnalazione 19",
+                    "dettaglio": "Dettaglio segnalazione 19"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00019",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN019",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP019",
+                "ragioneSocialePsp": "PSP S.p.A. 19",
+                "bicRiversamento": "BIC00019",
+                "idDominio": "DOM019",
+                "ragioneSocialeDominio": "Dominio S.p.A. 19",
+                "numeroPagamenti": 19,
+                "importoTotale": 19009.5,
+                "stato": "IN CORSO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG019",
+                        "descrizione": "Segnalazione Flusso 19",
+                        "dettaglio": "Dettaglio segnalazione flusso 19"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 19,
+                "idVocePendenza": "VP019",
+                "importo": 9504.75,
+                "descrizione": "Descrizione voce pendenza 19",
+                "stato": "CHIUSO",
+                "descrizioneCausaleRPT": "Causale RPT 19",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP019",
+                            "annoEsercizio": 2024,
+                            "importo": 9504.75,
+                            "accertamento": "ACC019",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 19",
+                            "tipologia": "Tipo 19",
+                            "categoria": "Categoria 19",
+                            "articolo": "Articolo 19"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 19,
+                    "ragioneSociale": "Dominio S.p.A. 19",
+                    "indirizzo": "Via Roma 19",
+                    "civico": "19",
+                    "cap": 10019,
+                    "localita": "Localita 19",
+                    "provincia": "PR19",
+                    "nazione": "IT",
+                    "email": "dominio19@example.com",
+                    "pec": "dominio19@pec.example.com",
+                    "tel": 123456808,
+                    "fax": 987654340,
+                    "web": "https://www.dominio19.it",
+                    "gln": 1234567890142,
+                    "cbill": 10019,
+                    "iuvPrefix": "PREF019",
+                    "stazione": 119,
+                    "auxDigit": 9,
+                    "segregationCode": 4,
+                    "logo": "logo19.png",
+                    "abilitato": "N",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 19",
+                    "intermediato": false,
+                    "tassonomiaPagoPA": "TASS019",
+                    "unitaOperative": "Unit\u00e0 Operativa 19",
+                    "contiAccredito": "Conto Accredito 19",
+                    "entrate": "Entrata 19",
+                    "tipiPendenza": "Tipo Pendenza 19"
+                },
+                "pendenza": {
+                    "idA2A": "A2A019",
+                    "idPendenza": "PEND019",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP019",
+                        "descrizione": "Descrizione tipo pendenza 19",
+                        "tipo": "Tipo 19"
+                    },
+                    "stato": "CHIUSO",
+                    "iuvAvviso": 1000000019,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 19009.5,
+                    "numeroAvviso": 100019,
+                    "tassonomia": "TASS019"
+                }
+            },
+            "codEntrata": "ENT019"
+        },
+        {
+            "iuv": "123456789000020",
+            "iur": "A1234567820",
+            "indice": 20,
+            "importo": 20010.0,
+            "esito": 0,
+            "data": "2024-12-02",
+            "segnalazioni": [
+                {
+                    "data": "2024-11-25",
+                    "codice": "SEG020",
+                    "descrizione": "Descrizione segnalazione 20",
+                    "dettaglio": "Dettaglio segnalazione 20"
+                }
+            ],
+            "flussoRendicontazione": {
+                "idFlusso": "FL00020",
+                "dataFlusso": "2024-12-01",
+                "trn": "TRN020",
+                "dataRegolamento": "2024-12-02",
+                "idPsp": "PSP020",
+                "ragioneSocialePsp": "PSP S.p.A. 20",
+                "bicRiversamento": "BIC00020",
+                "idDominio": "DOM020",
+                "ragioneSocialeDominio": "Dominio S.p.A. 20",
+                "numeroPagamenti": 20,
+                "importoTotale": 20010.0,
+                "stato": "COMPLETATO",
+                "segnalazioni": [
+                    {
+                        "data": "2024-11-25",
+                        "codice": "FLSEG020",
+                        "descrizione": "Segnalazione Flusso 20",
+                        "dettaglio": "Dettaglio segnalazione flusso 20"
+                    }
+                ]
+            },
+            "vocePendenza": {
+                "indice": 20,
+                "idVocePendenza": "VP020",
+                "importo": 10005.0,
+                "descrizione": "Descrizione voce pendenza 20",
+                "stato": "APERTO",
+                "descrizioneCausaleRPT": "Causale RPT 20",
+                "contabilita": {
+                    "quote": [
+                        {
+                            "capitolo": "CAP020",
+                            "annoEsercizio": 2024,
+                            "importo": 10005.0,
+                            "accertamento": "ACC020",
+                            "proprietaCustom": null,
+                            "titolo": "Titolo 20",
+                            "tipologia": "Tipo 20",
+                            "categoria": "Categoria 20",
+                            "articolo": "Articolo 20"
+                        }
+                    ],
+                    "proprietaCustom": null
+                },
+                "dominio": {
+                    "idDominio": 20,
+                    "ragioneSociale": "Dominio S.p.A. 20",
+                    "indirizzo": "Via Roma 20",
+                    "civico": "20",
+                    "cap": 10020,
+                    "localita": "Localita 20",
+                    "provincia": "PR20",
+                    "nazione": "IT",
+                    "email": "dominio20@example.com",
+                    "pec": "dominio20@pec.example.com",
+                    "tel": 123456809,
+                    "fax": 987654341,
+                    "web": "https://www.dominio20.it",
+                    "gln": 1234567890143,
+                    "cbill": 10020,
+                    "iuvPrefix": "PREF020",
+                    "stazione": 120,
+                    "auxDigit": 0,
+                    "segregationCode": 0,
+                    "logo": "logo20.png",
+                    "abilitato": "S",
+                    "autStampaPosteItaliane": "N",
+                    "area": "Area 20",
+                    "intermediato": true,
+                    "tassonomiaPagoPA": "TASS020",
+                    "unitaOperative": "Unit\u00e0 Operativa 20",
+                    "contiAccredito": "Conto Accredito 20",
+                    "entrate": "Entrata 20",
+                    "tipiPendenza": "Tipo Pendenza 20"
+                },
+                "pendenza": {
+                    "idA2A": "A2A020",
+                    "idPendenza": "PEND020",
+                    "tipoPendenza": {
+                        "idTipoPendenza": "TP020",
+                        "descrizione": "Descrizione tipo pendenza 20",
+                        "tipo": "Tipo 20"
+                    },
+                    "stato": "APERTO",
+                    "iuvAvviso": 1000000020,
+                    "dataUltimoAggiornamento": "2024-12-01",
+                    "importo": 20010.0,
+                    "numeroAvviso": 100020,
+                    "tassonomia": "TASS020"
+                }
+            },
+            "codEntrata": "ENT020"
+        }
+    ]
 }

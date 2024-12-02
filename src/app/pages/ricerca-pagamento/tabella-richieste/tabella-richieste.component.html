@@ -1,5 +1,7 @@
 
-        <div  class="table-container" *ngIf="hideDettails">
+        <div class="flex-container">
+
+          <div  class="table-container box-shadow-d" *ngIf="hideDettails">
             @if (filteredRichiestePagamento) {
               <div style="margin: auto;">
             <p-table
@@ -37,7 +39,7 @@
 
 
 
-                  <td style="display: flex;"> <button class="action-button bg-blue" (click)="mostraDettagli(richiesta)">    <i class="pi pi-bell" style="font-size: 1rem"></i>    <span class="tooltip">Dettagli e notifiche</span>  </button> <button class="action-button bg-green" >    <i class="pi pi-file-excel" style="font-size: 1rem" (click)="dlFile(richiesta.pendenza.numeroAvviso)"></i>    <span class="tooltip">File FR</span>  </button></td>
+                  <td style="display: flex;"> <button class="action-button bg-blue" (click)="mostraDettagli(richiesta)">    <i class="pi pi-bell" style="font-size: 1rem"></i>    <span class="tooltip">Dettagli e notifiche</span>  </button> <button class="action-button bg-green" (click)="toRendicontazione(richiesta.pendenza.numeroAvviso)">    <i class="pi pi-arrow-right" style="font-size: 1rem" ></i>    <span class="tooltip">Vai alla rendicontazione</span>  </button></td>
                 </tr>
               </ng-template>
             </p-table>
@@ -46,6 +48,9 @@
             <!-- messaggio di errore -->
             }
           </div>
+
+        </div>
+
           @if (!hideDettails) {
             <i class="pi pi-arrow-left" (click)="nascondiDettagli()"></i>
             <div class="dettagli-app-container">

@@ -1,4 +1,24 @@
-export interface RisultatoRendicontazione {
+export interface Risultato {
+  iuv: string;
+  iur: string;
+  indice: number;
+  importo: number;
+  esito: number;
+  data: string;
+  segnalazioni: Segnalazione[];
+  flussoRendicontazione: FlussoRendicontazione;
+  vocePendenza: VocePendenza;
+  codEntrata: string;
+}
+
+export interface Segnalazione {
+  data: string;
+  codice: string;
+  descrizione: string;
+  dettaglio: string;
+}
+
+export interface FlussoRendicontazione {
   idFlusso: string;
   dataFlusso: string;
   trn: string;
@@ -11,23 +31,156 @@ export interface RisultatoRendicontazione {
   numeroPagamenti: number;
   importoTotale: number;
   stato: string;
+  segnalazioni: Segnalazione[];
 }
 
-export interface ResponseRendicontazione {
-  numRisultati: string;
-  numPagine: string;
-  risultatiPerPagina: string;
-  pagina: string;
-  prossimiRisultati: string;
-  maxRisultati: string;
-  risultati: RisultatoRendicontazione[];
+export interface VocePendenza {
+  indice: number;
+  idVocePendenza: string;
+  importo: number;
+  descrizione: string;
+  stato: string;
+  descrizioneCausaleRPT: string;
+  contabilita: Contabilita;
+  dominio: Dominio;
+  pendenza: Pendenza;
 }
 
-export const FILE_FR: string[] = [
-  '100001234500', '100001234501', '100001234502', '100001234503', '100001234504',
-  '100001234505', '100001234506', '100001234507', '100001234508', '100001234509',
-  '100001234510', '100001234511', '100001234512', '100001234513', '100001234514',
-  '100001234515', '100001234516', '100001234517', '100001234518', '100001234519',
-  '100001234520', '100001234521', '100001234522', '100001234523', '100001234524',
-  '100001234525', '100001234526', '100001234527', '100001234528', '100001234529',
-];
+export interface Contabilita {
+  quote: Quota[];
+  proprietaCustom: any;
+}
+
+export interface Quota {
+  capitolo: string;
+  annoEsercizio: number;
+  importo: number;
+  accertamento: string;
+  proprietaCustom: any;
+  titolo: string;
+  tipologia: string;
+  categoria: string;
+  articolo: string;
+}
+
+export interface Dominio {
+  idDominio: number;
+  ragioneSociale: string;
+  indirizzo: string;
+  civico: string;
+  cap: number;
+  localita: string;
+  provincia: string;
+  nazione: string;
+  email: string;
+  pec: string;
+  tel: number;
+  fax: number;
+  web: string;
+  gln: number;
+  cbill: number;
+  iuvPrefix: string;
+  stazione: number;
+  auxDigit: number;
+  segregationCode: number;
+  logo: string;
+  abilitato: string;
+  autStampaPosteItaliane: string;
+  area: string;
+  intermediato: boolean;
+  tassonomiaPagoPA: string;
+  unitaOperative: string;
+  contiAccredito: string;
+  entrate: string;
+  tipiPendenza: string;
+}
+
+export interface Pendenza {
+  idA2A: string;
+  idPendenza: string;
+  tipoPendenza: TipoPendenza;
+  dominio: Dominio;
+  unitaOperativa: UnitaOperativa;
+  stato: string;
+  iuvAvviso: number;
+  dataUltimoAggiornamento: string;
+  dataPagamento: string;
+  importoPagato: number;
+  importoIncassato: number;
+  iuvPagamento: number;
+  anomalo: boolean;
+  verificato: boolean;
+  tipo: string;
+  UUID: string;
+  nome: string;
+  causale: string;
+  soggettoPagatore: SoggettoPagatore;
+  importo: number;
+  numeroAvviso: number;
+  dataCaricamento: string;
+  dataValidita: string;
+  dataScadenza: string;
+  annoRiferimento: number;
+  cartellaPagamento: string;
+  tassonomia: string;
+  tassonomiaAvviso: string;
+  direzione: string;
+  divisione: string;
+  documento: Documento;
+}
+
+export interface TipoPendenza {
+  idTipoPendenza: string;
+  descrizione: string;
+  tipo: string;
+}
+
+export interface UnitaOperativa {
+  idUnita: number;
+  ragioneSociale: string;
+  indirizzo: string;
+  civico: string;
+  cap: number;
+  localita: string;
+  provincia: string;
+  nazione: string;
+  email: string;
+  pec: string;
+  tel: number;
+  fax: number;
+  web: string;
+  area: string;
+  abilitato: boolean;
+}
+
+export interface SoggettoPagatore {
+  tipo: string;
+  identificativo: string;
+  anagrafica: string;
+  indirizzo: string;
+  civico: string;
+  cap: number;
+  localita: string;
+  provincia: string;
+  nazione: string;
+  email: string;
+  cellulare: number;
+}
+
+export interface Documento {
+  identificativo: string;
+  descrizione: string;
+  rata: number;
+}
+
+
+export interface ResponseRendicontazione{
+  
+numRisultati: number,
+numPagine: number
+risultatiPerPagina: number,
+pagina: number,
+prossimiRisultati: string,
+maxRisultati: number,
+risultati: Risultato[]
+}

@@ -138,3 +138,9 @@ export interface Filtro {
   filtroEnte: string;
   filtroCF_PI: string;
 }
+
+export interface FiltroFiles{
+  filtroIUV: string;
+  filtroEnte: string;
+  filtroID: string;
+}
