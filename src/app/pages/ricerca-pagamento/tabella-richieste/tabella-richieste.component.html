@@ -17,7 +17,7 @@
                   <th>Ente Creditore </th>
                   <th>Data  <p-columnFilter type="date" field="pendenza.dataCaricamento"  display="menu"/></th>
                   <th>Tipo <p-columnFilter type="text" field="pendenza.tipoPendenza.tipo" display="menu" /></th>
-                  <th>causale</th>
+                  <th>Codice fiscale</th>
                   <th>IUV </th>
                   <th>Stato</th>
                   <th>Azioni</th>
@@ -32,7 +32,7 @@
                   <td>{{ richiesta.pendenza.dominio.ragioneSociale }}</td>
                   <td>{{ richiesta.pendenza.dataCaricamento | date : "yyyy-MM-dd" }}</td>
                   <td>{{ richiesta.pendenza.tipoPendenza.tipo }}</td>
-                  <td>{{ richiesta.pendenza.causale }}</td>
+                  <td>{{ richiesta.pendenza.soggettoPagatore.identificativo }}</td>
                   <td>{{ richiesta.pendenza.numeroAvviso }}</td>
                   <td>{{ richiesta.pendenza.stato }}</td>
 

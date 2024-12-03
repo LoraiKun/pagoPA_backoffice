@@ -39,18 +39,19 @@
     font-size: 14px;
     cursor: pointer;
     padding: .5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
   }
-  
+  .dropdown:hover {
+    color: #4384c5; /* Cambia con il colore desiderato, ad esempio un blu */
+  }
   /* Label e icona */
   .dropdown-label {
     margin-right: 5px;
-    color: #adadad;
     font-size: 14px;
   }
   
   .dropdown-icon {
     font-size: 14px;
-    color: #adadad;
     transition: transform 0.3s ease;
   }
   
