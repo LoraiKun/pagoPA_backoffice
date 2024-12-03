@@ -101,6 +101,16 @@ padding-bottom: 1rem;
 
 
 
+
+
+.ml-auto{
+  margin-left: auto;
+}
+.mr-auto{
+  margin-right: auto;
+}
+
+
 .login-input {
   margin-right: 1rem;
   transition: color 0.3s, 0.3s;
@@ -121,11 +131,4 @@ padding-bottom: 1rem;
   transition: all 0.3s ease;
 
   outline: none;
-}
-
-.ml-auto{
-  margin-left: auto;
-}
-.mr-auto{
-  margin-right: auto;
 }
