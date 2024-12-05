@@ -139,8 +139,9 @@
   }
 
   .sidebar-icon-container{
+    margin: 1.5rem;
     margin-top: auto;
-    padding: 1.5rem;
+
     display: flex;
   }
 

@@ -66,15 +66,15 @@ export class TabellaRichiesteComponent {
     console.log(this.filteredRichiestePagamento);
   }
 
-  dlFile(file:string){
-    const xmlUrl = 'assets/files/rendicontazione.xml'; // Percorso relativo del xml
-    const xmlName = file + '.xml'; // Nome del file scaricato
+  // dlFile(file:string){
+  //   const xmlUrl = 'assets/files/rendicontazione.xml'; // Percorso relativo del xml
+  //   const xmlName = file + '.xml'; // Nome del file scaricato
 
-    const link = document.createElement('a'); // Crea un elemento <a>
-    link.href = xmlUrl; // Imposta l'URL del file
-    link.download = xmlName; // Imposta il nome del file scaricato
-    link.click(); // Simula un click sul link
-  }
+  //   const link = document.createElement('a'); // Crea un elemento <a>
+  //   link.href = xmlUrl; // Imposta l'URL del file
+  //   link.download = xmlName; // Imposta il nome del file scaricato
+  //   link.click(); // Simula un click sul link
+  // }
 
   mostraDettagli(dettagli: RisultatiRichiestaPagamento){
     this.datiDettagli = dettagli

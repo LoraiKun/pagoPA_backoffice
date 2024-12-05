@@ -7,9 +7,11 @@
             <p-table
               [value]="filteredRichiestePagamento"
               [paginator]="true"
-              [rows]="5"
-              [rowsPerPageOptions]="[5, 10, 20]"
+              styleClass="p-datatable-striped" 
+              [rows]="10"
+              [rowsPerPageOptions]="[5, 10, 20,50]"
               paginatorStyleClass="width: 75%"
+              
             >
               <ng-template pTemplate="header">
                 <!-- Header Statico -->
@@ -19,7 +21,7 @@
                   <th>Tipo <p-columnFilter type="text" field="pendenza.tipoPendenza.tipo" display="menu" /></th>
                   <th>Codice fiscale</th>
                   <th>IUV </th>
-                  <th>Stato</th>
+                  <th>Stato<p-columnFilter type="text" field="pendenza.stato" display="menu" /></th>
                   <th>Azioni</th>
                 </tr>
                 

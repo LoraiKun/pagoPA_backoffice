@@ -1,5 +1,4 @@
 <div class="dashboard-container">
-
   <!-- Box1 -->
   <div
     #box1
@@ -19,9 +18,10 @@
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div> -->
     <p-divider align="left" type="solid">
-      <b>Cerca file fr</b>
+      <b>Richieste di pagamento per mese</b>
     </p-divider>
     <!-- <app-files-rendicontazioni></app-files-rendicontazioni> -->
+    <app-bar [richieste]="richieste" *ngIf="richieste"></app-bar>
 
   </div>
 
@@ -35,8 +35,13 @@
       'white-border': !state_fullscreen_b2
     }"
   >
-  <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b2"><i class="pi pi-times"></i>
-</button>
+    <button
+      class="button-absolute"
+      (click)="showSidebar()"
+      *ngIf="state_fullscreen_b2"
+    >
+      <i class="pi pi-times"></i>
+    </button>
 
     <!-- <div
       class="blur-ingrandisci"
@@ -46,11 +51,11 @@
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div> -->
     <p-divider align="left" type="solid">
-      <b>Notifiche di pagamento</b>
+      <b>Stati delle richieste</b>
     </p-divider>
     <!-- <h4 class="title">Area richieste di pagamento</h4> -->
+     <app-doughnut [richieste]="richieste" *ngIf="richieste"></app-doughnut>
   </div>
-
 
   <!--box3 -->
   <div
@@ -61,8 +66,13 @@
       'white-border': !state_fullscreen_b3
     }"
   >
-  <button class="button-absolute" (click)="showSidebar()" *ngIf="state_fullscreen_b3"><i class="pi pi-times"></i>
-</button>
+    <button
+      class="button-absolute"
+      (click)="showSidebar()"
+      *ngIf="state_fullscreen_b3"
+    >
+      <i class="pi pi-times"></i>
+    </button>
 
     <!-- <div
       class="blur-ingrandisci"
@@ -72,13 +82,9 @@
       <p style="font-weight: 700">[INGRANDISCI]</p>
     </div> -->
     <p-divider align="left" type="solid">
-      <b
-        >Richieste di pagamento</b
-      >
+      <b>test</b>
     </p-divider>
     <!-- <h4 class="title"></h4> -->
-    <app-richieste-pagamento  (notifica)="apriNotifica($event)"></app-richieste-pagamento>
-
   </div>
 
   <!-- fine box3 -->

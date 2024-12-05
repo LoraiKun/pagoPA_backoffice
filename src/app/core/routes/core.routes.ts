@@ -9,8 +9,9 @@ export const routes: Routes = [
     //home carica la sidebar che cotiene un router outlet per caricare tutto il resto.
     component: MainComponent,
     children: [
-      { path: '', component: RicercaPagamentoComponent },
-      { path: 'rendicontazione', component: FilesRendicontazioniComponent}
+      { path: '', component: DashboardComponent },
+      { path: 'rendicontazione', component: FilesRendicontazioniComponent},
+      { path: 'pagamenti', component: RicercaPagamentoComponent}
     ],
   },
 ];

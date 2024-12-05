@@ -1,13 +1,18 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { RichiestePagamentoComponent } from './richieste-pagamento/richieste-pagamento.component';
 import { SidebarService } from '../../services/sidebar-service/sidebar.service';
 import { CommonModule } from '@angular/common';
 import { DividerModule } from 'primeng/divider';
 
+import { BarComponent } from './bar/bar.component';
+import { RispostaRichiestaPagamento, RisultatiRichiestaPagamento } from '../../models/pagamenti';
+import { HttpClient } from '@angular/common/http';
+import { DoughnutComponent } from './doughnut/doughnut.component';
+
+
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RichiestePagamentoComponent, CommonModule, DividerModule],
+  imports: [ CommonModule, DividerModule, BarComponent, DoughnutComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
@@ -18,7 +23,22 @@ export class DashboardComponent {
   state_fullscreen_b1: boolean = false
   state_fullscreen_b2: boolean = false
   state_fullscreen_b3: boolean = false
-  constructor(private sidebarService: SidebarService) {}
+  // 
+  richieste!: RisultatiRichiestaPagamento[];
+
+  constructor(private sidebarService: SidebarService, http: HttpClient) {
+    http
+      .get<RispostaRichiestaPagamento>(
+        'assets/json/richieste_di_pagamento.json'
+      )
+      .subscribe({
+        next: (res) => {
+          this.richieste = res.risultati;
+
+
+        },
+      });
+  }
 
   // hideSidebar(scelta: 1|2|3) {
   //   if(scelta == 1){

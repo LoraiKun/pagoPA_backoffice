@@ -78,3 +78,13 @@ th {
   visibility: visible;
   opacity: 1;
 }
+
+
+::ng-deep .p-component{
+  font-size: 13px;
+}
+
+::ng-deep .p-datatable .p-datatable-tbody > tr > td,::ng-deep .p-datatable .p-datatable-thead > tr > th{
+  padding: .5rem
+
+}
