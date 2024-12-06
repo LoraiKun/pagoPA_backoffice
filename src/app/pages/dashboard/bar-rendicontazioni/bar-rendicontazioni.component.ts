@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ResponseRendicontazione, Risultato } from '../../../models/rendicontazione';
 import { HttpClient } from '@angular/common/http';
 import { Chart } from 'chart.js';
+import { MESI } from '../../../costants/costanti';
 
 @Component({
   selector: 'app-bar-rendicontazioni',
@@ -27,6 +28,7 @@ export class BarRendicontazioniComponent {
     'November',
     'December',
   ];
+  labels = MESI
   conteggi: { [mese: string]: { positivi: number; negativi: number } } = {}
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
@@ -69,7 +71,7 @@ export class BarRendicontazioniComponent {
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: this.months,
+        labels: this.labels,
         datasets: [
           {
             label: 'Esiti Negativi',

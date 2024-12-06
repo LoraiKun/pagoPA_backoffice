@@ -11,6 +11,7 @@ import {
   RisultatiRichiestaPagamento,
 } from '../../../models/pagamenti';
 import { HttpClient } from '@angular/common/http';
+import { MESI } from '../../../costants/costanti';
 Chart.register(...registerables);
 
 @Component({
@@ -21,6 +22,7 @@ Chart.register(...registerables);
   styleUrl: './bar.component.css',
 })
 export class BarComponent {
+  labels = MESI
   @Input() richieste!: RisultatiRichiestaPagamento[];
   risultatiPerMese: { mese: string; count: number }[] = [];
   data!: number[]
@@ -140,7 +142,7 @@ export class BarComponent {
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: this.months,
+        labels: this.labels,
         datasets: [
           {
             label: 'Numero richieste di pagamento:',
