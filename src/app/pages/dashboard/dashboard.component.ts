@@ -7,12 +7,13 @@ import { BarComponent } from './bar/bar.component';
 import { RispostaRichiestaPagamento, RisultatiRichiestaPagamento } from '../../models/pagamenti';
 import { HttpClient } from '@angular/common/http';
 import { DoughnutComponent } from './doughnut/doughnut.component';
+import { BarRendicontazioniComponent } from './bar-rendicontazioni/bar-rendicontazioni.component';
 
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [ CommonModule, DividerModule, BarComponent, DoughnutComponent],
+  imports: [ CommonModule, DividerModule, BarComponent, DoughnutComponent, BarRendicontazioniComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })

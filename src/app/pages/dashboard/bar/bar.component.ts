@@ -52,7 +52,6 @@ export class BarComponent {
       mese,
       count,
     }));
-    console.log(this.risultatiPerMese);
   }
 
   formatMonth(date: Date): string {
@@ -73,7 +72,6 @@ export class BarComponent {
   returnMonthArray(): number[]{
     let array: number[] = [0,0,0,0,0,0,0,0,0,0,0,0]
     this.risultatiPerMese.forEach(month=>{
-      console.log(month.mese)
       if(month.mese.includes('-01')){
         array[0] = month.count
       }
@@ -99,7 +97,6 @@ export class BarComponent {
         array[7] = month.count
       }
       if(month.mese.includes('-09')){
-        console.log('test')
         array[8] = month.count
       }
       if(month.mese.includes('-10')){
@@ -113,7 +110,6 @@ export class BarComponent {
         array[11] = month.count
       }
     })
-    console.log(array)
     return array
   }
 
@@ -140,7 +136,6 @@ export class BarComponent {
   }
 
   generateChart(){
-    console.log('dentro generate')
     const ctx = document.getElementById('myChart') as HTMLCanvasElement;
     new Chart(ctx, {
       type: 'bar',
@@ -203,7 +198,6 @@ export class BarComponent {
             const element = chartElement[0];
 
             // Esegui la funzione quando una barra è cliccata
-            console.log(element);
           }
         },
         scales: {

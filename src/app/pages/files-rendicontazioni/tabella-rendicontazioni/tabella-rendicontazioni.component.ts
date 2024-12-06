@@ -51,7 +51,6 @@ export class TabellaRendicontazioniComponent {
     const filtroIUV = this.filtro.filtroIUV ? this.filtro.filtroIUV.toString().trim() : '';
     const filtroEnte = this.filtro.filtroEnte ? this.filtro.filtroEnte.toString().trim() : '';
     const filtroID = this.filtro.filtroID ? this.filtro.filtroID.toString().trim() : '';
-     console.log(filtroIUV)
     this.filteredRendicontazione = this.rendicontazione.filter((richiesta) => {
       const matchesIUV =
         !filtroIUV.trim() || richiesta.iuv.toString().includes(filtroIUV);
@@ -68,11 +67,9 @@ export class TabellaRendicontazioniComponent {
           .includes(filtroID.toLowerCase());
 
       // La richiesta deve soddisfare tutti i filtri non vuoti
-      console.log('metches',matchesIUV, matchesEnte, matchesID);
       return matchesIUV && matchesEnte && matchesID;
     });
 
-    console.log(this.filteredRendicontazione);
   }
 
   dlFile(file: string) {

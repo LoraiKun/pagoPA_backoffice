@@ -11,8 +11,8 @@
             "iur": "A123456781",
             "indice": 1,
             "importo": 1000.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-04-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -92,7 +92,7 @@
                     "area": "Area 1",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS001",
-                    "unitaOperative": "Unit\u00e0 Operativa 1",
+                    "unitaOperative": "Unità Operativa 1",
                     "contiAccredito": "Conto Accredito 1",
                     "entrate": "Entrata 1",
                     "tipiPendenza": "Tipo Pendenza 1"
@@ -121,7 +121,7 @@
             "indice": 2,
             "importo": 2001.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-01-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -201,7 +201,7 @@
                     "area": "Area 2",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS002",
-                    "unitaOperative": "Unit\u00e0 Operativa 2",
+                    "unitaOperative": "Unità Operativa 2",
                     "contiAccredito": "Conto Accredito 2",
                     "entrate": "Entrata 2",
                     "tipiPendenza": "Tipo Pendenza 2"
@@ -229,8 +229,8 @@
             "iur": "A123456783",
             "indice": 3,
             "importo": 3001.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-08-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -310,7 +310,7 @@
                     "area": "Area 3",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS003",
-                    "unitaOperative": "Unit\u00e0 Operativa 3",
+                    "unitaOperative": "Unità Operativa 3",
                     "contiAccredito": "Conto Accredito 3",
                     "entrate": "Entrata 3",
                     "tipiPendenza": "Tipo Pendenza 3"
@@ -339,7 +339,7 @@
             "indice": 4,
             "importo": 4002.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-09-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -419,7 +419,7 @@
                     "area": "Area 4",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS004",
-                    "unitaOperative": "Unit\u00e0 Operativa 4",
+                    "unitaOperative": "Unità Operativa 4",
                     "contiAccredito": "Conto Accredito 4",
                     "entrate": "Entrata 4",
                     "tipiPendenza": "Tipo Pendenza 4"
@@ -447,8 +447,8 @@
             "iur": "A123456785",
             "indice": 5,
             "importo": 5002.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-07-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -528,7 +528,7 @@
                     "area": "Area 5",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS005",
-                    "unitaOperative": "Unit\u00e0 Operativa 5",
+                    "unitaOperative": "Unità Operativa 5",
                     "contiAccredito": "Conto Accredito 5",
                     "entrate": "Entrata 5",
                     "tipiPendenza": "Tipo Pendenza 5"
@@ -557,7 +557,7 @@
             "indice": 6,
             "importo": 6003.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-07-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -637,7 +637,7 @@
                     "area": "Area 6",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS006",
-                    "unitaOperative": "Unit\u00e0 Operativa 6",
+                    "unitaOperative": "Unità Operativa 6",
                     "contiAccredito": "Conto Accredito 6",
                     "entrate": "Entrata 6",
                     "tipiPendenza": "Tipo Pendenza 6"
@@ -665,8 +665,8 @@
             "iur": "A123456787",
             "indice": 7,
             "importo": 7003.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-08-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -746,7 +746,7 @@
                     "area": "Area 7",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS007",
-                    "unitaOperative": "Unit\u00e0 Operativa 7",
+                    "unitaOperative": "Unità Operativa 7",
                     "contiAccredito": "Conto Accredito 7",
                     "entrate": "Entrata 7",
                     "tipiPendenza": "Tipo Pendenza 7"
@@ -775,7 +775,7 @@
             "indice": 8,
             "importo": 8004.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-05-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -855,7 +855,7 @@
                     "area": "Area 8",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS008",
-                    "unitaOperative": "Unit\u00e0 Operativa 8",
+                    "unitaOperative": "Unità Operativa 8",
                     "contiAccredito": "Conto Accredito 8",
                     "entrate": "Entrata 8",
                     "tipiPendenza": "Tipo Pendenza 8"
@@ -883,8 +883,8 @@
             "iur": "A123456789",
             "indice": 9,
             "importo": 9004.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-08-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -964,7 +964,7 @@
                     "area": "Area 9",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS009",
-                    "unitaOperative": "Unit\u00e0 Operativa 9",
+                    "unitaOperative": "Unità Operativa 9",
                     "contiAccredito": "Conto Accredito 9",
                     "entrate": "Entrata 9",
                     "tipiPendenza": "Tipo Pendenza 9"
@@ -993,7 +993,7 @@
             "indice": 10,
             "importo": 10005.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-07-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1073,7 +1073,7 @@
                     "area": "Area 10",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS010",
-                    "unitaOperative": "Unit\u00e0 Operativa 10",
+                    "unitaOperative": "Unità Operativa 10",
                     "contiAccredito": "Conto Accredito 10",
                     "entrate": "Entrata 10",
                     "tipiPendenza": "Tipo Pendenza 10"
@@ -1101,8 +1101,8 @@
             "iur": "A1234567811",
             "indice": 11,
             "importo": 11005.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-03-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1182,7 +1182,7 @@
                     "area": "Area 11",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS011",
-                    "unitaOperative": "Unit\u00e0 Operativa 11",
+                    "unitaOperative": "Unità Operativa 11",
                     "contiAccredito": "Conto Accredito 11",
                     "entrate": "Entrata 11",
                     "tipiPendenza": "Tipo Pendenza 11"
@@ -1211,7 +1211,7 @@
             "indice": 12,
             "importo": 12006.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-06-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1291,7 +1291,7 @@
                     "area": "Area 12",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS012",
-                    "unitaOperative": "Unit\u00e0 Operativa 12",
+                    "unitaOperative": "Unità Operativa 12",
                     "contiAccredito": "Conto Accredito 12",
                     "entrate": "Entrata 12",
                     "tipiPendenza": "Tipo Pendenza 12"
@@ -1319,8 +1319,8 @@
             "iur": "A1234567813",
             "indice": 13,
             "importo": 13006.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-01-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1400,7 +1400,7 @@
                     "area": "Area 13",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS013",
-                    "unitaOperative": "Unit\u00e0 Operativa 13",
+                    "unitaOperative": "Unità Operativa 13",
                     "contiAccredito": "Conto Accredito 13",
                     "entrate": "Entrata 13",
                     "tipiPendenza": "Tipo Pendenza 13"
@@ -1429,7 +1429,7 @@
             "indice": 14,
             "importo": 14007.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-08-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1509,7 +1509,7 @@
                     "area": "Area 14",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS014",
-                    "unitaOperative": "Unit\u00e0 Operativa 14",
+                    "unitaOperative": "Unità Operativa 14",
                     "contiAccredito": "Conto Accredito 14",
                     "entrate": "Entrata 14",
                     "tipiPendenza": "Tipo Pendenza 14"
@@ -1537,8 +1537,8 @@
             "iur": "A1234567815",
             "indice": 15,
             "importo": 15007.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-01-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1618,7 +1618,7 @@
                     "area": "Area 15",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS015",
-                    "unitaOperative": "Unit\u00e0 Operativa 15",
+                    "unitaOperative": "Unità Operativa 15",
                     "contiAccredito": "Conto Accredito 15",
                     "entrate": "Entrata 15",
                     "tipiPendenza": "Tipo Pendenza 15"
@@ -1647,7 +1647,7 @@
             "indice": 16,
             "importo": 16008.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-07-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1727,7 +1727,7 @@
                     "area": "Area 16",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS016",
-                    "unitaOperative": "Unit\u00e0 Operativa 16",
+                    "unitaOperative": "Unità Operativa 16",
                     "contiAccredito": "Conto Accredito 16",
                     "entrate": "Entrata 16",
                     "tipiPendenza": "Tipo Pendenza 16"
@@ -1755,7 +1755,7 @@
             "iur": "A1234567817",
             "indice": 17,
             "importo": 17008.5,
-            "esito": 1,
+            "esito": 3,
             "data": "2024-12-02",
             "segnalazioni": [
                 {
@@ -1836,7 +1836,7 @@
                     "area": "Area 17",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS017",
-                    "unitaOperative": "Unit\u00e0 Operativa 17",
+                    "unitaOperative": "Unità Operativa 17",
                     "contiAccredito": "Conto Accredito 17",
                     "entrate": "Entrata 17",
                     "tipiPendenza": "Tipo Pendenza 17"
@@ -1865,7 +1865,7 @@
             "indice": 18,
             "importo": 18009.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-04-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -1945,7 +1945,7 @@
                     "area": "Area 18",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS018",
-                    "unitaOperative": "Unit\u00e0 Operativa 18",
+                    "unitaOperative": "Unità Operativa 18",
                     "contiAccredito": "Conto Accredito 18",
                     "entrate": "Entrata 18",
                     "tipiPendenza": "Tipo Pendenza 18"
@@ -1973,8 +1973,8 @@
             "iur": "A1234567819",
             "indice": 19,
             "importo": 19009.5,
-            "esito": 1,
-            "data": "2024-12-02",
+            "esito": 3,
+            "data": "2024-03-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -2054,7 +2054,7 @@
                     "area": "Area 19",
                     "intermediato": false,
                     "tassonomiaPagoPA": "TASS019",
-                    "unitaOperative": "Unit\u00e0 Operativa 19",
+                    "unitaOperative": "Unità Operativa 19",
                     "contiAccredito": "Conto Accredito 19",
                     "entrate": "Entrata 19",
                     "tipiPendenza": "Tipo Pendenza 19"
@@ -2083,7 +2083,7 @@
             "indice": 20,
             "importo": 20010.0,
             "esito": 0,
-            "data": "2024-12-02",
+            "data": "2024-07-02",
             "segnalazioni": [
                 {
                     "data": "2024-11-25",
@@ -2163,7 +2163,7 @@
                     "area": "Area 20",
                     "intermediato": true,
                     "tassonomiaPagoPA": "TASS020",
-                    "unitaOperative": "Unit\u00e0 Operativa 20",
+                    "unitaOperative": "Unità Operativa 20",
                     "contiAccredito": "Conto Accredito 20",
                     "entrate": "Entrata 20",
                     "tipiPendenza": "Tipo Pendenza 20"

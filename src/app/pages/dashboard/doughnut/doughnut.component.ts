@@ -41,7 +41,6 @@ export class DoughnutComponent {
       Sospeso: 0,
       Pagato: 0,
     };
-    console.log(this.richieste);
     this.richieste.forEach((richiesta) => {
       const pendenza = richiesta.pendenza;
       if (pendenza.stato) {
@@ -118,7 +117,6 @@ export class DoughnutComponent {
             const element = chartElement[0];
 
             // Esegui la funzione quando una barra è cliccata
-            console.log(element);
           }
         },
       },

@@ -63,7 +63,6 @@ export class TabellaRichiesteComponent {
       return matchesIUV && matchesEnte && matchesMail && matchesCR_PI;
     });
   
-    console.log(this.filteredRichiestePagamento);
   }
 
   // dlFile(file:string){
