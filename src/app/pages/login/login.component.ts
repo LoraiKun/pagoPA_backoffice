@@ -29,8 +29,8 @@ ngOnInit(): void {
     this.router.navigateByUrl('home')
   }
   this.loginForm = new FormGroup({
-    email: new FormControl(null, [Validators.required]),
-    password: new FormControl(null, [Validators.required]),
+    email: new FormControl("test", [Validators.required]),
+    password: new FormControl("test", [Validators.required]),
   })
 }
 
